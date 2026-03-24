@@ -5,6 +5,7 @@
 	"type": "module",
 	"scripts": {
 		"build": "node build/buildCompendia.mjs",
+		"merge:scenes": "node build/mergeSceneData.mjs",
 		"worktree:setup": "node build/worktreeSetup.mjs",
 		"dev:link": "ln -sfn \"$(pwd)\" ~/Library/Application\\ Support/FoundryVTT/Data/modules/nimble-maps && echo 'Symlink created successfully'"
 	},

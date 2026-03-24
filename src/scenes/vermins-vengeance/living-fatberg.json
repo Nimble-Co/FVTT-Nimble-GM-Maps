@@ -37,64 +37,706 @@
   "tokenVision": true,
   "fogExploration": true,
   "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
     "globalLight": {
       "enabled": false,
+      "alpha": 0.5,
       "bright": false,
-      "luminosity": 0
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
     }
   },
   "drawings": [],
-  "tokens": [],
-  "lights": [
+  "tokens": [
     {
-      "_id": "vvfatlight01",
-      "x": 475,
-      "y": 824,
-      "rotation": 0,
-      "config": {
-        "dim": 220,
-        "bright": 110,
-        "angle": 360,
-        "color": "#ff9329",
+      "name": "Bjornir",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/assets/OrcToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 225,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
         "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
         "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
         },
         "darkness": {
           "min": 0,
           "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
         },
-        "luminosity": 0.5
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "actorId": "89y2DWSJ8aFUUNss",
+      "hidden": false,
+      "sort": 9,
+      "shape": 4,
+      "delta": {
+        "_id": "6Pf8GqlewbSkyEmJ",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null
+      },
+      "x": 1500,
+      "y": 1500,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "6Pf8GqlewbSkyEmJ"
+    },
+    {
+      "name": "Drago Brodenson",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/DregaToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": -1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 270,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": 105,
+          "prevPos": {
+            "x": 2823,
+            "y": 2396
+          },
+          "indicatorDisabled": true,
+          "flipOrRotate": "global",
+          "facingDirection": "global",
+          "rotationOffset": 0
+        },
+        "ATL": {
+          "originals": {}
+        }
+      },
+      "actorId": "SQpOTaevhSHvlcnJ",
+      "hidden": false,
+      "sort": 1,
+      "delta": {
+        "_id": "xZ7oI73G87CgK2Z7",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null
+      },
+      "x": 1600,
+      "y": 1400,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 0,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": [],
+      "_id": "xZ7oI73G87CgK2Z7"
+    },
+    {
+      "name": "Duke",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/assets/DragonbornToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 18.434948822922024,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "actorId": "uRxZcYb1rwJ8tNpX",
+      "hidden": false,
+      "sort": 8,
+      "shape": 4,
+      "delta": {
+        "_id": "Cm0f6r4pYExiQJdf",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null
+      },
+      "x": 1500,
+      "y": 1600,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "Cm0f6r4pYExiQJdf"
+    },
+    {
+      "name": "Rune",
+      "displayName": 50,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/character.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 225,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 4,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": -13.862177349315123,
+          "prevPos": {
+            "x": 2882,
+            "y": 2308
+          },
+          "indicatorDisabled": true,
+          "flipOrRotate": "global",
+          "facingDirection": "global",
+          "rotationOffset": 0
+        }
+      },
+      "actorId": "4M1GKVkBw0fhcebW",
+      "hidden": false,
+      "sort": 4,
+      "delta": {
+        "_id": "PYbLAjxwcDEBUvv9",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null
+      },
+      "x": 1500,
+      "y": 1300,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 4,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": [],
+      "_id": "PYbLAjxwcDEBUvv9"
+    },
+    {
+      "name": "Ochre Jelly (Appearance Only)",
+      "texture": {
+        "src": "systems/dnd5e/tokens/ooze/OchreJelly.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "lockRotation": false,
+      "rotation": 303.69006752597977,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "actorId": "2vkoBMFU6hIfNlny",
+      "hidden": true,
+      "sort": 10,
+      "shape": 4,
+      "delta": {
+        "_id": "tzwRsqxiFrL8On6Y",
+        "system": {},
+        "items": [],
+        "effects": [],
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "ownership": null
+      },
+      "x": 2000,
+      "y": 1600,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": [],
+      "_id": "OGyzPZEJE3RNZVF3"
+    }
+  ],
+  "lights": [
+    {
+      "_id": "NbH0IwkOqqUyLnFx",
+      "x": 1100,
+      "y": 1450,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 7,
+        "color": null,
+        "coloration": 1,
+        "dim": 7,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
       },
       "hidden": false,
       "flags": {}
     },
     {
-      "_id": "vvfatlight02",
-      "x": 1928,
-      "y": 1544,
+      "x": 2550,
+      "y": 2150,
+      "elevation": 0,
       "rotation": 0,
+      "walls": true,
+      "vision": false,
       "config": {
-        "dim": 220,
-        "bright": 110,
-        "angle": 360,
-        "color": "#ff9329",
+        "negative": false,
+        "priority": 0,
         "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "color": null,
+        "coloration": 1,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
         "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
         },
         "darkness": {
           "min": 0,
           "max": 1
-        },
-        "luminosity": 0.5
+        }
       },
       "hidden": false,
-      "flags": {}
+      "flags": {},
+      "_id": "hUrDYlDz7QXam4Ia"
     }
   ],
   "notes": [],

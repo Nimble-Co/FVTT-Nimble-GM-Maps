@@ -37,14 +37,660 @@
   "tokenVision": true,
   "fogExploration": true,
   "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
     "globalLight": {
       "enabled": true,
-      "bright": true,
-      "luminosity": 0.5
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
     }
   },
   "drawings": [],
-  "tokens": [],
+  "tokens": [
+    {
+      "name": "Drago Burdenson",
+      "displayName": 30,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/DregaToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": 180,
+          "prevPos": {
+            "x": 3100,
+            "y": 5100
+          },
+          "indicatorDisabled": false,
+          "flipOrRotate": "flip-h",
+          "facingDirection": "left",
+          "rotationOffset": 0
+        },
+        "ATL": {
+          "originals": {}
+        },
+        "nimble5e": {
+          "squaresMoved": 0
+        }
+      },
+      "actorId": "SQpOTaevhSHvlcnJ",
+      "hidden": false,
+      "sort": 1,
+      "delta": {
+        "_id": "4xA0hMMLhuSttqdW",
+        "system": {},
+        "items": [],
+        "effects": [],
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "ownership": null
+      },
+      "x": 3000,
+      "y": 5100,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "_id": "tG4B1p7J7gL976XG",
+      "shape": 4,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": []
+    },
+    {
+      "name": "Ornsolot",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/kobold-clericToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": 0,
+          "prevPos": {
+            "x": 2700,
+            "y": 5000
+          }
+        },
+        "nimble5e": {
+          "squaresMoved": 0
+        }
+      },
+      "actorId": "LL0fuNJZcDMFZz3K",
+      "hidden": false,
+      "sort": 12,
+      "_id": "QxWyRfbLdj3fM1Jw",
+      "delta": {
+        "_id": "huq5ScnwTpSVqOmc",
+        "system": {},
+        "items": [],
+        "effects": [],
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "ownership": null
+      },
+      "x": 2800,
+      "y": 5000,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 4,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": []
+    },
+    {
+      "name": "Joey",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/character.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": 0,
+          "prevPos": {
+            "x": 2700,
+            "y": 4900
+          }
+        }
+      },
+      "actorId": "4M1GKVkBw0fhcebW",
+      "hidden": false,
+      "sort": 13,
+      "_id": "64G1MDmVqe9CbYRS",
+      "delta": {
+        "_id": "8n8Ya5MGnbim8N7E",
+        "system": {},
+        "items": [],
+        "effects": [],
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "ownership": null
+      },
+      "x": 3100,
+      "y": 4900,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 4,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": []
+    },
+    {
+      "name": "r1x",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/Jangle_BeerieToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": 90,
+          "prevPos": {
+            "x": 3400,
+            "y": 5800
+          }
+        }
+      },
+      "actorId": "UWZf8o9HKmkbvm3u",
+      "hidden": true,
+      "sort": 14,
+      "_id": "Qmr22CtGN5QTtzwj",
+      "delta": {
+        "_id": "g8PKlSQoEXWBUjHU",
+        "system": {},
+        "items": [],
+        "effects": [],
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "ownership": null
+      },
+      "x": 3400,
+      "y": 5900,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 4,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": []
+    },
+    {
+      "name": "r1x",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/Jangle_BeerieToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": -1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": -135,
+          "prevPos": {
+            "x": 3200,
+            "y": 5100
+          }
+        }
+      },
+      "actorId": "UWZf8o9HKmkbvm3u",
+      "hidden": false,
+      "sort": 15,
+      "_id": "Hc263BGh0tW3tKaC",
+      "delta": {
+        "_id": "mXqF1YtWp68i2fhI",
+        "system": {},
+        "items": [],
+        "effects": [],
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "ownership": null
+      },
+      "x": 2900,
+      "y": 4800,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 4,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": []
+    }
+  ],
   "lights": [],
   "notes": [],
   "sounds": [],
@@ -74,500 +720,52 @@
   ],
   "walls": [
     {
-      "_id": "upwall0001",
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
       "c": [
-        3424,
-        368,
-        3424,
-        1112
+        3863,
+        5038,
+        3850,
+        5075
       ],
+      "_id": "FSVy06L1PuRBdkJx",
+      "dir": 0,
       "door": 0,
       "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null
     },
     {
-      "_id": "upwall0002",
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
       "c": [
-        3424,
-        1292,
-        3424,
-        1508
+        4000,
+        5200,
+        4138,
+        5400
       ],
+      "_id": "NEEpcWgxHXqTvTS1",
+      "dir": 0,
       "door": 0,
       "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0003",
-      "c": [
-        3424,
-        1700,
-        3424,
-        1904
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0004",
-      "c": [
-        3424,
-        2096,
-        3424,
-        2312
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0005",
-      "c": [
-        3424,
-        2492,
-        3424,
-        2828
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0006",
-      "c": [
-        976,
-        440,
-        976,
-        608
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0007",
-      "c": [
-        976,
-        932,
-        976,
-        1304
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0008",
-      "c": [
-        976,
-        1424,
-        976,
-        1700
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0009",
-      "c": [
-        976,
-        1832,
-        976,
-        2096
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0010",
-      "c": [
-        976,
-        2228,
-        976,
-        2504
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0011",
-      "c": [
-        976,
-        2624,
-        976,
-        2912
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0012",
-      "c": [
-        2812,
-        1148,
-        2812,
-        1316
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0013",
-      "c": [
-        820,
-        944,
-        820,
-        1184
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0014",
-      "c": [
-        820,
-        1220,
-        820,
-        1424
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0015",
-      "c": [
-        2824,
-        1148,
-        2824,
-        1316
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0016",
-      "c": [
-        3412,
-        1112,
-        3412,
-        1292
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0017",
-      "c": [
-        3412,
-        1508,
-        3412,
-        1700
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0018",
-      "c": [
-        3412,
-        1904,
-        3412,
-        2096
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0019",
-      "c": [
-        3412,
-        2312,
-        3412,
-        2492
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0020",
-      "c": [
-        3220,
-        3104,
-        3220,
-        3368
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0021",
-      "c": [
-        1168,
-        2804,
-        1168,
-        2972
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0022",
-      "c": [
-        964,
-        368,
-        1708,
-        368
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0023",
-      "c": [
-        1912,
-        368,
-        2500,
-        368
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0024",
-      "c": [
-        2716,
-        368,
-        3424,
-        368
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0025",
-      "c": [
-        1708,
-        380,
-        1912,
-        380
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0026",
-      "c": [
-        2500,
-        380,
-        2692,
-        380
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0027",
-      "c": [
-        1168,
-        2396,
-        1336,
-        2396
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0028",
-      "c": [
-        1192,
-        2576,
-        1360,
-        2576
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0029",
-      "c": [
-        3304,
-        3080,
-        3520,
-        3080
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0030",
-      "c": [
-        2200,
-        3428,
-        3232,
-        3428
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
-    },
-    {
-      "_id": "upwall0031",
-      "c": [
-        1000,
-        3596,
-        2188,
-        3596
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 1,
-      "sight": 1,
-      "sound": 1,
-      "light": 1,
-      "flags": {}
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "flags": {},
+      "animation": null
     }
   ],
   "flags": {}

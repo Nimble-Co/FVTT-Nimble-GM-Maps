@@ -37,46 +37,531 @@
   "tokenVision": true,
   "fogExploration": true,
   "environment": {
+    "darknessLevel": 0,
+    "darknessLock": false,
     "globalLight": {
       "enabled": true,
-      "bright": true,
-      "luminosity": 0.6
+      "alpha": 0.5,
+      "bright": false,
+      "color": null,
+      "coloration": 1,
+      "luminosity": 0,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "cycle": true,
+    "base": {
+      "hue": 0,
+      "intensity": 0,
+      "luminosity": 0,
+      "saturation": 0,
+      "shadows": 0
+    },
+    "dark": {
+      "hue": 0.7138888888888889,
+      "intensity": 0,
+      "luminosity": -0.25,
+      "saturation": 0,
+      "shadows": 0
     }
   },
   "drawings": [],
   "tokens": [
     {
-      "_id": "boggiant01thl1",
-      "name": "Bog Giant",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 800,
-      "y": 1200,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
+      "name": "Drago Brodenson",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
       "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/hill-giant.webp",
-        "scaleX": 1,
-        "scaleY": 1
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/DregaToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": -1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
-      "width": 2,
-      "height": 2,
-      "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
+      "lockRotation": true,
+      "rotation": 140.1944289077348,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.cNbaLrHdwnwnMMmY"
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
         }
-      }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": 105,
+          "prevPos": {
+            "x": 2823,
+            "y": 2396
+          },
+          "indicatorDisabled": true,
+          "flipOrRotate": "global",
+          "facingDirection": "global",
+          "rotationOffset": 0
+        },
+        "ATL": {
+          "originals": {}
+        }
+      },
+      "actorId": "SQpOTaevhSHvlcnJ",
+      "hidden": false,
+      "sort": 1,
+      "delta": {
+        "_id": "11yfPPLgHo1rW3AU",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null
+      },
+      "x": 2200,
+      "y": 2200,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 0,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": [],
+      "_id": "11yfPPLgHo1rW3AU"
+    },
+    {
+      "name": "Joey",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/character.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 140.1944289077348,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": -13.862177349315123,
+          "prevPos": {
+            "x": 2882,
+            "y": 2308
+          },
+          "indicatorDisabled": true,
+          "flipOrRotate": "global",
+          "facingDirection": "global",
+          "rotationOffset": 0
+        }
+      },
+      "actorId": "4M1GKVkBw0fhcebW",
+      "hidden": false,
+      "sort": 4,
+      "delta": {
+        "_id": "dPj0MsoPUnh0Xmhu",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null
+      },
+      "x": 2200,
+      "y": 1900,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 0,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": [],
+      "_id": "dPj0MsoPUnh0Xmhu"
+    },
+    {
+      "name": "Snack",
+      "displayName": 0,
+      "actorLink": true,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/Snack_bunbun_The_CheatToken.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": true,
+      "rotation": 345.96375653207355,
+      "alpha": 1,
+      "disposition": 1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": true,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "flags": {
+        "about-face": {
+          "direction": 62.18515529771954,
+          "prevPos": {
+            "x": 3081,
+            "y": 2162
+          },
+          "indicatorDisabled": true,
+          "flipOrRotate": "global",
+          "facingDirection": "global",
+          "rotationOffset": 0
+        }
+      },
+      "actorId": "Jgy3jDA08v4zJwMt",
+      "hidden": false,
+      "sort": 7,
+      "delta": {
+        "_id": "j1cSW8abcrQstCRj",
+        "system": {},
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "items": [],
+        "effects": [],
+        "ownership": null
+      },
+      "x": 2100,
+      "y": 2000,
+      "elevation": 0,
+      "locked": false,
+      "_regions": [],
+      "shape": 0,
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "_movementHistory": [],
+      "_id": "j1cSW8abcrQstCRj"
+    },
+    {
+      "name": "Donkey",
+      "displayName": 0,
+      "actorLink": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/assets/donkey.png",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "lockRotation": false,
+      "rotation": 345.96375653207355,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 1,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "flags": {},
+      "actorId": "bUo0B1OW3uiaQBfS",
+      "hidden": false,
+      "sort": 8,
+      "shape": 4,
+      "_id": "vccKX0EIOZMi6qj0",
+      "delta": {
+        "_id": "jjs0egBeZKQMhDrQ",
+        "system": {},
+        "items": [],
+        "effects": [],
+        "flags": {},
+        "name": null,
+        "type": null,
+        "img": null,
+        "ownership": null
+      },
+      "x": 2200,
+      "y": 2000,
+      "elevation": 0,
+      "locked": false,
+      "_movementHistory": [],
+      "_regions": []
     }
   ],
   "lights": [],
