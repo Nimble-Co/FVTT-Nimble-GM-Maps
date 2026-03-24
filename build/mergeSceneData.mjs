@@ -7,10 +7,29 @@ import { readFileSync, writeFileSync, readdirSync, statSync } from "fs";
 import { join, basename } from "path";
 
 const GOLDEN_THREAD_SCENE_PATH = "./golden-thread-nimble-data/data/Scene.json";
+const GOLDEN_THREAD_FOLDERS_PATH = "./golden-thread-nimble-data/data/folders.json";
 const SRC_SCENES_PATH = "./src/scenes";
+
+// Explicit mappings for scenes that don't match by name
+// Format: "local scene name (lowercase)" -> { folderName: "folder name", sceneName: "scene name in export" }
+const EXPLICIT_MAPPINGS = {
+	"crystal crag quarry": { folderName: "02 - Goblins of the Crystal Crag", sceneName: "Dungeon" },
+	"vermin's vengeance - sewer": { folderName: "03 - Vermin's Vengeance", sceneName: "Dungeon" },
+	"hidden honey cavern": { folderName: "03 - The Hidden Honey Cavern", sceneName: "Dungeon" },
+	"hidden honey cavern - treant sentinels": { folderName: "03 - The Hidden Honey Cavern", sceneName: "Treant Sentinals" },
+};
 
 // Load the Scene Packer export
 const scenePackerData = JSON.parse(readFileSync(GOLDEN_THREAD_SCENE_PATH, "utf-8"));
+const foldersData = JSON.parse(readFileSync(GOLDEN_THREAD_FOLDERS_PATH, "utf-8"));
+
+// Create folder ID to name mapping
+const folderIdToName = new Map();
+for (const [id, folder] of Object.entries(foldersData)) {
+	if (folder.name) {
+		folderIdToName.set(id, folder.name);
+	}
+}
 
 // Create a map of scene names to their data (lowercase for matching)
 const sceneDataMap = new Map();
@@ -52,7 +71,29 @@ for (const filePath of sceneFiles) {
 	const sceneName = existingScene.name.toLowerCase().trim();
 
 	// Try to find a matching scene in the Scene Packer data
-	let matchedScene = sceneDataMap.get(sceneName);
+	let matchedScene = null;
+
+	// First check explicit mappings
+	const explicitMapping = EXPLICIT_MAPPINGS[sceneName];
+	if (explicitMapping) {
+		// Find the scene by folder name and scene name
+		for (const scene of scenePackerData) {
+			const folderName = folderIdToName.get(scene.folder);
+			if (
+				folderName === explicitMapping.folderName &&
+				scene.name.toLowerCase() === explicitMapping.sceneName.toLowerCase()
+			) {
+				matchedScene = scene;
+				console.log(`  (Matched via explicit mapping: ${explicitMapping.folderName} > ${explicitMapping.sceneName})`);
+				break;
+			}
+		}
+	}
+
+	// Try exact name match
+	if (!matchedScene) {
+		matchedScene = sceneDataMap.get(sceneName);
+	}
 
 	// If no exact match, try partial matching
 	if (!matchedScene) {
