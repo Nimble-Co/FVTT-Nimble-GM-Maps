@@ -1,0 +1,787 @@
+{
+  "_id": "ATR002ValleyGnd",
+  "name": "Valley's Rest - Ground Floor",
+  "folder": "A Tiny Rescue",
+  "navigation": true,
+  "navOrder": 1,
+  "navName": "",
+  "background": {
+    "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-ground.jpg",
+    "offsetX": 0,
+    "offsetY": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0
+  },
+  "foreground": null,
+  "fogOverlay": null,
+  "fogExploredColor": "#000000",
+  "fogUnexploredColor": "#000000",
+  "width": 4400,
+  "height": 5800,
+  "padding": 0,
+  "initial": {
+    "x": 2200,
+    "y": 2900,
+    "scale": 0.5
+  },
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 1,
+    "size": 200,
+    "distance": 1,
+    "units": "spaces",
+    "color": "#000000",
+    "alpha": 0.2
+  },
+  "tokenVision": true,
+  "fogExploration": true,
+  "environment": {
+    "globalLight": {
+      "enabled": true,
+      "bright": true,
+      "luminosity": 0.6
+    }
+  },
+  "drawings": [],
+  "tokens": [
+    {
+      "_id": "gobmin01",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 2100,
+      "y": 2900,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "gobmin02",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 2300,
+      "y": 2900,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "gobmin03",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1900,
+      "y": 3100,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "gobmin04",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 2500,
+      "y": 3100,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "gobmin05",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 2000,
+      "y": 3300,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "gobmin06",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 2400,
+      "y": 3300,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "gobmin07",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1800,
+      "y": 3500,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "gobmin08",
+      "name": "Goblin Minion",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 2600,
+      "y": 3500,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "ratrider_exit",
+      "name": "Goblin Ratrider (fleeing with Moonblossom)",
+      "actorLink": false,
+      "displayName": 30,
+      "x": 1700,
+      "y": 3800,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 180,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin-ratrider.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 1,
+      "height": 1,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD"
+        }
+      }
+    },
+    {
+      "_id": "moonblossom_cage",
+      "name": "Moonblossom (captured)",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1700,
+      "y": 3740,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/goblin.webp"
+      },
+      "width": 0.4,
+      "height": 0.4,
+      "actorId": null,
+      "actorData": {},
+      "disposition": 0,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": null
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {}
+    }
+  ],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [
+    {
+      "_id": "roofoverlay1",
+      "texture": {
+        "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-roof-overlay.png",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "x": 0,
+      "y": 0,
+      "width": 4400,
+      "height": 5800,
+      "elevation": 10,
+      "overhead": true,
+      "occlusion": {
+        "mode": 1,
+        "alpha": 0
+      },
+      "hidden": false,
+      "locked": true,
+      "flags": {}
+    }
+  ],
+  "walls": [
+    {
+      "_id": "w0000",
+      "c": [
+        900,
+        400,
+        3500,
+        400
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0001",
+      "c": [
+        3500,
+        400,
+        3500,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0002",
+      "c": [
+        3500,
+        3000,
+        900,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0003",
+      "c": [
+        900,
+        3000,
+        900,
+        400
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0004",
+      "c": [
+        1200,
+        3000,
+        1200,
+        3400
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0005",
+      "c": [
+        2800,
+        3000,
+        2800,
+        3400
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0006",
+      "c": [
+        1200,
+        3400,
+        2000,
+        3400
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0007",
+      "c": [
+        2400,
+        3400,
+        2800,
+        3400
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0008",
+      "c": [
+        2100,
+        1200,
+        2100,
+        1900
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0009",
+      "c": [
+        2100,
+        2000,
+        2100,
+        2800
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0010",
+      "c": [
+        900,
+        1100,
+        1400,
+        1100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0011",
+      "c": [
+        1600,
+        1100,
+        2500,
+        1100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0012",
+      "c": [
+        2700,
+        1100,
+        3500,
+        1100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0013",
+      "c": [
+        1400,
+        400,
+        1400,
+        760
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0014",
+      "c": [
+        1400,
+        840,
+        1400,
+        1100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0015",
+      "c": [
+        1700,
+        400,
+        1700,
+        840
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0016",
+      "c": [
+        1700,
+        920,
+        1700,
+        1100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0017",
+      "c": [
+        3000,
+        400,
+        3000,
+        760
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0018",
+      "c": [
+        3000,
+        840,
+        3000,
+        1100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0019",
+      "c": [
+        2500,
+        400,
+        3500,
+        400
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0020",
+      "c": [
+        2400,
+        400,
+        2400,
+        900
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0021",
+      "c": [
+        2600,
+        400,
+        2600,
+        900
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0022",
+      "c": [
+        2400,
+        900,
+        2480,
+        900
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "w0023",
+      "c": [
+        2520,
+        900,
+        2600,
+        900
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    }
+  ],
+  "flags": {}
+}

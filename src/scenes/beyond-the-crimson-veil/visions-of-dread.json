@@ -1,0 +1,6595 @@
+{
+  "_id": "BCV006VisnDread",
+  "name": "Beyond the Crimson Veil - Visions of Dread",
+  "folder": "Beyond the Crimson Veil",
+  "navigation": true,
+  "navOrder": 5,
+  "navName": "",
+  "background": {
+    "src": "modules/nimble-maps/assets/maps/beyond-the-crimson-veil/visions-of-dread.jpg",
+    "offsetX": 0,
+    "offsetY": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0
+  },
+  "foreground": null,
+  "fogOverlay": null,
+  "fogExploredColor": "#000000",
+  "fogUnexploredColor": "#000000",
+  "width": 3000,
+  "height": 3000,
+  "padding": 0,
+  "initial": {
+    "x": 1500,
+    "y": 1500,
+    "scale": 0.7
+  },
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 1,
+    "size": 200,
+    "distance": 1,
+    "units": "spaces",
+    "color": "#000000",
+    "alpha": 0.2
+  },
+  "tokenVision": true,
+  "fogExploration": true,
+  "environment": {
+    "globalLight": {
+      "enabled": false,
+      "bright": false,
+      "luminosity": 0
+    }
+  },
+  "drawings": [],
+  "tokens": [
+    {
+      "_id": "t7626527",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1220,
+      "y": 1660,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t1166587",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1360,
+      "y": 1660,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t2165442",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1500,
+      "y": 1660,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t8625382",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1640,
+      "y": 1660,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t6746000",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1220,
+      "y": 1800,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t286060",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1360,
+      "y": 1800,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t3045969",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1500,
+      "y": 1800,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t9505909",
+      "name": "Cultist",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1640,
+      "y": 1800,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.8,
+      "height": 0.8,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "YjKhjwiYoNrrhXfo"
+        }
+      }
+    },
+    {
+      "_id": "t7989101",
+      "name": "Fanatic",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1400,
+      "y": 2020,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "WJikH84pVBBYkwh0"
+        }
+      }
+    },
+    {
+      "_id": "t4835325",
+      "name": "Fanatic",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1600,
+      "y": 2020,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "WJikH84pVBBYkwh0"
+        }
+      }
+    },
+    {
+      "_id": "t3483584",
+      "name": "Fanatic",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1400,
+      "y": 2140,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "WJikH84pVBBYkwh0"
+        }
+      }
+    },
+    {
+      "_id": "t5353949",
+      "name": "Fanatic",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1600,
+      "y": 2140,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "WJikH84pVBBYkwh0"
+        }
+      }
+    },
+    {
+      "_id": "t9585361",
+      "name": "Doomsayer",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1380,
+      "y": 1480,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "8cTXSC0sZZFE5Vbg"
+        }
+      }
+    },
+    {
+      "_id": "t567347",
+      "name": "Doomsayer",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1620,
+      "y": 1480,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "8cTXSC0sZZFE5Vbg"
+        }
+      }
+    },
+    {
+      "_id": "t9722750",
+      "name": "Doomsayer",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1380,
+      "y": 1360,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "8cTXSC0sZZFE5Vbg"
+        }
+      }
+    },
+    {
+      "_id": "t6061830",
+      "name": "Doomsayer",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1620,
+      "y": 1360,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+      },
+      "width": 0.85,
+      "height": 0.85,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "8cTXSC0sZZFE5Vbg"
+        }
+      }
+    }
+  ],
+  "lights": [
+    {
+      "_id": "light001",
+      "x": 2000,
+      "y": 1300,
+      "rotation": 0,
+      "config": {
+        "dim": 7,
+        "bright": 3,
+        "angle": 360,
+        "color": "#882211",
+        "alpha": 0.28,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.2
+      },
+      "hidden": false,
+      "flags": {}
+    }
+  ],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [
+    {
+      "_id": "wall0001",
+      "c": [
+        2028,
+        1536,
+        2028,
+        1584
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0002",
+      "c": [
+        1428,
+        276,
+        1428,
+        336
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0003",
+      "c": [
+        1428,
+        684,
+        1428,
+        732
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0004",
+      "c": [
+        1428,
+        2040,
+        1428,
+        2124
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0005",
+      "c": [
+        1428,
+        2244,
+        1428,
+        2292
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0006",
+      "c": [
+        1608,
+        1548,
+        1608,
+        1596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0007",
+      "c": [
+        216,
+        2520,
+        216,
+        2604
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0008",
+      "c": [
+        1164,
+        348,
+        1164,
+        396
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0009",
+      "c": [
+        1164,
+        684,
+        1164,
+        732
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0010",
+      "c": [
+        288,
+        2760,
+        288,
+        2808
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0011",
+      "c": [
+        2628,
+        1788,
+        2628,
+        1848
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0012",
+      "c": [
+        2628,
+        2880,
+        2628,
+        2952
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0013",
+      "c": [
+        2400,
+        432,
+        2400,
+        492
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0014",
+      "c": [
+        2400,
+        576,
+        2400,
+        624
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0015",
+      "c": [
+        2400,
+        708,
+        2400,
+        756
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0016",
+      "c": [
+        2400,
+        840,
+        2400,
+        888
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0017",
+      "c": [
+        2400,
+        900,
+        2400,
+        948
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0018",
+      "c": [
+        2400,
+        1032,
+        2400,
+        1080
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0019",
+      "c": [
+        2400,
+        1248,
+        2400,
+        1296
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0020",
+      "c": [
+        2400,
+        1368,
+        2400,
+        1416
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0021",
+      "c": [
+        2400,
+        1440,
+        2400,
+        1488
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0022",
+      "c": [
+        2400,
+        1908,
+        2400,
+        1956
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0023",
+      "c": [
+        1392,
+        288,
+        1392,
+        336
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0024",
+      "c": [
+        1392,
+        1548,
+        1392,
+        1596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0025",
+      "c": [
+        1392,
+        1620,
+        1392,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0026",
+      "c": [
+        2868,
+        2520,
+        2868,
+        2568
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0027",
+      "c": [
+        2868,
+        2952,
+        2868,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0028",
+      "c": [
+        3000,
+        0,
+        3000,
+        1596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0029",
+      "c": [
+        3000,
+        1620,
+        3000,
+        1740
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0030",
+      "c": [
+        3000,
+        1824,
+        3000,
+        1920
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0031",
+      "c": [
+        3000,
+        1944,
+        3000,
+        2256
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0032",
+      "c": [
+        3000,
+        2292,
+        3000,
+        2340
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0033",
+      "c": [
+        3000,
+        2400,
+        3000,
+        2460
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0034",
+      "c": [
+        3000,
+        2472,
+        3000,
+        2592
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0035",
+      "c": [
+        3000,
+        2604,
+        3000,
+        2736
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0036",
+      "c": [
+        3000,
+        2844,
+        3000,
+        2916
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0037",
+      "c": [
+        3000,
+        2952,
+        3000,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0038",
+      "c": [
+        1752,
+        1632,
+        1752,
+        1680
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0039",
+      "c": [
+        1752,
+        2568,
+        1752,
+        2616
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0040",
+      "c": [
+        2292,
+        1428,
+        2292,
+        1500
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0041",
+      "c": [
+        0,
+        0,
+        0,
+        1596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0042",
+      "c": [
+        0,
+        1608,
+        0,
+        1776
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0043",
+      "c": [
+        0,
+        1836,
+        0,
+        1908
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0044",
+      "c": [
+        0,
+        1956,
+        0,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0045",
+      "c": [
+        2472,
+        2904,
+        2472,
+        2952
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0046",
+      "c": [
+        2208,
+        1104,
+        2208,
+        1164
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0047",
+      "c": [
+        2208,
+        2688,
+        2208,
+        2760
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0048",
+      "c": [
+        1116,
+        1776,
+        1116,
+        1836
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0049",
+      "c": [
+        1440,
+        276,
+        1440,
+        336
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0050",
+      "c": [
+        1440,
+        2532,
+        1440,
+        2580
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0051",
+      "c": [
+        600,
+        444,
+        600,
+        492
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0052",
+      "c": [
+        600,
+        1044,
+        600,
+        1092
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0053",
+      "c": [
+        600,
+        1512,
+        600,
+        1560
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0054",
+      "c": [
+        2856,
+        2124,
+        2856,
+        2208
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0055",
+      "c": [
+        2856,
+        2280,
+        2856,
+        2328
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0056",
+      "c": [
+        2856,
+        2856,
+        2856,
+        2904
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0057",
+      "c": [
+        2964,
+        2304,
+        2964,
+        2352
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0058",
+      "c": [
+        2964,
+        2424,
+        2964,
+        2472
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0059",
+      "c": [
+        2964,
+        2688,
+        2964,
+        2736
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0060",
+      "c": [
+        708,
+        2808,
+        708,
+        2856
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0061",
+      "c": [
+        1500,
+        300,
+        1500,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0062",
+      "c": [
+        1500,
+        1872,
+        1500,
+        1920
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0063",
+      "c": [
+        1488,
+        1908,
+        1488,
+        1968
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0064",
+      "c": [
+        2388,
+        912,
+        2388,
+        960
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0065",
+      "c": [
+        2388,
+        1044,
+        2388,
+        1092
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0066",
+      "c": [
+        2388,
+        1908,
+        2388,
+        1956
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0067",
+      "c": [
+        1872,
+        744,
+        1872,
+        828
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0068",
+      "c": [
+        1356,
+        2568,
+        1356,
+        2640
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0069",
+      "c": [
+        492,
+        1620,
+        492,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0070",
+      "c": [
+        1368,
+        732,
+        1368,
+        780
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0071",
+      "c": [
+        1368,
+        1908,
+        1368,
+        1956
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0072",
+      "c": [
+        2076,
+        816,
+        2076,
+        864
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0073",
+      "c": [
+        2076,
+        1344,
+        2076,
+        1392
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0074",
+      "c": [
+        2076,
+        1548,
+        2076,
+        1596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0075",
+      "c": [
+        624,
+        1536,
+        624,
+        1584
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0076",
+      "c": [
+        1956,
+        312,
+        1956,
+        360
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0077",
+      "c": [
+        2976,
+        2256,
+        2976,
+        2304
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0078",
+      "c": [
+        2976,
+        2820,
+        2976,
+        2880
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0079",
+      "c": [
+        1128,
+        288,
+        1128,
+        336
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0080",
+      "c": [
+        1128,
+        756,
+        1128,
+        816
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0081",
+      "c": [
+        1128,
+        2544,
+        1128,
+        2592
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0082",
+      "c": [
+        1344,
+        420,
+        1344,
+        468
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0083",
+      "c": [
+        144,
+        2052,
+        144,
+        2100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0084",
+      "c": [
+        648,
+        1836,
+        648,
+        1884
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0085",
+      "c": [
+        1320,
+        1836,
+        1320,
+        1908
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0086",
+      "c": [
+        1152,
+        336,
+        1152,
+        384
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0087",
+      "c": [
+        1296,
+        2436,
+        1296,
+        2508
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0088",
+      "c": [
+        1296,
+        2772,
+        1296,
+        2820
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0089",
+      "c": [
+        840,
+        612,
+        840,
+        660
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0090",
+      "c": [
+        840,
+        1152,
+        840,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0091",
+      "c": [
+        264,
+        2268,
+        264,
+        2352
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0092",
+      "c": [
+        264,
+        2844,
+        264,
+        2892
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0093",
+      "c": [
+        684,
+        1128,
+        684,
+        1176
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0094",
+      "c": [
+        2112,
+        1728,
+        2112,
+        1776
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0095",
+      "c": [
+        1860,
+        300,
+        1860,
+        372
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0096",
+      "c": [
+        1860,
+        1668,
+        1860,
+        1716
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0097",
+      "c": [
+        924,
+        276,
+        924,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0098",
+      "c": [
+        1284,
+        2772,
+        1284,
+        2832
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0099",
+      "c": [
+        1548,
+        1728,
+        1548,
+        1776
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0100",
+      "c": [
+        1404,
+        756,
+        1404,
+        804
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0101",
+      "c": [
+        1920,
+        528,
+        1920,
+        576
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0102",
+      "c": [
+        1056,
+        2676,
+        1056,
+        2724
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0103",
+      "c": [
+        2688,
+        1596,
+        2688,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0104",
+      "c": [
+        468,
+        2892,
+        468,
+        2952
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0105",
+      "c": [
+        1476,
+        264,
+        1476,
+        336
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0106",
+      "c": [
+        1476,
+        2520,
+        1476,
+        2580
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0107",
+      "c": [
+        864,
+        1260,
+        864,
+        1308
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0108",
+      "c": [
+        900,
+        1116,
+        900,
+        1164
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0109",
+      "c": [
+        1380,
+        792,
+        1380,
+        852
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0110",
+      "c": [
+        1080,
+        1860,
+        1080,
+        1920
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0111",
+      "c": [
+        2556,
+        1632,
+        2556,
+        1680
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0112",
+      "c": [
+        372,
+        1596,
+        372,
+        1644
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0113",
+      "c": [
+        372,
+        2832,
+        372,
+        2880
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0114",
+      "c": [
+        1584,
+        720,
+        1584,
+        792
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0115",
+      "c": [
+        1584,
+        804,
+        1584,
+        876
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0116",
+      "c": [
+        1584,
+        2568,
+        1584,
+        2616
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0117",
+      "c": [
+        1836,
+        648,
+        1836,
+        708
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0118",
+      "c": [
+        1008,
+        1152,
+        1008,
+        1224
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0119",
+      "c": [
+        792,
+        1152,
+        792,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0120",
+      "c": [
+        2364,
+        276,
+        2364,
+        324
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0121",
+      "c": [
+        1188,
+        348,
+        1188,
+        396
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0122",
+      "c": [
+        1188,
+        744,
+        1188,
+        792
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0123",
+      "c": [
+        2736,
+        2796,
+        2736,
+        2904
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0124",
+      "c": [
+        1200,
+        312,
+        1200,
+        396
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0125",
+      "c": [
+        1200,
+        2700,
+        1200,
+        2748
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0126",
+      "c": [
+        612,
+        780,
+        612,
+        828
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0127",
+      "c": [
+        612,
+        1056,
+        612,
+        1116
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0128",
+      "c": [
+        1968,
+        312,
+        1968,
+        372
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0129",
+      "c": [
+        2652,
+        2580,
+        2652,
+        2628
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0130",
+      "c": [
+        2232,
+        1668,
+        2232,
+        1716
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0131",
+      "c": [
+        2232,
+        2676,
+        2232,
+        2748
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0132",
+      "c": [
+        1848,
+        612,
+        1848,
+        660
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0133",
+      "c": [
+        828,
+        732,
+        828,
+        780
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0134",
+      "c": [
+        2136,
+        1104,
+        2136,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0135",
+      "c": [
+        984,
+        1332,
+        984,
+        1380
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0136",
+      "c": [
+        1248,
+        1608,
+        1248,
+        1680
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0137",
+      "c": [
+        1248,
+        2796,
+        1248,
+        2856
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0138",
+      "c": [
+        1308,
+        2772,
+        1308,
+        2820
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0139",
+      "c": [
+        1644,
+        300,
+        1644,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0140",
+      "c": [
+        1644,
+        636,
+        1644,
+        708
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0141",
+      "c": [
+        2268,
+        1800,
+        2268,
+        1848
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0142",
+      "c": [
+        2304,
+        1380,
+        2304,
+        1428
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0143",
+      "c": [
+        660,
+        1488,
+        660,
+        1548
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0144",
+      "c": [
+        2004,
+        312,
+        2004,
+        360
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0145",
+      "c": [
+        2004,
+        1164,
+        2004,
+        1224
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0146",
+      "c": [
+        972,
+        1152,
+        972,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0147",
+      "c": [
+        972,
+        1668,
+        972,
+        1716
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0148",
+      "c": [
+        2484,
+        2772,
+        2484,
+        2820
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0149",
+      "c": [
+        2412,
+        1632,
+        2412,
+        1680
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0150",
+      "c": [
+        2520,
+        1716,
+        2520,
+        1764
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0151",
+      "c": [
+        696,
+        2796,
+        696,
+        2856
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0152",
+      "c": [
+        576,
+        348,
+        576,
+        396
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0153",
+      "c": [
+        576,
+        1608,
+        576,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0154",
+      "c": [
+        936,
+        300,
+        936,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0155",
+      "c": [
+        636,
+        1332,
+        636,
+        1380
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0156",
+      "c": [
+        1524,
+        1680,
+        1524,
+        1728
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0157",
+      "c": [
+        252,
+        2304,
+        252,
+        2352
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0158",
+      "c": [
+        252,
+        2772,
+        252,
+        2820
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0159",
+      "c": [
+        384,
+        1620,
+        384,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0160",
+      "c": [
+        1776,
+        1608,
+        1776,
+        1656
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0161",
+      "c": [
+        1272,
+        2532,
+        1272,
+        2604
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0162",
+      "c": [
+        2424,
+        2076,
+        2424,
+        2124
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0163",
+      "c": [
+        108,
+        1860,
+        108,
+        1908
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0164",
+      "c": [
+        456,
+        2808,
+        456,
+        2868
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0165",
+      "c": [
+        2244,
+        1260,
+        2244,
+        1308
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0166",
+      "c": [
+        168,
+        2772,
+        168,
+        2820
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0167",
+      "c": [
+        444,
+        300,
+        444,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0168",
+      "c": [
+        1908,
+        348,
+        1908,
+        396
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0169",
+      "c": [
+        1416,
+        732,
+        1416,
+        792
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0170",
+      "c": [
+        1416,
+        804,
+        1416,
+        852
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0171",
+      "c": [
+        1092,
+        792,
+        1092,
+        840
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0172",
+      "c": [
+        1092,
+        1824,
+        1092,
+        1884
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0173",
+      "c": [
+        228,
+        2844,
+        228,
+        2892
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0174",
+      "c": [
+        1632,
+        300,
+        1632,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0175",
+      "c": [
+        1944,
+        360,
+        1944,
+        420
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0176",
+      "c": [
+        996,
+        1128,
+        996,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0177",
+      "c": [
+        996,
+        1224,
+        996,
+        1284
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0178",
+      "c": [
+        1800,
+        672,
+        1800,
+        756
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0179",
+      "c": [
+        2844,
+        2400,
+        2844,
+        2460
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0180",
+      "c": [
+        2148,
+        1092,
+        2148,
+        1140
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0181",
+      "c": [
+        2148,
+        1152,
+        2148,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0182",
+      "c": [
+        2832,
+        2256,
+        2832,
+        2304
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0183",
+      "c": [
+        2832,
+        2328,
+        2832,
+        2376
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0184",
+      "c": [
+        312,
+        1608,
+        312,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0185",
+      "c": [
+        1212,
+        300,
+        1212,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0186",
+      "c": [
+        1140,
+        1836,
+        1140,
+        1884
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0187",
+      "c": [
+        1140,
+        1932,
+        1140,
+        1992
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0188",
+      "c": [
+        1596,
+        276,
+        1596,
+        336
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0189",
+      "c": [
+        1992,
+        312,
+        1992,
+        360
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0190",
+      "c": [
+        2712,
+        1800,
+        2712,
+        1848
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0191",
+      "c": [
+        564,
+        276,
+        564,
+        336
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0192",
+      "c": [
+        2880,
+        2412,
+        2880,
+        2460
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0193",
+      "c": [
+        2880,
+        2580,
+        2880,
+        2628
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0194",
+      "c": [
+        1788,
+        300,
+        1788,
+        372
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0195",
+      "c": [
+        0,
+        0,
+        2508,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0196",
+      "c": [
+        2532,
+        0,
+        2580,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0197",
+      "c": [
+        2604,
+        0,
+        3000,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0198",
+      "c": [
+        1224,
+        2064,
+        1272,
+        2064
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0199",
+      "c": [
+        1104,
+        2580,
+        1164,
+        2580
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0200",
+      "c": [
+        444,
+        2100,
+        492,
+        2100
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0201",
+      "c": [
+        1008,
+        1404,
+        1164,
+        1404
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0202",
+      "c": [
+        1176,
+        1404,
+        1536,
+        1404
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0203",
+      "c": [
+        1548,
+        1404,
+        2004,
+        1404
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0204",
+      "c": [
+        1440,
+        648,
+        1560,
+        648
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0205",
+      "c": [
+        1104,
+        1332,
+        1164,
+        1332
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0206",
+      "c": [
+        1944,
+        1332,
+        2004,
+        1332
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0207",
+      "c": [
+        1404,
+        564,
+        1488,
+        564
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0208",
+      "c": [
+        1512,
+        564,
+        1584,
+        564
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0209",
+      "c": [
+        2568,
+        2664,
+        2616,
+        2664
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0210",
+      "c": [
+        624,
+        1416,
+        672,
+        1416
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0211",
+      "c": [
+        1008,
+        1416,
+        1080,
+        1416
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0212",
+      "c": [
+        1176,
+        1416,
+        1236,
+        1416
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0213",
+      "c": [
+        1308,
+        1416,
+        1452,
+        1416
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0214",
+      "c": [
+        1800,
+        1416,
+        1872,
+        1416
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0215",
+      "c": [
+        1956,
+        1416,
+        2004,
+        1416
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0216",
+      "c": [
+        564,
+        1656,
+        612,
+        1656
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0217",
+      "c": [
+        1404,
+        1656,
+        1488,
+        1656
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0218",
+      "c": [
+        1428,
+        600,
+        1512,
+        600
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0219",
+      "c": [
+        1524,
+        600,
+        1572,
+        600
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0220",
+      "c": [
+        588,
+        1800,
+        648,
+        1800
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0221",
+      "c": [
+        1092,
+        1800,
+        1140,
+        1800
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0222",
+      "c": [
+        1692,
+        1800,
+        1740,
+        1800
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0223",
+      "c": [
+        1440,
+        1908,
+        1488,
+        1908
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0224",
+      "c": [
+        360,
+        1752,
+        420,
+        1752
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0225",
+      "c": [
+        1200,
+        1752,
+        1260,
+        1752
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0226",
+      "c": [
+        348,
+        2748,
+        420,
+        2748
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0227",
+      "c": [
+        2724,
+        2760,
+        2772,
+        2760
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0228",
+      "c": [
+        2940,
+        2760,
+        3000,
+        2760
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0229",
+      "c": [
+        1044,
+        2808,
+        1092,
+        2808
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0230",
+      "c": [
+        2868,
+        2508,
+        2928,
+        2508
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0231",
+      "c": [
+        2220,
+        420,
+        2268,
+        420
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0232",
+      "c": [
+        0,
+        1920,
+        48,
+        1920
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0233",
+      "c": [
+        2664,
+        1920,
+        2712,
+        1920
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0234",
+      "c": [
+        2028,
+        288,
+        2076,
+        288
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0235",
+      "c": [
+        2328,
+        1428,
+        2388,
+        1428
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0236",
+      "c": [
+        660,
+        1812,
+        744,
+        1812
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0237",
+      "c": [
+        1020,
+        1812,
+        1068,
+        1812
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0238",
+      "c": [
+        1428,
+        1812,
+        1488,
+        1812
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0239",
+      "c": [
+        1284,
+        2532,
+        1332,
+        2532
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0240",
+      "c": [
+        1440,
+        2532,
+        1488,
+        2532
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0241",
+      "c": [
+        2376,
+        2952,
+        2424,
+        2952
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0242",
+      "c": [
+        2652,
+        2952,
+        2712,
+        2952
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0243",
+      "c": [
+        0,
+        3000,
+        132,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0244",
+      "c": [
+        144,
+        3000,
+        1548,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0245",
+      "c": [
+        1572,
+        3000,
+        1836,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0246",
+      "c": [
+        1848,
+        3000,
+        1896,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0247",
+      "c": [
+        1908,
+        3000,
+        2004,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0248",
+      "c": [
+        2016,
+        3000,
+        2580,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0249",
+      "c": [
+        2592,
+        3000,
+        2676,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0250",
+      "c": [
+        2760,
+        3000,
+        2832,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0251",
+      "c": [
+        2916,
+        3000,
+        3000,
+        3000
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0252",
+      "c": [
+        1344,
+        2004,
+        1404,
+        2004
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0253",
+      "c": [
+        24,
+        1956,
+        72,
+        1956
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0254",
+      "c": [
+        624,
+        1128,
+        672,
+        1128
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0255",
+      "c": [
+        792,
+        1128,
+        852,
+        1128
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0256",
+      "c": [
+        864,
+        1128,
+        948,
+        1128
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0257",
+      "c": [
+        480,
+        2052,
+        564,
+        2052
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0258",
+      "c": [
+        1488,
+        2052,
+        1536,
+        2052
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0259",
+      "c": [
+        2376,
+        2052,
+        2424,
+        2052
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0260",
+      "c": [
+        1836,
+        1692,
+        1884,
+        1692
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0261",
+      "c": [
+        2016,
+        1116,
+        2100,
+        1116
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0262",
+      "c": [
+        540,
+        324,
+        588,
+        324
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0263",
+      "c": [
+        1152,
+        384,
+        1212,
+        384
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0264",
+      "c": [
+        1404,
+        1716,
+        1452,
+        1716
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0265",
+      "c": [
+        2208,
+        1104,
+        2280,
+        1104
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0266",
+      "c": [
+        2328,
+        1104,
+        2388,
+        1104
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0267",
+      "c": [
+        1056,
+        828,
+        1128,
+        828
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0268",
+      "c": [
+        1884,
+        828,
+        1932,
+        828
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0269",
+      "c": [
+        696,
+        2796,
+        744,
+        2796
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0270",
+      "c": [
+        600,
+        1488,
+        660,
+        1488
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0271",
+      "c": [
+        1188,
+        1488,
+        1236,
+        1488
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0272",
+      "c": [
+        2352,
+        1488,
+        2400,
+        1488
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0273",
+      "c": [
+        2856,
+        2448,
+        2904,
+        2448
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0274",
+      "c": [
+        1332,
+        1932,
+        1380,
+        1932
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0275",
+      "c": [
+        1104,
+        1320,
+        1164,
+        1320
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0276",
+      "c": [
+        1944,
+        1320,
+        2004,
+        1320
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0277",
+      "c": [
+        2592,
+        2928,
+        2652,
+        2928
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0278",
+      "c": [
+        2232,
+        1476,
+        2280,
+        1476
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0279",
+      "c": [
+        372,
+        1596,
+        420,
+        1596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0280",
+      "c": [
+        960,
+        1596,
+        1008,
+        1596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0281",
+      "c": [
+        2400,
+        2040,
+        2448,
+        2040
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0282",
+      "c": [
+        2352,
+        1368,
+        2400,
+        1368
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0283",
+      "c": [
+        636,
+        1824,
+        696,
+        1824
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0284",
+      "c": [
+        84,
+        2880,
+        132,
+        2880
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0285",
+      "c": [
+        2280,
+        1464,
+        2328,
+        1464
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0286",
+      "c": [
+        1008,
+        1884,
+        1092,
+        1884
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0287",
+      "c": [
+        1212,
+        1884,
+        1272,
+        1884
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0288",
+      "c": [
+        1572,
+        1884,
+        1620,
+        1884
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0289",
+      "c": [
+        444,
+        276,
+        492,
+        276
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0290",
+      "c": [
+        1596,
+        276,
+        1656,
+        276
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0291",
+      "c": [
+        84,
+        1740,
+        132,
+        1740
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0292",
+      "c": [
+        516,
+        1740,
+        600,
+        1740
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0293",
+      "c": [
+        2064,
+        1740,
+        2124,
+        1740
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0294",
+      "c": [
+        2532,
+        1740,
+        2592,
+        1740
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0295",
+      "c": [
+        2700,
+        2892,
+        2748,
+        2892
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0296",
+      "c": [
+        1968,
+        864,
+        2016,
+        864
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0297",
+      "c": [
+        12,
+        1620,
+        60,
+        1620
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0298",
+      "c": [
+        2652,
+        1620,
+        2700,
+        1620
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0299",
+      "c": [
+        2784,
+        1620,
+        2832,
+        1620
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0300",
+      "c": [
+        1464,
+        408,
+        1512,
+        408
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0301",
+      "c": [
+        1572,
+        1668,
+        1632,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0302",
+      "c": [
+        1644,
+        1668,
+        1692,
+        1668
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0303",
+      "c": [
+        1104,
+        2556,
+        1164,
+        2556
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0304",
+      "c": [
+        1308,
+        2556,
+        1368,
+        2556
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0305",
+      "c": [
+        1716,
+        2556,
+        1764,
+        2556
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0306",
+      "c": [
+        372,
+        2832,
+        420,
+        2832
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0307",
+      "c": [
+        2904,
+        2832,
+        2964,
+        2832
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0308",
+      "c": [
+        600,
+        888,
+        660,
+        888
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0309",
+      "c": [
+        1908,
+        888,
+        1956,
+        888
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0310",
+      "c": [
+        264,
+        2844,
+        312,
+        2844
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0311",
+      "c": [
+        324,
+        2844,
+        384,
+        2844
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0312",
+      "c": [
+        2868,
+        2844,
+        2928,
+        2844
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0313",
+      "c": [
+        1128,
+        1632,
+        1200,
+        1632
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0314",
+      "c": [
+        1872,
+        1440,
+        1944,
+        1440
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0315",
+      "c": [
+        2352,
+        1440,
+        2400,
+        1440
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0316",
+      "c": [
+        852,
+        1296,
+        900,
+        1296
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0317",
+      "c": [
+        1572,
+        1896,
+        1620,
+        1896
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0318",
+      "c": [
+        96,
+        2736,
+        156,
+        2736
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0319",
+      "c": [
+        1188,
+        2736,
+        1236,
+        2736
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0320",
+      "c": [
+        2040,
+        2736,
+        2100,
+        2736
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0321",
+      "c": [
+        2856,
+        2616,
+        2904,
+        2616
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0322",
+      "c": [
+        2940,
+        2616,
+        2988,
+        2616
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0323",
+      "c": [
+        1308,
+        792,
+        1380,
+        792
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0324",
+      "c": [
+        1692,
+        2592,
+        1776,
+        2592
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0325",
+      "c": [
+        1464,
+        528,
+        1548,
+        528
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0326",
+      "c": [
+        2796,
+        2568,
+        2844,
+        2568
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0327",
+      "c": [
+        456,
+        2088,
+        516,
+        2088
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0328",
+      "c": [
+        2472,
+        2088,
+        2520,
+        2088
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0329",
+      "c": [
+        2484,
+        2376,
+        2532,
+        2376
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0330",
+      "c": [
+        384,
+        2820,
+        492,
+        2820
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0331",
+      "c": [
+        624,
+        1200,
+        696,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0332",
+      "c": [
+        744,
+        1200,
+        792,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0333",
+      "c": [
+        888,
+        1200,
+        948,
+        1200
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0334",
+      "c": [
+        120,
+        2496,
+        168,
+        2496
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0335",
+      "c": [
+        2580,
+        2856,
+        2628,
+        2856
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0336",
+      "c": [
+        0,
+        1776,
+        48,
+        1776
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0337",
+      "c": [
+        1188,
+        1776,
+        1236,
+        1776
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0338",
+      "c": [
+        708,
+        1248,
+        756,
+        1248
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0339",
+      "c": [
+        600,
+        516,
+        648,
+        516
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0340",
+      "c": [
+        2352,
+        516,
+        2400,
+        516
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0341",
+      "c": [
+        2952,
+        2460,
+        3000,
+        2460
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0342",
+      "c": [
+        924,
+        1140,
+        972,
+        1140
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0343",
+      "c": [
+        456,
+        252,
+        516,
+        252
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0344",
+      "c": [
+        612,
+        912,
+        672,
+        912
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0345",
+      "c": [
+        792,
+        696,
+        840,
+        696
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0346",
+      "c": [
+        2292,
+        2160,
+        2340,
+        2160
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0347",
+      "c": [
+        2040,
+        1188,
+        2088,
+        1188
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0348",
+      "c": [
+        1296,
+        2076,
+        1356,
+        2076
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0349",
+      "c": [
+        156,
+        2712,
+        204,
+        2712
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0350",
+      "c": [
+        1260,
+        2712,
+        1308,
+        2712
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0351",
+      "c": [
+        2292,
+        2712,
+        2340,
+        2712
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0352",
+      "c": [
+        1464,
+        852,
+        1524,
+        852
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0353",
+      "c": [
+        1896,
+        852,
+        1944,
+        852
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0354",
+      "c": [
+        1704,
+        348,
+        1752,
+        348
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0355",
+      "c": [
+        1428,
+        684,
+        1572,
+        684
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0356",
+      "c": [
+        624,
+        1536,
+        672,
+        1536
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0357",
+      "c": [
+        1620,
+        1536,
+        1680,
+        1536
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0358",
+      "c": [
+        2340,
+        1512,
+        2400,
+        1512
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0359",
+      "c": [
+        252,
+        2772,
+        300,
+        2772
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0360",
+      "c": [
+        2316,
+        2208,
+        2364,
+        2208
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0361",
+      "c": [
+        444,
+        240,
+        528,
+        240
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0362",
+      "c": [
+        852,
+        2904,
+        900,
+        2904
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0363",
+      "c": [
+        2340,
+        1092,
+        2388,
+        1092
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0364",
+      "c": [
+        984,
+        900,
+        1056,
+        900
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0365",
+      "c": [
+        1968,
+        900,
+        2016,
+        900
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0366",
+      "c": [
+        1428,
+        816,
+        1572,
+        816
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0367",
+      "c": [
+        1464,
+        540,
+        1584,
+        540
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0368",
+      "c": [
+        924,
+        504,
+        984,
+        504
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0369",
+      "c": [
+        504,
+        264,
+        552,
+        264
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0370",
+      "c": [
+        2484,
+        204,
+        2532,
+        204
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0371",
+      "c": [
+        444,
+        156,
+        504,
+        156
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0372",
+      "c": [
+        600,
+        492,
+        660,
+        492
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0373",
+      "c": [
+        1956,
+        492,
+        2052,
+        492
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0374",
+      "c": [
+        480,
+        60,
+        528,
+        60
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0375",
+      "c": [
+        444,
+        144,
+        528,
+        144
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0376",
+      "c": [
+        2340,
+        1044,
+        2388,
+        1044
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    }
+  ],
+  "flags": {}
+}

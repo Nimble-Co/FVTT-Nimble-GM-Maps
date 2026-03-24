@@ -1,0 +1,443 @@
+{
+  "_id": "GTB001Entrance1",
+  "name": "Greenthumb's Base - Entrance",
+  "folder": "Greenthumb's Base",
+  "navigation": true,
+  "navOrder": 0,
+  "navName": "",
+  "background": {
+    "src": "modules/nimble-maps/assets/maps/greenthumbs-base/entrance.jpg",
+    "offsetX": 0,
+    "offsetY": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0
+  },
+  "foreground": null,
+  "fogOverlay": null,
+  "fogExploredColor": "#000000",
+  "fogUnexploredColor": "#000000",
+  "width": 4000,
+  "height": 2600,
+  "padding": 0,
+  "initial": {
+    "x": 2000,
+    "y": 1300,
+    "scale": 0.6
+  },
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 1,
+    "size": 200,
+    "distance": 1,
+    "units": "spaces",
+    "color": "#000000",
+    "alpha": 0.2
+  },
+  "tokenVision": true,
+  "fogExploration": true,
+  "environment": {
+    "globalLight": {
+      "enabled": true,
+      "bright": true,
+      "luminosity": 0.6
+    }
+  },
+  "drawings": [],
+  "tokens": [
+    {
+      "_id": "seedling01gtben",
+      "name": "Briarbane Seedling",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 1400,
+      "y": 1000,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/briarbane-seedling.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        }
+      }
+    },
+    {
+      "_id": "seedling02gtben",
+      "name": "Briarbane Seedling",
+      "actorLink": false,
+      "displayName": 20,
+      "x": 2000,
+      "y": 600,
+      "elevation": 0,
+      "lockRotation": false,
+      "rotation": 0,
+      "texture": {
+        "src": "systems/nimble/assets/tokens/monsters/briarbane-seedling.webp",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "width": 0.5,
+      "height": 0.5,
+      "actorId": null,
+      "actorData": {},
+      "disposition": -1,
+      "displayBars": 20,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        }
+      }
+    }
+  ],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [],
+  "walls": [
+    {
+      "_id": "wall0001",
+      "c": [
+        0,
+        0,
+        0,
+        2600
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0002",
+      "c": [
+        3991,
+        0,
+        3991,
+        2600
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0003",
+      "c": [
+        1274,
+        1846,
+        1274,
+        1898
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0004",
+      "c": [
+        1391,
+        1859,
+        1391,
+        1911
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0005",
+      "c": [
+        1352,
+        1846,
+        1352,
+        1911
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0006",
+      "c": [
+        0,
+        0,
+        2366,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0007",
+      "c": [
+        2457,
+        0,
+        2691,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0008",
+      "c": [
+        2704,
+        0,
+        3991,
+        0
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0009",
+      "c": [
+        0,
+        2600,
+        819,
+        2600
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0010",
+      "c": [
+        832,
+        2600,
+        3991,
+        2600
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0011",
+      "c": [
+        2405,
+        13,
+        2457,
+        13
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0012",
+      "c": [
+        689,
+        585,
+        741,
+        585
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0013",
+      "c": [
+        3770,
+        1469,
+        3861,
+        1469
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0014",
+      "c": [
+        1261,
+        1794,
+        1313,
+        1794
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0015",
+      "c": [
+        2015,
+        2470,
+        2067,
+        2470
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0016",
+      "c": [
+        2353,
+        26,
+        2405,
+        26
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0017",
+      "c": [
+        3796,
+        1456,
+        3848,
+        1456
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0018",
+      "c": [
+        1222,
+        1898,
+        1274,
+        1898
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0019",
+      "c": [
+        1326,
+        1872,
+        1378,
+        1872
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "wall0020",
+      "c": [
+        221,
+        1222,
+        286,
+        1222
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    }
+  ],
+  "flags": {}
+}

@@ -1,0 +1,40 @@
+{
+	"id": "nimble-maps",
+	"title": "Nimble Maps",
+	"description": "Pre-configured battle map scenes for the Nimble GM Guide adventures with walls, lighting, and monster tokens.",
+	"version": "0.0.1",
+	"authors": [
+		{
+			"name": "Trevor Carlston",
+			"url": "https://github.com/trevlar",
+			"email": "trevlar@questluminary.com",
+			"discord": "questluminary"
+		}
+	],
+	"compatibility": {
+		"minimum": "13",
+		"verified": "13",
+		"maximum": "13"
+	},
+	"relationships": {
+		"systems": [
+			{
+				"id": "nimble",
+				"type": "system",
+				"compatibility": {
+					"minimum": "0.6.0"
+				}
+			}
+		]
+	},
+	"esmodules": ["scripts/nimble-maps.mjs"],
+	"packs": [
+		{
+			"name": "nimble-scenes",
+			"label": "Nimble GM Guide Scenes",
+			"path": "packs/scenes",
+			"type": "Scene",
+			"system": "nimble"
+		}
+	]
+}

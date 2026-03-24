@@ -1,0 +1,14 @@
+{
+	"name": "nimble-maps",
+	"version": "0.0.1",
+	"description": "Pre-configured battle map scenes for the Nimble GM Guide adventures",
+	"type": "module",
+	"scripts": {
+		"build": "node build/buildCompendia.mjs",
+		"worktree:setup": "node build/worktreeSetup.mjs",
+		"dev:link": "ln -sfn \"$(pwd)\" ~/Library/Application\\ Support/FoundryVTT/Data/modules/nimble-maps && echo 'Symlink created successfully'"
+	},
+	"devDependencies": {
+		"classic-level": "^1.4.1"
+	}
+}

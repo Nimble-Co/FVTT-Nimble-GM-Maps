@@ -1,0 +1,574 @@
+{
+  "_id": "ATR003ValleyUp",
+  "name": "Valley's Rest - Upstairs",
+  "folder": "A Tiny Rescue",
+  "navigation": true,
+  "navOrder": 2,
+  "navName": "",
+  "background": {
+    "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-upstairs.jpg",
+    "offsetX": 0,
+    "offsetY": 0,
+    "scaleX": 1,
+    "scaleY": 1,
+    "rotation": 0
+  },
+  "foreground": null,
+  "fogOverlay": null,
+  "fogExploredColor": "#000000",
+  "fogUnexploredColor": "#000000",
+  "width": 4400,
+  "height": 5800,
+  "padding": 0,
+  "initial": {
+    "x": 2200,
+    "y": 2900,
+    "scale": 0.5
+  },
+  "backgroundColor": "#000000",
+  "grid": {
+    "type": 1,
+    "size": 200,
+    "distance": 1,
+    "units": "spaces",
+    "color": "#000000",
+    "alpha": 0.2
+  },
+  "tokenVision": true,
+  "fogExploration": true,
+  "environment": {
+    "globalLight": {
+      "enabled": true,
+      "bright": true,
+      "luminosity": 0.5
+    }
+  },
+  "drawings": [],
+  "tokens": [],
+  "lights": [],
+  "notes": [],
+  "sounds": [],
+  "templates": [],
+  "tiles": [
+    {
+      "_id": "roofoverlay001",
+      "texture": {
+        "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-roof-overlay.png",
+        "scaleX": 1,
+        "scaleY": 1
+      },
+      "x": 0,
+      "y": 0,
+      "width": 4400,
+      "height": 5800,
+      "elevation": 20,
+      "overhead": true,
+      "occlusion": {
+        "mode": 1,
+        "alpha": 0
+      },
+      "hidden": false,
+      "locked": true,
+      "flags": {}
+    }
+  ],
+  "walls": [
+    {
+      "_id": "upwall0001",
+      "c": [
+        3424,
+        368,
+        3424,
+        1112
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0002",
+      "c": [
+        3424,
+        1292,
+        3424,
+        1508
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0003",
+      "c": [
+        3424,
+        1700,
+        3424,
+        1904
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0004",
+      "c": [
+        3424,
+        2096,
+        3424,
+        2312
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0005",
+      "c": [
+        3424,
+        2492,
+        3424,
+        2828
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0006",
+      "c": [
+        976,
+        440,
+        976,
+        608
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0007",
+      "c": [
+        976,
+        932,
+        976,
+        1304
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0008",
+      "c": [
+        976,
+        1424,
+        976,
+        1700
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0009",
+      "c": [
+        976,
+        1832,
+        976,
+        2096
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0010",
+      "c": [
+        976,
+        2228,
+        976,
+        2504
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0011",
+      "c": [
+        976,
+        2624,
+        976,
+        2912
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0012",
+      "c": [
+        2812,
+        1148,
+        2812,
+        1316
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0013",
+      "c": [
+        820,
+        944,
+        820,
+        1184
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0014",
+      "c": [
+        820,
+        1220,
+        820,
+        1424
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0015",
+      "c": [
+        2824,
+        1148,
+        2824,
+        1316
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0016",
+      "c": [
+        3412,
+        1112,
+        3412,
+        1292
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0017",
+      "c": [
+        3412,
+        1508,
+        3412,
+        1700
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0018",
+      "c": [
+        3412,
+        1904,
+        3412,
+        2096
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0019",
+      "c": [
+        3412,
+        2312,
+        3412,
+        2492
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0020",
+      "c": [
+        3220,
+        3104,
+        3220,
+        3368
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0021",
+      "c": [
+        1168,
+        2804,
+        1168,
+        2972
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0022",
+      "c": [
+        964,
+        368,
+        1708,
+        368
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0023",
+      "c": [
+        1912,
+        368,
+        2500,
+        368
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0024",
+      "c": [
+        2716,
+        368,
+        3424,
+        368
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0025",
+      "c": [
+        1708,
+        380,
+        1912,
+        380
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0026",
+      "c": [
+        2500,
+        380,
+        2692,
+        380
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0027",
+      "c": [
+        1168,
+        2396,
+        1336,
+        2396
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0028",
+      "c": [
+        1192,
+        2576,
+        1360,
+        2576
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0029",
+      "c": [
+        3304,
+        3080,
+        3520,
+        3080
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0030",
+      "c": [
+        2200,
+        3428,
+        3232,
+        3428
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    },
+    {
+      "_id": "upwall0031",
+      "c": [
+        1000,
+        3596,
+        2188,
+        3596
+      ],
+      "door": 0,
+      "ds": 0,
+      "move": 1,
+      "sight": 1,
+      "sound": 1,
+      "light": 1,
+      "flags": {}
+    }
+  ],
+  "flags": {}
+}
