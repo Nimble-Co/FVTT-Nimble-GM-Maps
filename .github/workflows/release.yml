@@ -1,12 +1,13 @@
 name: Release Module
 
-# Publish a Foundry-installable release whenever you push a tag like v0.0.1,
-# or create a GitHub Release. The tag name (minus the leading "v") becomes the
-# module version and drives the download URL Foundry uses.
+# Publish a Foundry-installable release whenever you publish a GitHub Release.
+# Draft a release in the GitHub UI, tag it like v0.0.1, and hit Publish — that
+# fires this workflow. The tag name (minus the leading "v") becomes the module
+# version and drives the download URL Foundry uses. Built assets (module.json
+# and module.zip) are attached back onto that same release.
 on:
-  push:
-    tags:
-      - "v*"
+  release:
+    types: [published]
 
 permissions:
   contents: write

@@ -53,6 +53,14 @@ pnpm run dev:link
 pnpm run build
 ```
 
+## Credits
+
+- **Maps:** Created by Matt "Double King" Shiffler for the adventures in the Nimble GM Guide.
+- **Nimble:** © 2025 Nimble Co. — [nimblerpg.com](https://nimblerpg.com)
+
 ## License
 
-MIT
+This module bundles two kinds of content under different terms. See [LICENSE](LICENSE) for the full text.
+
+- **Code** — everything under `scripts/`, `build/`, and the scene data under `src/` is released under the **MIT License**, © 2026 Nimble Co. / Trevor Carlston.
+- **Map art and adventure content** — the battle map images under `assets/` are **© Nimble Co.**, distributed as part of the official Nimble GM Guide and included here with permission. They are free to use within Foundry VTT via this module, but may not be redistributed, resold, or used outside of this module without permission from Nimble Co.
