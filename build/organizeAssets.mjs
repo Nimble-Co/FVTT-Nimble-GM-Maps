@@ -2,6 +2,7 @@
  * Script to organize map assets from source folder to module assets folder
  * Renames files to URL-friendly names and organizes by adventure
  */
+import { execFileSync } from 'child_process';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -12,6 +13,21 @@ const rootDir = path.resolve(__dirname, '..');
 
 const sourceDir = path.join(rootDir, 'Nimble GM Guide Battlemaps');
 const destDir = path.join(rootDir, 'assets', 'maps');
+
+/**
+ * Convert a source image to a WebP at destPath, stripping EXIF/XMP/ICC metadata
+ * (cwebp drops metadata by default). Requires the `cwebp` binary on PATH.
+ * PNGs (overlays) use a higher quality + max alpha quality to keep edges crisp.
+ * @param {string} src - absolute source image path
+ * @param {string} destPath - absolute .webp destination path
+ */
+function convertToWebp(src, destPath) {
+	const isPng = path.extname(src).toLowerCase() === '.png';
+	const args = isPng
+		? ['-q', '90', '-alpha_q', '100', '-m', '4', '-mt', src, '-o', destPath]
+		: ['-q', '82', '-m', '4', '-mt', src, '-o', destPath];
+	execFileSync('cwebp', args, { stdio: 'ignore' });
+}
 
 // Map of source patterns to destination info
 const mapConfig = [
@@ -209,7 +225,10 @@ for (const adventure of mapConfig) {
 
 	for (const map of adventure.maps) {
 		const sourcePath = path.join(sourceDir, map.sourcePath);
-		const destPath = path.join(adventureDir, map.destName);
+		// Shipped assets are WebP (smaller, metadata-stripped). Scene JSON
+		// references use the .webp extension to match.
+		const baseName = path.basename(map.destName, path.extname(map.destName));
+		const destPath = path.join(adventureDir, `${baseName}.webp`);
 
 		if (!fs.existsSync(sourcePath)) {
 			console.log(`  [MISSING] ${map.sourcePath}`);
@@ -218,12 +237,37 @@ for (const adventure of mapConfig) {
 		}
 
 		try {
-			fs.copyFileSync(sourcePath, destPath);
-			console.log(`  [OK] ${map.destName}`);
+			convertToWebp(sourcePath, destPath);
+			console.log(`  [OK] ${baseName}.webp`);
 			totalCopied++;
 		} catch (err) {
-			console.log(`  [ERROR] ${map.destName}: ${err.message}`);
+			console.log(`  [ERROR] ${baseName}.webp: ${err.message}`);
 			totalFailed++;
+		}
+
+		// Also emit the "Grid Lights" reference variant alongside the shipped
+		// map, so grids/lights can be authored against it in Foundry. These are
+		// temporary and get removed once all walls/lights are placed. Overlays
+		// have no meaningful grid/lights variant, so skip them.
+		if (!map.destName.includes('overlay')) {
+			const srcMapDir = path.dirname(sourcePath);
+			const glSource = fs
+				.readdirSync(srcMapDir)
+				.find((f) => / - (Grid Lights?|Lights? Grid) - /.test(f));
+
+			if (glSource) {
+				const refName = `${baseName}-grid-lights.webp`;
+				try {
+					convertToWebp(path.join(srcMapDir, glSource), path.join(adventureDir, refName));
+					console.log(`  [OK] ${refName} (reference)`);
+					totalCopied++;
+				} catch (err) {
+					console.log(`  [ERROR] ${refName}: ${err.message}`);
+					totalFailed++;
+				}
+			} else {
+				console.log(`  [NO GRID-LIGHTS REF] ${map.destName}`);
+			}
 		}
 	}
 }

@@ -1,0 +1,73 @@
+name: Release Module
+
+# Publish a Foundry-installable release whenever you push a tag like v0.0.1,
+# or create a GitHub Release. The tag name (minus the leading "v") becomes the
+# module version and drives the download URL Foundry uses.
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Derive version from tag
+        id: version
+        run: echo "version=${GITHUB_REF_NAME#v}" >> "$GITHUB_OUTPUT"
+
+      - name: Build compendium packs
+        run: pnpm run build
+
+      - name: Patch module.json (version + release URLs)
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+          REPO: ${{ github.repository }}
+        run: |
+          node - <<'EOF'
+          const fs = require('fs');
+          const version = process.env.VERSION;
+          const repo = process.env.REPO;
+          const m = JSON.parse(fs.readFileSync('module.json', 'utf8'));
+          m.version = version;
+          m.manifest = `https://github.com/${repo}/releases/latest/download/module.json`;
+          m.download = `https://github.com/${repo}/releases/download/v${version}/module.zip`;
+          fs.writeFileSync('module.json', JSON.stringify(m, null, '\t') + '\n');
+          console.log(`Patched module.json to v${version}`);
+          EOF
+
+      - name: Create module.zip
+        run: |
+          zip -r module.zip \
+            module.json \
+            scripts/ \
+            assets/ \
+            packs/ \
+            README.md \
+            LICENSE \
+            CHANGELOG.md
+
+      - name: Publish release assets
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            module.json
+            module.zip

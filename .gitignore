@@ -4,6 +4,9 @@ node_modules/
 # Build output
 packs/
 
+# Raw source battlemaps (not shipped; processed art lives in assets/maps/)
+Nimble GM Guide Battlemaps/
+
 # macOS
 .DS_Store
 

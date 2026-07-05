@@ -14,7 +14,7 @@ Pre-configured battle map scenes for the Nimble GM Guide adventures with walls, 
 Install using the following manifest URL in Foundry's "Add-on Modules" installer:
 
 ```
-https://github.com/trevlar/FVTT-Nimble-GM-Maps/releases/latest/download/module.json
+https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps/releases/latest/download/module.json
 ```
 
 ### Manual Installation

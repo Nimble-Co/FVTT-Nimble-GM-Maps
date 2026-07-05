@@ -6,7 +6,7 @@
   "navOrder": 1,
   "navName": "",
   "background": {
-    "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-ground.jpg",
+    "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-ground.webp",
     "offsetX": 0,
     "offsetY": 0,
     "scaleX": 1,
@@ -699,7 +699,7 @@
     {
       "_id": "roofoverlay1",
       "texture": {
-        "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-roof-overlay.png",
+        "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-roof-overlay.webp",
         "scaleX": 1,
         "scaleY": 1
       },

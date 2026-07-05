@@ -6,7 +6,7 @@
   "navOrder": 1,
   "navName": "",
   "background": {
-    "src": "modules/nimble-maps/assets/maps/the-hags-legacy/spiderhollow-ground.jpg",
+    "src": "modules/nimble-maps/assets/maps/the-hags-legacy/spiderhollow-ground.webp",
     "offsetX": 0,
     "offsetY": 0,
     "scaleX": 1,
@@ -265,7 +265,7 @@
     {
       "_id": "roostoverlay01",
       "texture": {
-        "src": "modules/nimble-maps/assets/maps/the-hags-legacy/spiderhollow-roost-overlay.png",
+        "src": "modules/nimble-maps/assets/maps/the-hags-legacy/spiderhollow-roost-overlay.webp",
         "scaleX": 1,
         "scaleY": 1
       },

@@ -6,7 +6,7 @@
   "navOrder": 0,
   "navName": "",
   "background": {
-    "src": "modules/nimble-maps/assets/maps/world/world-map.png",
+    "src": "modules/nimble-maps/assets/maps/world/world-map.webp",
     "offsetX": 0,
     "offsetY": 0,
     "scaleX": 1,
