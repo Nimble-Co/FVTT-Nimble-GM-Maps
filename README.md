@@ -1,4 +1,4 @@
-# Nimble Maps
+# Nimble GM Guide Maps
 
 Pre-configured battle map scenes for the Nimble GM Guide adventures with walls, lighting, and monster tokens.
 
@@ -27,7 +27,7 @@ Download the latest release and extract it to your Foundry VTT modules folder:
 
 ## Usage
 
-1. Enable "Nimble Maps" in your world's module settings
+1. Enable "Nimble GM Guide Maps" in your world's module settings
 2. Open the "Nimble GM Guide Scenes" compendium
 3. Import any scene to your world
 

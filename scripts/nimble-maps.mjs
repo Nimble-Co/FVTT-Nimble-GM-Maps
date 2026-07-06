@@ -1,5 +1,5 @@
 /**
- * Nimble Maps Module
+ * Nimble GM Guide Maps Module
  * Imports the actors referenced by scene tokens from the nimble system
  * compendia, files them in a folder, and links the tokens — both when a
  * scene is first added to the world and as a repair sweep at world load.
@@ -223,7 +223,7 @@ async function onCreateScene(scene, options, userId) {
 // scenes with dangling tokens (e.g. scenes dragged in while the module was
 // disabled or broken).
 Hooks.once("ready", async () => {
-	console.log(`${MODULE_ID} | Initializing Nimble Maps`);
+	console.log(`${MODULE_ID} | Initializing Nimble GM Guide Maps`);
 	if (!game.user.isGM) return;
 	await enqueue(async () => {
 		await consolidateFolders();
@@ -235,7 +235,7 @@ Hooks.once("ready", async () => {
 	}
 	if (repaired) {
 		ui.notifications.info(
-			`Nimble Maps: relinked ${repaired} tokens to their actors.`,
+			`Nimble GM Guide Maps: relinked ${repaired} tokens to their actors.`,
 		);
 	}
 });
