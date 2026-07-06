@@ -15,8 +15,9 @@ async function onCreateScene(scene, options, userId) {
 	// Only run for the user who created the scene
 	if (game.user.id !== userId) return;
 
-	// Check if this scene came from a compendium (has sourceId in flags)
-	const sourceId = scene.flags?.core?.sourceId;
+	// Check if this scene came from a compendium (v12+: _stats.compendiumSource; legacy: flags.core.sourceId)
+	const sourceId =
+		scene._stats?.compendiumSource ?? scene.flags?.core?.sourceId;
 	if (!sourceId?.startsWith("Compendium.nimble-maps")) return;
 
 	const tokens = scene.tokens.contents;
@@ -44,7 +45,9 @@ async function onCreateScene(scene, options, userId) {
 		try {
 			// Check if actor already exists in world (by sourceId)
 			const existingActor = game.actors.find(
-				(a) => a.flags?.core?.sourceId === uuid,
+				(a) =>
+					a._stats?.compendiumSource === uuid ||
+					a.flags?.core?.sourceId === uuid,
 			);
 
 			if (existingActor) {
@@ -59,8 +62,10 @@ async function onCreateScene(scene, options, userId) {
 				continue;
 			}
 
-			// Import actor to world
-			const importedActor = await Actor.create(compendiumActor.toObject());
+			// Import actor to world (stamp provenance for future dedup)
+			const actorData = compendiumActor.toObject();
+			actorData._stats = { ...actorData._stats, compendiumSource: uuid };
+			const importedActor = await Actor.create(actorData);
 			if (importedActor) {
 				importedActors.set(uuid, importedActor.id);
 				console.log(
