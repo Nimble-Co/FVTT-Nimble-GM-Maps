@@ -3824,6 +3824,30 @@
       },
       "animation": null,
       "flags": {}
+    },
+    {
+      "_id": "iEI05PWsAQuSRtRc",
+      "c": [
+        1900,
+        800,
+        1990,
+        800
+      ],
+      "light": 20,
+      "sight": 20,
+      "sound": 20,
+      "move": 20,
+      "dir": 0,
+      "door": 0,
+      "ds": 0,
+      "threshold": {
+        "light": null,
+        "sight": null,
+        "sound": null,
+        "attenuation": false
+      },
+      "animation": null,
+      "flags": {}
     }
   ],
   "flags": {}
