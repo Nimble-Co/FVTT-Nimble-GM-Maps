@@ -531,7 +531,11 @@
       },
       "hidden": false,
       "locked": true,
-      "flags": {}
+      "flags": {},
+      "restrictions": {
+        "light": true,
+        "weather": true
+      }
     }
   ],
   "walls": [
