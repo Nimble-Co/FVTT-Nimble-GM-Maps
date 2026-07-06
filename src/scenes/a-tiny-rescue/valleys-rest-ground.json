@@ -73,7 +73,7 @@
   "drawings": [],
   "tokens": [
     {
-      "_id": "vl5oKTA4gyQrGXo3",
+      "_id": "9dxwJUd65G5RBNhO",
       "name": "Goblin Minion",
       "displayName": 50,
       "actorId": null,
@@ -97,8 +97,8 @@
         "alphaThreshold": 0.75
       },
       "hexagonalShape": 0,
-      "x": 2480,
-      "y": 3520,
+      "x": 1500,
+      "y": 4900,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -183,7 +183,7 @@
       }
     },
     {
-      "_id": "e4G2n8ky88ztvnxc",
+      "_id": "VSC3ojc5ExpRvzGF",
       "name": "Goblin Minion",
       "displayName": 50,
       "actorId": null,
@@ -207,8 +207,8 @@
         "alphaThreshold": 0.75
       },
       "hexagonalShape": 0,
-      "x": 2780,
-      "y": 3550,
+      "x": 1800,
+      "y": 5000,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -293,7 +293,557 @@
       }
     },
     {
-      "_id": "Q1l6a9cRVtHs31w1",
+      "_id": "Oehj1egnMVPzH4C6",
+      "name": "Goblin Minion",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2100,
+      "y": 4850,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "Xy0bZxvamX7rekaM",
+      "name": "Goblin Minion",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2400,
+      "y": 5000,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "3NnKQavckJGlpbAB",
+      "name": "Goblin Minion",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1600,
+      "y": 5200,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "Cgt1q2YaHVaYQ9JF",
+      "name": "Goblin Minion",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2600,
+      "y": 5150,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "HXDj7D6ajxr8vmwY",
+      "name": "Goblin Minion",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1900,
+      "y": 4700,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
+        }
+      }
+    },
+    {
+      "_id": "a4SPUR81ePuoeRRn",
       "name": "Goblin Minion",
       "displayName": 50,
       "actorId": null,
@@ -318,7 +868,7 @@
       },
       "hexagonalShape": 0,
       "x": 2300,
-      "y": 3700,
+      "y": 4750,
       "elevation": 0,
       "sort": 0,
       "locked": false,
@@ -403,557 +953,7 @@
       }
     },
     {
-      "_id": "ApSI3kPTsmaHNhhH",
-      "name": "Goblin Minion",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2980,
-      "y": 3680,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        }
-      }
-    },
-    {
-      "_id": "IYGm8PVJup6hKaGb",
-      "name": "Goblin Minion",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2520,
-      "y": 3820,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        }
-      }
-    },
-    {
-      "_id": "TRLSXzfxMSxwonYf",
-      "name": "Goblin Minion",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2780,
-      "y": 3900,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        }
-      }
-    },
-    {
-      "_id": "2OEgqUENSKaXQOuX",
-      "name": "Goblin Minion",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2380,
-      "y": 4020,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        }
-      }
-    },
-    {
-      "_id": "NaXYl59Y3d5dRf4H",
-      "name": "Goblin Minion",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 3000,
-      "y": 3960,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3"
-        }
-      }
-    },
-    {
-      "_id": "Tb6Nw7yP8CDpUCLJ",
+      "_id": "3GhAJedGKE37R1IA",
       "name": "Goblin Ratrider (fleeing)",
       "displayName": 50,
       "actorId": null,
@@ -977,8 +977,8 @@
         "alphaThreshold": 0.75
       },
       "hexagonalShape": 0,
-      "x": 2600,
-      "y": 4300,
+      "x": 2700,
+      "y": 5400,
       "elevation": 0,
       "sort": 0,
       "locked": false,

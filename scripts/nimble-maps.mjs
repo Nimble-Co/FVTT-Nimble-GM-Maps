@@ -1,6 +1,8 @@
 /**
  * Nimble Maps Module
- * Handles importing actors from compendiums when scenes are added to the world
+ * Imports the actors referenced by scene tokens from the nimble system
+ * compendia, files them in a folder, and links the tokens — both when a
+ * scene is first added to the world and as a repair sweep at world load.
  */
 
 const MODULE_ID = "nimble-maps";
@@ -34,66 +36,47 @@ async function getActorFolder() {
 }
 
 /**
- * Import actors referenced by tokens and update the scene's token data
- * @param {Scene} scene - The created scene document
- * @param {object} options - Creation options
- * @param {string} userId - The user ID who created the scene
+ * Import any missing actors referenced by a scene's tokens and link the
+ * tokens to them. Safe to call repeatedly — already-linked tokens and
+ * already-imported actors are skipped.
+ * @param {Scene} scene
+ * @returns {Promise<number>} number of tokens updated
  */
-async function onCreateScene(scene, options, userId) {
-	// Only run for the user who created the scene
-	if (game.user.id !== userId) return;
-
-	// Check if this scene came from a compendium
-	// (v12+: _stats.compendiumSource; legacy: flags.core.sourceId)
-	const sourceId =
-		scene._stats?.compendiumSource ?? scene.flags?.core?.sourceId;
-	if (!sourceId?.startsWith("Compendium.nimble-maps")) return;
-
+async function importActorsForScene(scene) {
 	const tokens = scene.tokens.contents;
-	if (!tokens.length) return;
+	if (!tokens.length) return 0;
 
-	// Collect unique actor UUIDs that need to be imported
-	const actorUuidsToImport = new Set();
+	// Tokens that carry our actor reference but don't resolve to a world actor
+	const brokenTokens = tokens.filter((token) => {
+		const uuid = tokenActorUuid(token);
+		if (!uuid?.startsWith("Compendium.")) return false;
+		return !(token.actorId && game.actors.get(token.actorId));
+	});
+	if (!brokenTokens.length) return 0;
 
-	for (const token of tokens) {
-		const actorSourceId = tokenActorUuid(token);
-		if (!actorSourceId?.startsWith("Compendium.")) continue;
-
-		// Skip if token already has a valid actorId
-		if (token.actorId && game.actors.get(token.actorId)) continue;
-
-		actorUuidsToImport.add(actorSourceId);
-	}
-
-	if (!actorUuidsToImport.size) return;
-
-	// Import actors from compendium
+	const actorUuids = new Set(brokenTokens.map((t) => tokenActorUuid(t)));
 	const importedActors = new Map();
 	let folder = null;
 
-	for (const uuid of actorUuidsToImport) {
+	for (const uuid of actorUuids) {
 		try {
-			// Check if actor already exists in world (by provenance)
+			// Reuse an actor previously imported from this compendium entry
 			const existingActor = game.actors.find(
 				(a) =>
 					a._stats?.compendiumSource === uuid ||
 					a.flags?.core?.sourceId === uuid,
 			);
-
 			if (existingActor) {
 				importedActors.set(uuid, existingActor.id);
 				continue;
 			}
 
-			// Fetch actor from compendium
 			const compendiumActor = await fromUuid(uuid);
 			if (!compendiumActor) {
 				console.warn(`${MODULE_ID} | Could not find actor: ${uuid}`);
 				continue;
 			}
 
-			// Import actor to world, filed into the module's folder,
-			// with provenance stamped for future dedup
 			folder ??= await getActorFolder();
 			const actorData = compendiumActor.toObject();
 			actorData._stats = { ...actorData._stats, compendiumSource: uuid };
@@ -110,34 +93,50 @@ async function onCreateScene(scene, options, userId) {
 		}
 	}
 
-	if (!importedActors.size) return;
+	if (!importedActors.size) return 0;
 
-	// Update tokens with the imported actor IDs
 	const tokenUpdates = [];
-
-	for (const token of tokens) {
-		const actorSourceId = tokenActorUuid(token);
-		const newActorId = importedActors.get(actorSourceId);
-
+	for (const token of brokenTokens) {
+		const newActorId = importedActors.get(tokenActorUuid(token));
 		if (newActorId && token.actorId !== newActorId) {
-			tokenUpdates.push({
-				_id: token.id,
-				actorId: newActorId,
-			});
+			tokenUpdates.push({ _id: token.id, actorId: newActorId });
 		}
 	}
 
 	if (tokenUpdates.length) {
 		await scene.updateEmbeddedDocuments("Token", tokenUpdates);
 		console.log(
-			`${MODULE_ID} | Updated ${tokenUpdates.length} tokens with actor references`,
+			`${MODULE_ID} | ${scene.name}: linked ${tokenUpdates.length} tokens to world actors`,
 		);
 	}
+	return tokenUpdates.length;
 }
 
-// Register hooks when the module is ready
-Hooks.once("ready", () => {
+/**
+ * When any scene is created (single drag, folder drag, adventure import,
+ * macro — any path), import and link its actors. Gated by the tokens
+ * themselves carrying our module flag, not by scene provenance, because
+ * folder drops don't stamp _stats.compendiumSource.
+ */
+async function onCreateScene(scene, options, userId) {
+	if (game.user.id !== userId) return;
+	await importActorsForScene(scene);
+}
+
+// Repair sweep: fix any previously-imported scenes with dangling tokens
+// (e.g. scenes dragged in while the module was disabled or broken).
+Hooks.once("ready", async () => {
 	console.log(`${MODULE_ID} | Initializing Nimble Maps`);
+	if (!game.user.isGM) return;
+	let repaired = 0;
+	for (const scene of game.scenes) {
+		repaired += await importActorsForScene(scene);
+	}
+	if (repaired) {
+		ui.notifications.info(
+			`Nimble Maps: relinked ${repaired} tokens to their actors.`,
+		);
+	}
 });
 
 Hooks.on("createScene", onCreateScene);
