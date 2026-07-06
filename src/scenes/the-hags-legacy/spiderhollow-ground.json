@@ -176,6 +176,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.3Mjt8kR69rjVizwW"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.3Mjt8kR69rjVizwW"
         }
       }
     },
@@ -283,6 +286,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
         }
       }
     },
@@ -390,6 +396,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.svHoUz8vIun3j9tI"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.svHoUz8vIun3j9tI"
         }
       }
     }

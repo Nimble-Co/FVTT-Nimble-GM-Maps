@@ -176,6 +176,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
         }
       }
     },
@@ -283,6 +286,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
         }
       }
     },
@@ -390,6 +396,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
         }
       }
     },
@@ -497,6 +506,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
         }
       }
     }

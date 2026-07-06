@@ -176,6 +176,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.zUR4X7UV37zHrDF2"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.zUR4X7UV37zHrDF2"
         }
       }
     },
@@ -283,6 +286,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -390,6 +396,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -497,6 +506,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -604,6 +616,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -711,6 +726,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.1sz3bC7wjQsmM0jX"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1sz3bC7wjQsmM0jX"
         }
       }
     },
@@ -818,6 +836,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.2WAfywOh2jWhIlVy"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.2WAfywOh2jWhIlVy"
         }
       }
     },
@@ -925,6 +946,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -1032,6 +1056,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -1139,6 +1166,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -1246,6 +1276,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
         }
       }
     },
@@ -1353,6 +1386,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.61FWYH8AiVq2gD9R"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.61FWYH8AiVq2gD9R"
         }
       }
     },
@@ -1460,6 +1496,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
         }
       }
     },
@@ -1567,6 +1606,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
         }
       }
     },
@@ -1674,6 +1716,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.HIXIhUIG7S9vyF1B"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.HIXIhUIG7S9vyF1B"
         }
       }
     }

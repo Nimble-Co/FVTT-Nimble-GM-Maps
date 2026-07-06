@@ -176,6 +176,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.CZNitnDUWKOFE2Vc"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.CZNitnDUWKOFE2Vc"
         }
       }
     }

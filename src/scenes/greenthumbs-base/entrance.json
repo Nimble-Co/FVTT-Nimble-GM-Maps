@@ -176,6 +176,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
         }
       }
     },
@@ -283,6 +286,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
         }
       }
     }

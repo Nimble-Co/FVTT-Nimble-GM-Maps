@@ -4,6 +4,34 @@
  */
 
 const MODULE_ID = "nimble-maps";
+const ACTOR_FOLDER_NAME = "Nimble GM Guide";
+
+/**
+ * Get the compendium actor UUID referenced by a token.
+ * Primary: module-namespaced flag (never touched by core migrations).
+ * Fallback: legacy flags.core.sourceId.
+ * @param {TokenDocument} token
+ * @returns {string|undefined}
+ */
+function tokenActorUuid(token) {
+	return token.flags?.[MODULE_ID]?.actorUuid ?? token.flags?.core?.sourceId;
+}
+
+/**
+ * Find or create the Actor folder that imported actors are filed into.
+ * @returns {Promise<Folder>}
+ */
+async function getActorFolder() {
+	const existing = game.folders.find(
+		(f) => f.type === "Actor" && f.name === ACTOR_FOLDER_NAME,
+	);
+	if (existing) return existing;
+	return Folder.create({
+		name: ACTOR_FOLDER_NAME,
+		type: "Actor",
+		color: "#4a6741",
+	});
+}
 
 /**
  * Import actors referenced by tokens and update the scene's token data
@@ -15,7 +43,8 @@ async function onCreateScene(scene, options, userId) {
 	// Only run for the user who created the scene
 	if (game.user.id !== userId) return;
 
-	// Check if this scene came from a compendium (v12+: _stats.compendiumSource; legacy: flags.core.sourceId)
+	// Check if this scene came from a compendium
+	// (v12+: _stats.compendiumSource; legacy: flags.core.sourceId)
 	const sourceId =
 		scene._stats?.compendiumSource ?? scene.flags?.core?.sourceId;
 	if (!sourceId?.startsWith("Compendium.nimble-maps")) return;
@@ -24,26 +53,27 @@ async function onCreateScene(scene, options, userId) {
 	if (!tokens.length) return;
 
 	// Collect unique actor UUIDs that need to be imported
-	const actorUuidsToImport = new Map();
+	const actorUuidsToImport = new Set();
 
 	for (const token of tokens) {
-		const actorSourceId = token.flags?.core?.sourceId;
+		const actorSourceId = tokenActorUuid(token);
 		if (!actorSourceId?.startsWith("Compendium.")) continue;
 
 		// Skip if token already has a valid actorId
 		if (token.actorId && game.actors.get(token.actorId)) continue;
 
-		actorUuidsToImport.set(actorSourceId, null);
+		actorUuidsToImport.add(actorSourceId);
 	}
 
 	if (!actorUuidsToImport.size) return;
 
 	// Import actors from compendium
 	const importedActors = new Map();
+	let folder = null;
 
-	for (const uuid of actorUuidsToImport.keys()) {
+	for (const uuid of actorUuidsToImport) {
 		try {
-			// Check if actor already exists in world (by sourceId)
+			// Check if actor already exists in world (by provenance)
 			const existingActor = game.actors.find(
 				(a) =>
 					a._stats?.compendiumSource === uuid ||
@@ -62,9 +92,12 @@ async function onCreateScene(scene, options, userId) {
 				continue;
 			}
 
-			// Import actor to world (stamp provenance for future dedup)
+			// Import actor to world, filed into the module's folder,
+			// with provenance stamped for future dedup
+			folder ??= await getActorFolder();
 			const actorData = compendiumActor.toObject();
 			actorData._stats = { ...actorData._stats, compendiumSource: uuid };
+			actorData.folder = folder.id;
 			const importedActor = await Actor.create(actorData);
 			if (importedActor) {
 				importedActors.set(uuid, importedActor.id);
@@ -83,7 +116,7 @@ async function onCreateScene(scene, options, userId) {
 	const tokenUpdates = [];
 
 	for (const token of tokens) {
-		const actorSourceId = token.flags?.core?.sourceId;
+		const actorSourceId = tokenActorUuid(token);
 		const newActorId = importedActors.get(actorSourceId);
 
 		if (newActorId && token.actorId !== newActorId) {

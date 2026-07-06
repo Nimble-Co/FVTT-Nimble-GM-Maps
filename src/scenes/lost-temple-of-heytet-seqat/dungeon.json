@@ -176,6 +176,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
         }
       }
     },
@@ -283,6 +286,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
         }
       }
     },
@@ -390,6 +396,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
         }
       }
     },
@@ -497,6 +506,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.BSiFuESoO19XNaBx"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.BSiFuESoO19XNaBx"
         }
       }
     },
@@ -604,6 +616,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         }
       }
     },
@@ -711,6 +726,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         }
       }
     },
@@ -818,6 +836,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         }
       }
     },
@@ -925,6 +946,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         }
       }
     },
@@ -1032,6 +1056,9 @@
       "flags": {
         "core": {
           "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.zaM78FA829bAaDmR"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.zaM78FA829bAaDmR"
         }
       }
     }
