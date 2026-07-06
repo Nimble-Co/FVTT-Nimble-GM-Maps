@@ -3,6 +3,7 @@
 	"version": "0.0.1",
 	"description": "Pre-configured battle map scenes for the Nimble GM Guide adventures",
 	"type": "module",
+	"packageManager": "pnpm@10.33.0",
 	"scripts": {
 		"build": "node build/buildCompendia.mjs",
 		"merge:scenes": "node build/mergeSceneData.mjs",

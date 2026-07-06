@@ -11,6 +11,20 @@ const rootDir = path.resolve(__dirname, '..');
 const MODULE_NAME = 'nimble-maps';
 
 /**
+ * Detect the package manager that invoked this script.
+ * Falls back to pnpm, which is what this project uses (see pnpm-lock.yaml).
+ * @returns {string} 'pnpm' | 'npm' | 'yarn'
+ */
+function detectPackageManager() {
+	const userAgent = process.env.npm_config_user_agent || '';
+	if (userAgent.startsWith('yarn')) return 'yarn';
+	if (userAgent.startsWith('npm')) return 'npm';
+	return 'pnpm';
+}
+
+const PKG_MANAGER = detectPackageManager();
+
+/**
  * Run a command and stream output to console
  * @param {string} command - Command to run
  * @param {string} description - Description of the step
@@ -265,10 +279,10 @@ async function setup() {
 	}
 
 	// Step 2: Install dependencies
-	runCommand('npm install', 'Installing dependencies');
+	runCommand(`${PKG_MANAGER} install`, 'Installing dependencies');
 
 	// Step 3: Build the compendium
-	runCommand('npm run build', 'Building scene compendium');
+	runCommand(`${PKG_MANAGER} run build`, 'Building scene compendium');
 
 	// Step 4: Setup symlink
 	await setupSymlink(customPath);
