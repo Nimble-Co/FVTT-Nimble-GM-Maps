@@ -1852,8 +1852,8 @@
   "lights": [
     {
       "_id": "CGfire0010000000",
-      "x": 3272,
-      "y": 2400,
+      "x": 3268,
+      "y": 2298,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1888,8 +1888,8 @@
     },
     {
       "_id": "CGfire0020000000",
-      "x": 5160,
-      "y": 2932,
+      "x": 5197,
+      "y": 2880,
       "elevation": 0,
       "rotation": 0,
       "walls": true,

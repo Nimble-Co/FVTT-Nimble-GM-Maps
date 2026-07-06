@@ -409,8 +409,8 @@
   "lights": [
     {
       "_id": "light001",
-      "x": 3876,
-      "y": 1527,
+      "x": 3873,
+      "y": 1524,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -434,8 +434,8 @@
     },
     {
       "_id": "light002",
-      "x": 3111,
-      "y": 1465,
+      "x": 3109,
+      "y": 1463,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -459,8 +459,8 @@
     },
     {
       "_id": "light003",
-      "x": 3288,
-      "y": 1134,
+      "x": 3291,
+      "y": 1135,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -478,64 +478,14 @@
           "max": 1
         },
         "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light004",
-      "x": 3012,
-      "y": 1736,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 5,
-        "angle": 360,
-        "color": "#88aa44",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 1,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.3
       },
       "hidden": false,
       "flags": {}
     },
     {
       "_id": "light005",
-      "x": 2594,
-      "y": 826,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light006",
-      "x": 2478,
-      "y": 963,
+      "x": 2585,
+      "y": 816,
       "rotation": 0,
       "config": {
         "dim": 0,

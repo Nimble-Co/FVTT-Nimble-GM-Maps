@@ -186,9 +186,9 @@
   ],
   "lights": [
     {
-      "_id": "NbH0IwkOqqUyLnFx",
-      "x": 1100,
-      "y": 1450,
+      "_id": "NbH0IwkOqqUyLnF0",
+      "x": 476,
+      "y": 827,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -198,8 +198,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 7,
-        "color": null,
+        "bright": 6,
+        "color": "#f0a050",
         "coloration": 1,
         "dim": 0,
         "attenuation": 0.5,
@@ -208,9 +208,9 @@
         "contrast": 0,
         "shadows": 0,
         "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
           "reverse": false
         },
         "darkness": {
@@ -222,8 +222,9 @@
       "flags": {}
     },
     {
-      "x": 2550,
-      "y": 2150,
+      "_id": "NbH0IwkOqqUyLnF1",
+      "x": 1925,
+      "y": 1542,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -234,7 +235,7 @@
         "alpha": 0.5,
         "angle": 360,
         "bright": 6,
-        "color": null,
+        "color": "#f0a050",
         "coloration": 1,
         "dim": 0,
         "attenuation": 0.5,
@@ -243,9 +244,9 @@
         "contrast": 0,
         "shadows": 0,
         "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
           "reverse": false
         },
         "darkness": {
@@ -254,8 +255,7 @@
         }
       },
       "hidden": false,
-      "flags": {},
-      "_id": "hUrDYlDz7QXam4Ia"
+      "flags": {}
     }
   ],
   "notes": [],

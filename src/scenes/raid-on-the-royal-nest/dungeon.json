@@ -5514,601 +5514,685 @@
   ],
   "lights": [
     {
-      "_id": "light001",
-      "x": 7928,
-      "y": 1630,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light002",
-      "x": 7668,
-      "y": 1570,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light003",
-      "x": 7770,
-      "y": 1732,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light004",
-      "x": 7840,
-      "y": 1488,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light005",
-      "x": 7830,
-      "y": 1382,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light006",
-      "x": 7633,
-      "y": 1722,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light007",
-      "x": 7675,
-      "y": 1434,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light008",
-      "x": 7962,
-      "y": 1478,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light009",
-      "x": 7532,
-      "y": 1729,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light010",
-      "x": 7921,
-      "y": 1762,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light011",
-      "x": 7681,
-      "y": 1320,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light012",
-      "x": 7879,
-      "y": 1917,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light013",
-      "x": 7442,
-      "y": 1562,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light014",
-      "x": 7936,
-      "y": 1339,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light015",
-      "x": 8112,
-      "y": 1515,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light016",
-      "x": 7781,
-      "y": 1966,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light017",
-      "x": 8327,
-      "y": 1436,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light018",
+      "_id": "cHAwqbORFKUB7jem",
       "x": 3341,
       "y": 870,
+      "elevation": 0,
       "rotation": 0,
+      "walls": true,
+      "vision": false,
       "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
+        "negative": false,
+        "priority": 0,
         "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
         "animation": {
           "type": "torch",
           "speed": 3,
-          "intensity": 3
+          "intensity": 4,
+          "reverse": false
         },
         "darkness": {
           "min": 0,
           "max": 1
-        },
-        "luminosity": 0.5
+        }
       },
       "hidden": false,
       "flags": {}
     },
     {
-      "_id": "light019",
+      "_id": "DMEIpGAcK3ChqnYk",
+      "x": 8330,
+      "y": 1437,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "PKCdDSpBZEO0sKni",
+      "x": 3526,
+      "y": 4575,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "3HISLMqCEMMCGNDD",
+      "x": 7269,
+      "y": 1447,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "3D3vG6cgNbFKkKIG",
+      "x": 2669,
+      "y": 4297,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "BRCm3O9QVVv7hYfo",
+      "x": 6100,
+      "y": 5330,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "RIRTaIMUFnzKIc2y",
+      "x": 4436,
+      "y": 870,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "5PDDm51vV66r063i",
+      "x": 4362,
+      "y": 5133,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "eDO6bwuaqHVsXwmX",
+      "x": 3530,
+      "y": 3992,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "nIYpbDHPvI7c4Pso",
+      "x": 7578,
+      "y": 2117,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "3IHami64DPg8P9uf",
+      "x": 2776,
+      "y": 3533,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "nd9RTysTt7br5KNq",
+      "x": 4031,
+      "y": 4269,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "mJlUrUCGvXP2PG8U",
+      "x": 2773,
+      "y": 2277,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "6gXmi0CL5zKQCd8N",
+      "x": 8032,
+      "y": 2114,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "rZIXQLBmqzU1V7gc",
+      "x": 5731,
+      "y": 3258,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "9KpDs3XQLEQwuA83",
+      "x": 5104,
+      "y": 5332,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "sJR5acmSpMMeTErw",
       "x": 5090,
       "y": 4269,
+      "elevation": 0,
       "rotation": 0,
+      "walls": true,
+      "vision": false,
       "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
+        "negative": false,
+        "priority": 0,
         "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
         "animation": {
           "type": "torch",
           "speed": 3,
-          "intensity": 3
+          "intensity": 4,
+          "reverse": false
         },
         "darkness": {
           "min": 0,
           "max": 1
-        },
-        "luminosity": 0.5
+        }
       },
       "hidden": false,
       "flags": {}
     },
     {
-      "_id": "light020",
-      "x": 7269,
-      "y": 1445,
+      "_id": "8ICLeqFFeAARn20X",
+      "x": 1924,
+      "y": 2598,
+      "elevation": 0,
       "rotation": 0,
+      "walls": true,
+      "vision": false,
       "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
+        "negative": false,
+        "priority": 0,
         "alpha": 0.5,
+        "angle": 360,
+        "bright": 6,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ff9329",
         "animation": {
           "type": "torch",
           "speed": 3,
-          "intensity": 3
+          "intensity": 4,
+          "reverse": false
         },
         "darkness": {
           "min": 0,
           "max": 1
-        },
-        "luminosity": 0.5
+        }
       },
       "hidden": false,
       "flags": {}
     },
     {
-      "_id": "light021",
-      "x": 2669,
-      "y": 4295,
+      "_id": "8Mapm2g1SQ0MjgHs",
+      "x": 7800,
+      "y": 1593,
+      "elevation": 0,
       "rotation": 0,
+      "walls": true,
+      "vision": false,
       "config": {
-        "dim": 0,
-        "bright": 6,
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.35,
         "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
+        "bright": 5,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.3,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#ffb020",
         "animation": {
-          "type": "torch",
+          "type": "pulse",
           "speed": 3,
-          "intensity": 3
+          "intensity": 4,
+          "reverse": false
         },
         "darkness": {
           "min": 0,
           "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light022",
-      "x": 8030,
-      "y": 2112,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light023",
-      "x": 3524,
-      "y": 4574,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light024",
-      "x": 5729,
-      "y": 3258,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
+        }
       },
       "hidden": false,
       "flags": {}

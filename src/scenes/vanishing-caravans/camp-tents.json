@@ -1852,8 +1852,8 @@
   "lights": [
     {
       "_id": "rmyiwTSPHiezPkJK",
-      "x": 5200,
-      "y": 2900,
+      "x": 5197,
+      "y": 2880,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1888,7 +1888,7 @@
     },
     {
       "_id": "GMMYkj1HT5hlFPh5",
-      "x": 3300,
+      "x": 3270,
       "y": 2300,
       "elevation": 0,
       "rotation": 0,

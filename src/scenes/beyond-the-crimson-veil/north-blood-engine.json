@@ -1296,101 +1296,26 @@
   ],
   "lights": [
     {
-      "_id": "light001",
-      "x": 1060,
-      "y": 860,
+      "_id": "nD1jY90gyGpPY2G7",
+      "x": 2180,
+      "y": 1310,
       "rotation": 0,
       "config": {
         "dim": 0,
         "bright": 6,
         "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
+        "color": "#992222",
+        "alpha": 0.3,
         "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 2
         },
         "darkness": {
           "min": 0,
           "max": 1
         },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light002",
-      "x": 1960,
-      "y": 860,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light003",
-      "x": 600,
-      "y": 1940,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light004",
-      "x": 2410,
-      "y": 1940,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 6,
-        "angle": 360,
-        "color": "#ff9329",
-        "alpha": 0.5,
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 3
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.5
+        "luminosity": 0.2
       },
       "hidden": false,
       "flags": {}

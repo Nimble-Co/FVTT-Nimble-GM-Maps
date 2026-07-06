@@ -1962,9 +1962,9 @@
   ],
   "lights": [
     {
-      "_id": "light001",
-      "x": 500,
-      "y": 480,
+      "_id": "pp4KW55OCSt93rtt",
+      "x": 254,
+      "y": 253,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -1987,9 +1987,9 @@
       "flags": {}
     },
     {
-      "_id": "light002",
-      "x": 1500,
-      "y": 480,
+      "_id": "WbTMspACglHYXPCi",
+      "x": 1206,
+      "y": 195,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -2012,9 +2012,9 @@
       "flags": {}
     },
     {
-      "_id": "light003",
-      "x": 2500,
-      "y": 480,
+      "_id": "JGSK3EVHG58cMdr8",
+      "x": 2185,
+      "y": 198,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -2037,9 +2037,9 @@
       "flags": {}
     },
     {
-      "_id": "light004",
-      "x": 500,
-      "y": 1350,
+      "_id": "0QvQWFk0QORP2jQL",
+      "x": 204,
+      "y": 1197,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -2062,9 +2062,9 @@
       "flags": {}
     },
     {
-      "_id": "light005",
-      "x": 1500,
-      "y": 1350,
+      "_id": "QqhX6obxQW98WZOC",
+      "x": 1194,
+      "y": 1199,
       "rotation": 0,
       "config": {
         "dim": 0,
@@ -2087,9 +2087,59 @@
       "flags": {}
     },
     {
-      "_id": "light006",
-      "x": 2500,
-      "y": 1350,
+      "_id": "6tzP5HAH352epTHN",
+      "x": 2195,
+      "y": 1209,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 7,
+        "angle": 360,
+        "color": "#bb2222",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.25
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "yzYsHYcivmozH6gi",
+      "x": 2995,
+      "y": 267,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 7,
+        "angle": 360,
+        "color": "#bb2222",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 2,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.25
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "NZVdxeTqskjGiYbg",
+      "x": 2995,
+      "y": 1232,
       "rotation": 0,
       "config": {
         "dim": 0,

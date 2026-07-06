@@ -40,7 +40,7 @@
     "darknessLevel": 0,
     "darknessLock": false,
     "globalLight": {
-      "enabled": false,
+      "enabled": true,
       "alpha": 0.5,
       "bright": false,
       "color": null,
@@ -51,7 +51,7 @@
       "shadows": 0,
       "darkness": {
         "min": 0,
-        "max": 1
+        "max": 0.25
       }
     },
     "cycle": true,
@@ -295,44 +295,7 @@
       }
     }
   ],
-  "lights": [
-    {
-      "_id": "0aFN0l1kk2ID7nh0",
-      "x": 6000,
-      "y": 3400,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 12,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "flags": {}
-    }
-  ],
+  "lights": [],
   "notes": [],
   "sounds": [],
   "templates": [],

@@ -630,9 +630,9 @@
   ],
   "lights": [
     {
-      "_id": "HP3qXWv61eaNqaFd",
-      "x": 2550,
-      "y": 1000,
+      "_id": "bhZbodsJ8DiclefK",
+      "x": 1500,
+      "y": 1280,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -643,18 +643,18 @@
         "alpha": 0.5,
         "angle": 360,
         "bright": 6,
-        "color": null,
-        "coloration": 1,
         "dim": 0,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
         "contrast": 0,
         "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
         "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
           "reverse": false
         },
         "darkness": {

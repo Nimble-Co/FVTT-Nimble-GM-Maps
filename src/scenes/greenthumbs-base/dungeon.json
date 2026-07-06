@@ -1815,81 +1815,6 @@
       "flags": {}
     },
     {
-      "_id": "light004",
-      "x": 3989,
-      "y": 2692,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 5,
-        "angle": 360,
-        "color": "#88aa44",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 1,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.3
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light005",
-      "x": 3909,
-      "y": 2953,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 5,
-        "angle": 360,
-        "color": "#88aa44",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 1,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.3
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "light006",
-      "x": 4315,
-      "y": 2949,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 5,
-        "angle": 360,
-        "color": "#88aa44",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 1,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.3
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
       "_id": "light007",
       "x": 2925,
       "y": 2397,
@@ -1990,31 +1915,6 @@
       "flags": {}
     },
     {
-      "_id": "light011",
-      "x": 4222,
-      "y": 2591,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 5,
-        "angle": 360,
-        "color": "#88aa44",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 1,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.3
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
       "_id": "light012",
       "x": 1178,
       "y": 1733,
@@ -2110,6 +2010,306 @@
           "max": 1
         },
         "luminosity": 0.5
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "z8825WgbCbcYsQFz",
+      "x": 6260,
+      "y": 2166,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "A5znXVIm0zMMXGO0",
+      "x": 6120,
+      "y": 2444,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "xwvC0pDg4mWWhsXd",
+      "x": 4221,
+      "y": 2579,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "bzex4vOT23p12mgv",
+      "x": 4093,
+      "y": 2588,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "2BU7YpMXg2AuSsUK",
+      "x": 3998,
+      "y": 2698,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "YgL5DYo2tKW0K9Rv",
+      "x": 4394,
+      "y": 2717,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "5HKC2L9NcTZeiRwL",
+      "x": 5376,
+      "y": 2751,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "cK2KzyIZDFX8jU9h",
+      "x": 5312,
+      "y": 2800,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "GTR5t1tjLKY398Rw",
+      "x": 4414,
+      "y": 2845,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "yZabEMcJX8ZYUAcA",
+      "x": 4324,
+      "y": 2953,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "ksLAaLP3NrMUIon4",
+      "x": 3901,
+      "y": 2966,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "eLlW2bcB390ZFod3",
+      "x": 4103,
+      "y": 2982,
+      "rotation": 0,
+      "config": {
+        "dim": 0,
+        "bright": 3,
+        "angle": 360,
+        "color": "#88aa44",
+        "alpha": 0.35,
+        "animation": {
+          "type": "pulse",
+          "speed": 1,
+          "intensity": 2
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        },
+        "luminosity": 0.3
       },
       "hidden": false,
       "flags": {}
