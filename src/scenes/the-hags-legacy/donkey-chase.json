@@ -180,13 +180,13 @@
       }
     },
     {
-      "name": "Donkey",
+      "name": "Borrick (Donkey)",
       "displayName": 0,
       "actorLink": false,
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/assets/donkey.png",
+        "src": "modules/nimble-maps/assets/tokens/donkey.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
