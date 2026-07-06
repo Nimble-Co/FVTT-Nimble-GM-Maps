@@ -1,6 +1,6 @@
 {
   "_id": "HvkdJNCRsDrrnSMs",
-  "name": "Nimble",
+  "name": "The Valley of Hope",
   "folder": "World",
   "navigation": true,
   "navOrder": 0,
@@ -24,7 +24,7 @@
   },
   "backgroundColor": "#999999",
   "grid": {
-    "type": 2,
+    "type": 0,
     "size": 100,
     "style": "solidLines",
     "thickness": 1,

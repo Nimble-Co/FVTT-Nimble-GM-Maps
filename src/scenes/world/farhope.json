@@ -1,6 +1,6 @@
 {
   "_id": "MDdod1pgsYWCzO9N",
-  "name": "Farhope",
+  "name": "Farhope - Castle",
   "folder": "World",
   "navigation": true,
   "navOrder": 0,
@@ -24,7 +24,7 @@
   },
   "backgroundColor": "#999999",
   "grid": {
-    "type": 1,
+    "type": 0,
     "size": 100,
     "style": "solidLines",
     "thickness": 1,
@@ -39,7 +39,7 @@
     "darknessLevel": 0,
     "darknessLock": false,
     "globalLight": {
-      "enabled": false,
+      "enabled": true,
       "alpha": 0.5,
       "bright": false,
       "color": null,

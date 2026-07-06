@@ -1,6 +1,6 @@
 {
   "_id": "4lwewxwF7BqbTklW",
-  "name": "Scene 1",
+  "name": "Iceforge Mountains",
   "folder": "World",
   "navigation": true,
   "navOrder": 0,
@@ -24,7 +24,7 @@
   },
   "backgroundColor": "#999999",
   "grid": {
-    "type": 1,
+    "type": 0,
     "size": 100,
     "style": "solidLines",
     "thickness": 1,

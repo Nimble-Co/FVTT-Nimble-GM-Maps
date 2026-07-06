@@ -1,6 +1,6 @@
 {
   "_id": "NUEDEFAULTSCENE0",
-  "name": "Farhope",
+  "name": "Farhope - City",
   "folder": "World",
   "navigation": true,
   "navOrder": 0,
@@ -14,8 +14,8 @@
     "rotation": 0
   },
   "foreground": null,
-  "width": 3840,
-  "height": 1920,
+  "width": 1841,
+  "height": 680,
   "padding": 0,
   "initial": {
     "x": null,
@@ -37,7 +37,7 @@
   "fogExploration": false,
   "environment": {
     "globalLight": {
-      "enabled": false,
+      "enabled": true,
       "darkness": {
         "max": 1,
         "min": 0
@@ -71,188 +71,7 @@
   },
   "drawings": [],
   "tokens": [],
-  "lights": [
-    {
-      "_id": "d22Cax8HDPMG4F6I",
-      "x": 656,
-      "y": 1473,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 4.27,
-        "color": "#ff9072",
-        "coloration": 1,
-        "dim": 8.54,
-        "attenuation": 0.5,
-        "luminosity": 0,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "fog",
-          "speed": 2,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "negative": false,
-        "priority": 0
-      },
-      "hidden": false,
-      "flags": {},
-      "elevation": 0
-    },
-    {
-      "x": 1826,
-      "y": 1891,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 4.27,
-        "color": "#ffffff",
-        "coloration": 1,
-        "dim": 8.54,
-        "attenuation": 0.5,
-        "luminosity": 0,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "fog",
-          "speed": 2,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "negative": false,
-        "priority": 0
-      },
-      "hidden": false,
-      "flags": {},
-      "_id": "eGuMjw01vEYimWVX",
-      "elevation": 0
-    },
-    {
-      "x": 3057,
-      "y": 1439,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 4.27,
-        "color": "#ffffff",
-        "coloration": 1,
-        "dim": 8.54,
-        "attenuation": 0.5,
-        "luminosity": 0,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "fog",
-          "speed": 2,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "negative": false,
-        "priority": 0
-      },
-      "hidden": false,
-      "flags": {},
-      "_id": "TCET4ZNPkl5oZukY",
-      "elevation": 0
-    },
-    {
-      "_id": "cOpD0Q4AuCGiKRCb",
-      "x": 2824,
-      "y": 772,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0.26,
-        "color": "#ffed79",
-        "coloration": 1,
-        "dim": 0.53,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "torch",
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "negative": false,
-        "priority": 0
-      },
-      "hidden": false,
-      "flags": {},
-      "elevation": 0
-    },
-    {
-      "_id": "adhkydxURYamgKKF",
-      "x": 2822,
-      "y": 777,
-      "rotation": 179,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "alpha": 0.65,
-        "angle": 30,
-        "bright": 5,
-        "color": "#ff976f",
-        "coloration": 1,
-        "dim": 5,
-        "attenuation": 0.7,
-        "luminosity": 0.3,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": "sunburst",
-          "speed": 1,
-          "intensity": 7,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "negative": false,
-        "priority": 0
-      },
-      "hidden": false,
-      "flags": {},
-      "elevation": 0
-    }
-  ],
+  "lights": [],
   "notes": [],
   "sounds": [],
   "templates": [],
