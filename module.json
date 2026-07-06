@@ -2,7 +2,7 @@
 	"id": "nimble-maps",
 	"title": "Nimble Maps",
 	"description": "Pre-configured battle map scenes for the Nimble GM Guide adventures with walls, lighting, and monster tokens.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"authors": [
 		{
 			"name": "Trevor Carlston",
@@ -32,7 +32,7 @@
 	],
 	"url": "https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps",
 	"manifest": "https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps/releases/latest/download/module.json",
-	"download": "https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps/releases/download/v0.0.3/module.zip",
+	"download": "https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps/releases/download/v0.0.4/module.zip",
 	"readme": "https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps/blob/main/README.md",
 	"changelog": "https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps/blob/main/CHANGELOG.md",
 	"bugs": "https://github.com/Nimble-Co/FVTT-Nimble-GM-Maps/issues",

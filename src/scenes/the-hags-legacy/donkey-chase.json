@@ -178,7 +178,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.cNbaLrHdwnwnMMmY"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.cNbaLrHdwnwnMMmY"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.cNbaLrHdwnwnMMmY",
+          "adventure": "The Hag's Legacy"
         }
       }
     },

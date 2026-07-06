@@ -178,7 +178,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -288,7 +289,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -398,7 +400,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -508,7 +511,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.BSiFuESoO19XNaBx"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.BSiFuESoO19XNaBx"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.BSiFuESoO19XNaBx",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -618,7 +622,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -728,7 +733,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -838,7 +844,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -948,7 +955,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.34sqnNwhGhVQvZPD",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     },
@@ -1058,7 +1066,8 @@
           "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.zaM78FA829bAaDmR"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.zaM78FA829bAaDmR"
+          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.zaM78FA829bAaDmR",
+          "adventure": "Lost Temple of Heytet-Seqat"
         }
       }
     }

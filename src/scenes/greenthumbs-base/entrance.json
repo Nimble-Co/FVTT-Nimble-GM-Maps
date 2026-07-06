@@ -178,7 +178,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
+          "adventure": "Greenthumb's Base"
         }
       }
     },
@@ -288,7 +289,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
+          "adventure": "Greenthumb's Base"
         }
       }
     }

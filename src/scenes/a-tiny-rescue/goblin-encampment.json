@@ -178,7 +178,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD",
+          "adventure": "A Tiny Rescue"
         }
       }
     },
@@ -288,7 +289,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+          "adventure": "A Tiny Rescue"
         }
       }
     },
@@ -398,7 +400,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+          "adventure": "A Tiny Rescue"
         }
       }
     },
@@ -508,7 +511,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+          "adventure": "A Tiny Rescue"
         }
       }
     },
@@ -618,7 +622,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+          "adventure": "A Tiny Rescue"
         }
       }
     }

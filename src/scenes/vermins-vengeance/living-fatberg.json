@@ -178,7 +178,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.CZNitnDUWKOFE2Vc"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.CZNitnDUWKOFE2Vc"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.CZNitnDUWKOFE2Vc",
+          "adventure": "Vermin's Vengeance"
         }
       }
     }

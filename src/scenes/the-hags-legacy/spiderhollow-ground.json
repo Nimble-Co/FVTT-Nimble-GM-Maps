@@ -178,7 +178,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.3Mjt8kR69rjVizwW"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.3Mjt8kR69rjVizwW"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.3Mjt8kR69rjVizwW",
+          "adventure": "The Hag's Legacy"
         }
       }
     },
@@ -288,7 +289,8 @@
           "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP",
+          "adventure": "The Hag's Legacy"
         }
       }
     },
@@ -398,7 +400,8 @@
           "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.svHoUz8vIun3j9tI"
         },
         "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.svHoUz8vIun3j9tI"
+          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.svHoUz8vIun3j9tI",
+          "adventure": "The Hag's Legacy"
         }
       }
     }

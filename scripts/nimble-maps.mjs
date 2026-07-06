@@ -6,7 +6,7 @@
  */
 
 const MODULE_ID = "nimble-maps";
-const ACTOR_FOLDER_NAME = "Nimble GM Guide";
+const ACTOR_FOLDER_NAME = "Nimble GM Guide Creatures";
 
 /**
  * Get the compendium actor UUID referenced by a token.
@@ -20,17 +20,41 @@ function tokenActorUuid(token) {
 }
 
 /**
- * Find or create the Actor folder that imported actors are filed into.
+ * Find or create the parent Actor folder that imported actors are filed into.
  * @returns {Promise<Folder>}
  */
 async function getActorFolder() {
 	const existing = game.folders.find(
-		(f) => f.type === "Actor" && f.name === ACTOR_FOLDER_NAME,
+		(f) =>
+			f.type === "Actor" && f.name === ACTOR_FOLDER_NAME && !f.folder,
 	);
 	if (existing) return existing;
 	return Folder.create({
 		name: ACTOR_FOLDER_NAME,
 		type: "Actor",
+		color: "#4a6741",
+	});
+}
+
+/**
+ * Find or create the per-adventure subfolder under the parent folder.
+ * @param {Folder} parent
+ * @param {string} adventure - Adventure name from the token flag
+ * @returns {Promise<Folder>}
+ */
+async function getAdventureFolder(parent, adventure) {
+	if (!adventure) return parent;
+	const existing = game.folders.find(
+		(f) =>
+			f.type === "Actor" &&
+			f.name === adventure &&
+			f.folder?.id === parent.id,
+	);
+	if (existing) return existing;
+	return Folder.create({
+		name: adventure,
+		type: "Actor",
+		folder: parent.id,
 		color: "#4a6741",
 	});
 }
@@ -54,11 +78,18 @@ async function importActorsForScene(scene) {
 	});
 	if (!brokenTokens.length) return 0;
 
-	const actorUuids = new Set(brokenTokens.map((t) => tokenActorUuid(t)));
+	// uuid -> adventure name (from the first token referencing it)
+	const actorUuids = new Map();
+	for (const t of brokenTokens) {
+		const uuid = tokenActorUuid(t);
+		if (!actorUuids.has(uuid)) {
+			actorUuids.set(uuid, t.flags?.[MODULE_ID]?.adventure ?? null);
+		}
+	}
 	const importedActors = new Map();
-	let folder = null;
+	let parentFolder = null;
 
-	for (const uuid of actorUuids) {
+	for (const [uuid, adventure] of actorUuids) {
 		try {
 			// Reuse an actor previously imported from this compendium entry
 			const existingActor = game.actors.find(
@@ -77,7 +108,8 @@ async function importActorsForScene(scene) {
 				continue;
 			}
 
-			folder ??= await getActorFolder();
+			parentFolder ??= await getActorFolder();
+			const folder = await getAdventureFolder(parentFolder, adventure);
 			const actorData = compendiumActor.toObject();
 			actorData._stats = { ...actorData._stats, compendiumSource: uuid };
 			actorData.folder = folder.id;
