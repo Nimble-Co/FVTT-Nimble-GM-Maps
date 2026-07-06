@@ -20,6 +20,70 @@ function tokenActorUuid(token) {
 }
 
 /**
+ * Imports run strictly one at a time through this chain. A folder drag
+ * fires createScene for every scene almost simultaneously; unserialized,
+ * each import races the "does the folder exist yet?" check and creates
+ * duplicate folders.
+ */
+let importChain = Promise.resolve();
+
+/**
+ * @param {() => Promise<number>} job
+ * @returns {Promise<number>}
+ */
+function enqueue(job) {
+	const run = importChain.then(job);
+	importChain = run.catch((error) => {
+		console.error(`${MODULE_ID} | import failed:`, error);
+		return 0;
+	});
+	return run;
+}
+
+/**
+ * Merge duplicate parent/adventure folders created by earlier versions
+ * (or a mid-drag crash) back into a single folder tree.
+ * @returns {Promise<void>}
+ */
+async function consolidateFolders() {
+	const parents = game.folders.filter(
+		(f) => f.type === "Actor" && f.name === ACTOR_FOLDER_NAME && !f.folder,
+	);
+	if (parents.length <= 1) return;
+	const keeper = parents[0];
+	for (const extra of parents.slice(1)) {
+		const children = game.folders.filter(
+			(f) => f.type === "Actor" && f.folder?.id === extra.id,
+		);
+		for (const child of children) {
+			const target = game.folders.find(
+				(f) =>
+					f.type === "Actor" &&
+					f.name === child.name &&
+					f.folder?.id === keeper.id,
+			);
+			if (target) {
+				const moves = game.actors
+					.filter((a) => a.folder?.id === child.id)
+					.map((a) => ({ _id: a.id, folder: target.id }));
+				if (moves.length) await Actor.updateDocuments(moves);
+				await child.delete();
+			} else {
+				await child.update({ folder: keeper.id });
+			}
+		}
+		const strays = game.actors
+			.filter((a) => a.folder?.id === extra.id)
+			.map((a) => ({ _id: a.id, folder: keeper.id }));
+		if (strays.length) await Actor.updateDocuments(strays);
+		await extra.delete();
+		console.log(
+			`${MODULE_ID} | merged duplicate "${ACTOR_FOLDER_NAME}" folder`,
+		);
+	}
+}
+
+/**
  * Find or create the parent Actor folder that imported actors are filed into.
  * @returns {Promise<Folder>}
  */
@@ -152,17 +216,22 @@ async function importActorsForScene(scene) {
  */
 async function onCreateScene(scene, options, userId) {
 	if (game.user.id !== userId) return;
-	await importActorsForScene(scene);
+	await enqueue(() => importActorsForScene(scene));
 }
 
-// Repair sweep: fix any previously-imported scenes with dangling tokens
-// (e.g. scenes dragged in while the module was disabled or broken).
+// Repair sweep: merge any duplicated folders, then fix previously-imported
+// scenes with dangling tokens (e.g. scenes dragged in while the module was
+// disabled or broken).
 Hooks.once("ready", async () => {
 	console.log(`${MODULE_ID} | Initializing Nimble Maps`);
 	if (!game.user.isGM) return;
+	await enqueue(async () => {
+		await consolidateFolders();
+		return 0;
+	});
 	let repaired = 0;
 	for (const scene of game.scenes) {
-		repaired += await importActorsForScene(scene);
+		repaired += await enqueue(() => importActorsForScene(scene));
 	}
 	if (repaired) {
 		ui.notifications.info(
