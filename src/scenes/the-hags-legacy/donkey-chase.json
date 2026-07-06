@@ -186,7 +186,7 @@
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "modules/nimble-maps/assets/tokens/donkey.webp",
+        "src": "icons/environment/creatures/horse-brown.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
