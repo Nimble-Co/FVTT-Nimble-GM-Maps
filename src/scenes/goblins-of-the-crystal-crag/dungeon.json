@@ -2491,6 +2491,226 @@
           "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.4CLKneQXGJuCNoP7"
         }
       }
+    },
+    {
+      "_id": "7I6kTwz8irjmlc4q",
+      "name": "Giant Spider (in hole)",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2150,
+      "y": 3400,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": true,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO"
+        }
+      }
+    },
+    {
+      "_id": "qvWDkZ7SLFBsFJhi",
+      "name": "Giant Spider (in hole)",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3000,
+      "y": 4000,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": true,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO"
+        },
+        "nimble-maps": {
+          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO"
+        }
+      }
     }
   ],
   "lights": [
