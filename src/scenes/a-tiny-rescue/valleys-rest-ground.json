@@ -1075,8 +1075,8 @@
   "lights": [
     {
       "_id": "VRGL000000000000",
-      "x": 1450,
-      "y": 1450,
+      "x": 2937,
+      "y": 313,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1086,8 +1086,332 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 2,
-        "dim": 4,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000100000000",
+      "x": 1946,
+      "y": 478,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000200000000",
+      "x": 2095,
+      "y": 880,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000300000000",
+      "x": 1456,
+      "y": 881,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000400000000",
+      "x": 2923,
+      "y": 1000,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000500000000",
+      "x": 3328,
+      "y": 1074,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000600000000",
+      "x": 3323,
+      "y": 1684,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000700000000",
+      "x": 1076,
+      "y": 2196,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000800000000",
+      "x": 3320,
+      "y": 2380,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "coloration": 1,
+        "color": "#f0a050",
+        "animation": {
+          "type": "torch",
+          "speed": 3,
+          "intensity": 4,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "hidden": false,
+      "flags": {}
+    },
+    {
+      "_id": "VRGL000900000000",
+      "x": 3125,
+      "y": 2800,
+      "elevation": 0,
+      "rotation": 0,
+      "walls": true,
+      "vision": false,
+      "config": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
@@ -1111,8 +1435,8 @@
     },
     {
       "_id": "VRGL001000000000",
-      "x": 1380,
-      "y": 970,
+      "x": 1402,
+      "y": 2925,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1122,8 +1446,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 1,
-        "dim": 2,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
@@ -1146,9 +1470,9 @@
       "flags": {}
     },
     {
-      "_id": "VRGL002000000000",
-      "x": 1260,
-      "y": 850,
+      "_id": "VRGL001100000000",
+      "x": 2100,
+      "y": 2933,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1158,8 +1482,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
@@ -1182,9 +1506,9 @@
       "flags": {}
     },
     {
-      "_id": "VRGL003000000000",
-      "x": 2080,
-      "y": 870,
+      "_id": "VRGL001200000000",
+      "x": 1401,
+      "y": 3079,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1194,8 +1518,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
@@ -1218,9 +1542,9 @@
       "flags": {}
     },
     {
-      "_id": "VRGL004000000000",
-      "x": 2540,
-      "y": 410,
+      "_id": "VRGL001300000000",
+      "x": 2104,
+      "y": 3079,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1230,8 +1554,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 1,
-        "dim": 2,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
@@ -1254,9 +1578,9 @@
       "flags": {}
     },
     {
-      "_id": "VRGL005000000000",
-      "x": 3370,
-      "y": 1070,
+      "_id": "VRGL001400000000",
+      "x": 2924,
+      "y": 3488,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1266,8 +1590,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 1,
-        "dim": 2,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
@@ -1290,9 +1614,9 @@
       "flags": {}
     },
     {
-      "_id": "VRGL006000000000",
-      "x": 1370,
-      "y": 1630,
+      "_id": "VRGL001500000000",
+      "x": 2502,
+      "y": 3490,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1302,8 +1626,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
@@ -1326,9 +1650,9 @@
       "flags": {}
     },
     {
-      "_id": "VRGL007000000000",
-      "x": 1780,
-      "y": 2920,
+      "_id": "VRGL900000000000",
+      "x": 1500,
+      "y": 1465,
       "elevation": 0,
       "rotation": 0,
       "walls": true,
@@ -1338,188 +1662,8 @@
         "priority": 0,
         "alpha": 0.5,
         "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "coloration": 1,
-        "color": "#f0a050",
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 4,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "VRGL008000000000",
-      "x": 2140,
-      "y": 2510,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "coloration": 1,
-        "color": "#f0a050",
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 4,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "VRGL009000000000",
-      "x": 2390,
-      "y": 2890,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "coloration": 1,
-        "color": "#f0a050",
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 4,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "VRGL010000000000",
-      "x": 3180,
-      "y": 2870,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "coloration": 1,
-        "color": "#f0a050",
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 4,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "VRGL011000000000",
-      "x": 1270,
-      "y": 3270,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "coloration": 1,
-        "color": "#f0a050",
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 4,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "VRGL012000000000",
-      "x": 2070,
-      "y": 3420,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 1.5,
-        "dim": 3,
+        "bright": 3,
+        "dim": 6,
         "attenuation": 0.5,
         "luminosity": 0.5,
         "saturation": 0,
