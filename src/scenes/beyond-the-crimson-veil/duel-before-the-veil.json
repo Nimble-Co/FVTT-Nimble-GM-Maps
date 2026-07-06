@@ -73,436 +73,1500 @@
   "drawings": [],
   "tokens": [
     {
-      "_id": "t3867699",
+      "_id": "iL5oqLKiyZ2XXbxE",
+      "name": "Uldraz, Champion of Pain",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": true,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 2,
+      "height": 2,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1100,
+      "y": 1100,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.nopp2DKrd9uK67B7"
+        }
+      }
+    },
+    {
+      "_id": "HBlxPUCuQwinyT55",
       "name": "Glabrezu",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1200,
-      "y": 1200,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 1.2,
-      "height": 1.2,
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 2,
+      "height": 2,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1750,
+      "y": 700,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "nopp2DKrd9uK67B7"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.nopp2DKrd9uK67B7"
         }
       }
     },
     {
-      "_id": "t4397316",
-      "name": "Glabrezu",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1500,
-      "y": 1350,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 1.2,
-      "height": 1.2,
+      "_id": "ECQKaw9hANCD4bp6",
+      "name": "Stenchling",
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1700,
+      "y": 400,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "nopp2DKrd9uK67B7"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
         }
       }
     },
     {
-      "_id": "t3316489",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1600,
-      "y": 1300,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "_id": "cAgYVqA3o2BxWpuB",
+      "name": "Stenchling",
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1900,
+      "y": 550,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
         }
       }
     },
     {
-      "_id": "t7189942",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1559,
-      "y": 1450,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "_id": "IS8LoYhfQcU5an1a",
+      "name": "Stenchling",
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2050,
+      "y": 750,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
         }
       }
     },
     {
-      "_id": "t6020833",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1450,
-      "y": 1559,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "_id": "TPcu9Gigq8OGMFpN",
+      "name": "Stenchling",
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
-        }
-      }
-    },
-    {
-      "_id": "t904704",
-      "name": "Stench Fiend",
       "actorLink": false,
-      "displayName": 20,
-      "x": 1300,
-      "y": 1600,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
       "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
-        }
-      }
-    },
-    {
-      "_id": "t3692460",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1150,
-      "y": 1559,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
-        }
-      }
-    },
-    {
-      "_id": "t7304988",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1040,
-      "y": 1450,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
-        }
-      }
-    },
-    {
-      "_id": "t3073873",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1000,
-      "y": 1300,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
-        }
-      }
-    },
-    {
-      "_id": "t4037321",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1040,
-      "y": 1150,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
-        }
-      }
-    },
-    {
-      "_id": "t392846",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1149,
-      "y": 1040,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
-        }
-      }
-    },
-    {
-      "_id": "t2600275",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1300,
+      "hexagonalShape": 0,
+      "x": 2150,
       "y": 1000,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
         }
       }
     },
     {
-      "_id": "t8084397",
-      "name": "Stench Fiend",
+      "_id": "4NmC8EAaLOnhIDGD",
+      "name": "Stenchling",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2150,
+      "y": 1250,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
+        }
+      }
+    },
+    {
+      "_id": "M7b7jwTrdpbHbEV6",
+      "name": "Stenchling",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2050,
+      "y": 1500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
+        }
+      }
+    },
+    {
+      "_id": "2J7c40yBgmQynlJn",
+      "name": "Stenchling",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1900,
+      "y": 1700,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
+        }
+      }
+    },
+    {
+      "_id": "jEdJfMXu3Ja2e0JX",
+      "name": "Stenchling",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1700,
+      "y": 1850,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
+        }
+      }
+    },
+    {
+      "_id": "vq8XWzJzWQ4lhUaK",
+      "name": "Stenchling",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 1450,
-      "y": 1040,
+      "y": 1950,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
         }
       }
     },
     {
-      "_id": "t8076150",
-      "name": "Stench Fiend",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1559,
-      "y": 1149,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "_id": "AXGRVHSibEV2vQa8",
+      "name": "Stenchling",
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1850,
+      "y": 250,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "rV8kgeKs7wRL55j6"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
+        }
+      }
+    },
+    {
+      "_id": "Cbph6D0ImHYaIECn",
+      "name": "Stenchling",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2180,
+      "y": 1680,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
+        }
+      }
+    },
+    {
+      "_id": "Fk3Grfq8z544nfNg",
+      "name": "Stenchling",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2250,
+      "y": 1380,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6"
         }
       }
     }

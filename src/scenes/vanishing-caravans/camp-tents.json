@@ -73,438 +73,18 @@
   "drawings": [],
   "tokens": [
     {
-      "name": "Bandit",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#000000",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "0Mh9Idti5myIza9u",
-      "hidden": false,
-      "sort": 4,
-      "shape": 4,
-      "delta": {
-        "_id": "VIQg7J2gPnQTomwK",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "lnIVgzoGN3LRExZe",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 3,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "core": {
-                "overlay": true
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769276139226,
-              "modifiedTime": 1769276139226,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 3400,
-      "y": 2600,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "QDrdtfMTW3ssZNcC"
-    },
-    {
+      "_id": "YBQ7TCKyOrsWOVvX",
       "name": "Bandit Bruiser",
       "displayName": 50,
+      "actorId": null,
       "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#000000",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 180,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "IjEvWDx41frQQfQg",
-      "hidden": false,
-      "sort": 5,
-      "shape": 4,
-      "_id": "0Z39kQd8P1pLxqny",
-      "delta": {
-        "_id": "2eqrlSHni0CmAbFJ",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 24
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "X7k8W412ydZir915",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 1,
-              "startTurn": 2
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "core": {
-                "overlay": true
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769275142831,
-              "modifiedTime": 1769275142831,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 3400,
-      "y": 2400,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Bandit",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#000000",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 333.434948822922,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "0Mh9Idti5myIza9u",
-      "hidden": false,
-      "sort": 4,
-      "shape": 4,
-      "delta": {
-        "_id": "VIQg7J2gPnQTomwK",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 3200,
-      "y": 2000,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "HUFaPcSeXQimbSOB"
-    },
-    {
-      "name": "New Actor",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -516,1368 +96,12 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
-      "lockRotation": false,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "h5e5aeLhWjNlvMvV",
-      "hidden": false,
-      "sort": 7,
-      "shape": 4,
-      "_id": "RGFroQb4QfYxOdSv",
-      "delta": {
-        "_id": "usMApsPh3IV6qwYx",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 4200,
-      "y": 800,
+      "hexagonalShape": 0,
+      "x": 3650,
+      "y": 2450,
       "elevation": 0,
+      "sort": 0,
       "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "New Actor",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": false,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "h5e5aeLhWjNlvMvV",
-      "hidden": false,
-      "sort": 8,
-      "shape": 4,
-      "_id": "vL3oiVlgBvVU9jhZ",
-      "delta": {
-        "_id": "w9JXAzNQVI8NWC0M",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 4600,
-      "y": 800,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "New Actor",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#2f2d2d",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": false,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "h5e5aeLhWjNlvMvV",
-      "hidden": false,
-      "sort": 9,
-      "shape": 4,
-      "_id": "8IsgLdjFdsFr5VZa",
-      "delta": {
-        "_id": "1uwzSsRUDwPq5sn2",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 4400,
-      "y": 1000,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "New Actor",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": false,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "h5e5aeLhWjNlvMvV",
-      "hidden": false,
-      "sort": 10,
-      "shape": 4,
-      "_id": "ziUkx7vTIKK0oApR",
-      "delta": {
-        "_id": "ZGYAQZqBQc51FIxF",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 4200,
-      "y": 600,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "New Actor",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": false,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "h5e5aeLhWjNlvMvV",
-      "hidden": false,
-      "sort": 11,
-      "shape": 4,
-      "_id": "n68BclKljT4duWnZ",
-      "delta": {
-        "_id": "5UovenHdUhPT7bZA",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "CJEJDXhSnzhdh0Jn",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769277196221,
-              "modifiedTime": 1769277196221,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 4000,
-      "y": 1000,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Bandit",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#872c2c",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "0Mh9Idti5myIza9u",
-      "hidden": false,
-      "sort": 12,
-      "shape": 4,
-      "_id": "SUcOOMiTLdrVk66t",
-      "delta": {
-        "_id": "e3BJoIeCTPbs4TI2",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 12
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "_id": "17CIXXUBeglLYRh4",
-            "_tombstone": true
-          },
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "3u1eQJKpYYUVUomk",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 6
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "core": {
-                "overlay": true
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769279529271,
-              "modifiedTime": 1769279529271,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 4800,
-      "y": 3400,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Bandit",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#b82e2e",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "0Mh9Idti5myIza9u",
-      "hidden": false,
-      "sort": 13,
-      "shape": 4,
-      "_id": "onkDkiEOHOvQzqU0",
-      "delta": {
-        "_id": "Bcl32d3C2kDHwQcx",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 12
-            }
-          }
-        },
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 5000,
-      "y": 2800,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Bandit",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#931a1a",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 90,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "0Mh9Idti5myIza9u",
-      "hidden": false,
-      "sort": 14,
-      "shape": 4,
-      "_id": "vJ0LA8IX1Efc1Irk",
-      "delta": {
-        "_id": "QwkzkWb0ruJnq8m9",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 12
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "_id": "17CIXXUBeglLYRh4",
-            "_tombstone": true
-          },
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "baUBi5WeDdGrP1eL",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 8
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "core": {
-                "overlay": true
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769279578959,
-              "modifiedTime": 1769279578959,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 5200,
-      "y": 3000,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Bandit",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#af2323",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 63.434948822921996,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "0Mh9Idti5myIza9u",
-      "hidden": false,
-      "sort": 15,
-      "shape": 4,
-      "_id": "GDViJW9B1yMgDgHm",
-      "delta": {
-        "_id": "72nnhckDGlhpIYVC",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 12
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "_id": "17CIXXUBeglLYRh4",
-            "_tombstone": true
-          },
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "V6bCcr5b5u0qvCRx",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 1,
-              "startTurn": 2
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769278173375,
-              "modifiedTime": 1769278173375,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 5000,
-      "y": 2200,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Bandit Assassin",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 180,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "wohP9oMHTu1BF8e8",
-      "hidden": false,
-      "sort": 17,
-      "shape": 4,
-      "_id": "tWJEsxiFb1mIoqLi",
-      "delta": {
-        "_id": "hr1LBTmA5ZliiBUi",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 24
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "WU3hyIIHhIDv0yuD",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 3,
-              "startTurn": 1
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "core": {
-                "overlay": true
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769280037084,
-              "modifiedTime": 1769280037084,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 5200,
-      "y": 2800,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Bandit Assassin",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/svg/mystery-man.svg",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
       "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
@@ -1948,154 +172,133 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "wohP9oMHTu1BF8e8",
       "hidden": false,
-      "sort": 19,
-      "shape": 4,
-      "_id": "m0mEdUDLIeUp5HgN",
-      "delta": {
-        "_id": "G7faZEHtSNXGflVQ",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 24
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "name": "Grappled",
-            "img": "systems/nimble/assets/icons/grappled.svg",
-            "statuses": [
-              "grappled"
-            ],
-            "_id": "O7xIoTka97U3CstG",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 1
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769279075839,
-              "modifiedTime": 1769279075839,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          },
-          {
-            "name": "Hampered",
-            "img": "systems/nimble/assets/icons//hampered.svg",
-            "statuses": [
-              "hampered"
-            ],
-            "_id": "hTngcWJ676ZjvfZE",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 1
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769279075890,
-              "modifiedTime": 1769279075890,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "JOnACeOjEF5BSICn",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 3,
-              "startTurn": 1
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "core": {
-                "overlay": true
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769280038923,
-              "modifiedTime": 1769280038923,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.b4xQqvIabCUfsJDT"
+        }
+      }
+    },
+    {
+      "_id": "E8XY4uPzn12R5Qn8",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
-      "x": 5000,
+      "hexagonalShape": 0,
+      "x": 3500,
       "y": 2600,
       "elevation": 0,
+      "sort": 0,
       "locked": false,
-      "_movementHistory": [],
-      "_regions": []
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
     },
     {
-      "name": "Thorn Quickblade",
+      "_id": "jIlDaq6gq60XiRSb",
+      "name": "Bandit",
       "displayName": 50,
+      "actorId": null,
       "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "tokenizer/npc-images/thorn_quickblade.Token.webp?1769280550375",
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -2107,8 +310,1191 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
+      "hexagonalShape": 0,
+      "x": 3800,
+      "y": 2680,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
       "lockRotation": true,
-      "rotation": 90,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "ZLaimNWdrrvwoWTu",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2700,
+      "y": 1900,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "CEEgCjw9KOAi5QwC",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3400,
+      "y": 1800,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "K3mXB1iFOMk1L6UQ",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2700,
+      "y": 2500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "bi98XPZeJvT3b2Ua",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2900,
+      "y": 2200,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "v15O9fGAu045OI06",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3100,
+      "y": 2050,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "dYBycsF5st4jDxbG",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3350,
+      "y": 3500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "44L9jTnQzsI9LHNb",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 5060,
+      "y": 2780,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "TZujzdChmvHmf6TT",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 5320,
+      "y": 3020,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "LSaZ3EE3KlVH5tyJ",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 4940,
+      "y": 3050,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "NZ5ay3C2GxJIyRa7",
+      "name": "Bandit",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 5450,
+      "y": 2720,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 50,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.r9NnB02qiXpLFrcP"
+        }
+      }
+    },
+    {
+      "_id": "kuKx64GkQXqfncoa",
+      "name": "Bandit Assassin",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 5100,
+      "y": 3400,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
       "alpha": 1,
       "disposition": -1,
       "displayBars": 40,
@@ -2164,7 +1550,7 @@
           "ring": null,
           "background": null
         },
-        "effects": 1,
+        "effects": 0,
         "subject": {
           "scale": 1,
           "texture": null
@@ -2177,380 +1563,226 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "d3tD05ajtPopo47v",
-      "hidden": false,
-      "sort": 20,
-      "shape": 4,
-      "_id": "dOenQfQ0vn9XONS9",
-      "delta": {
-        "_id": "4y9BqODPsflTkgXw",
-        "system": {
-          "attributes": {
-            "hp": {
-              "value": 125
-            }
-          }
-        },
-        "items": [
-          {
-            "name": "Stormquill (Crossbow).",
-            "type": "monsterFeature",
-            "system": {
-              "macro": "",
-              "identifier": "",
-              "rules": [],
-              "activation": {
-                "acquireTargetsFromTemplate": false,
-                "cost": {
-                  "details": "",
-                  "quantity": 1,
-                  "type": "none",
-                  "isReaction": false
-                },
-                "duration": {
-                  "details": "",
-                  "quantity": 1,
-                  "type": "action"
-                },
-                "effects": [
-                  {
-                    "id": "wElyhdT6v0dlE6pW",
-                    "type": "damage",
-                    "damageType": "piercing",
-                    "formula": "4d4+10",
-                    "parentContext": null,
-                    "parentNode": null,
-                    "on": {
-                      "hit": [
-                        {
-                          "id": "nNX0TJBukICEAVPA",
-                          "type": "damageOutcome",
-                          "outcome": "fullDamage",
-                          "parentContext": "hit",
-                          "parentNode": "wElyhdT6v0dlE6pW"
-                        }
-                      ]
-                    },
-                    "canCrit": true,
-                    "canMiss": true
-                  }
-                ],
-                "showDescription": true,
-                "targets": {
-                  "count": 1,
-                  "restrictions": "",
-                  "attackType": "range",
-                  "distance": 8
-                },
-                "template": {
-                  "length": 1,
-                  "radius": 1,
-                  "shape": "",
-                  "width": 1
-                }
-              },
-              "description": "<p>Move 4, 4d4+10 damage (Range 8).</p>",
-              "subtype": "action",
-              "parentItemId": "MFMzlm2y1DBiAtmk"
-            },
-            "_id": "PAvmy2NNVCMdVhCN",
-            "img": "icons/weapons/crossbows/crossbow-blue.webp",
-            "effects": [],
-            "folder": null,
-            "sort": 10000,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD",
-              "modifiedTime": 1769281868834
-            },
-            "ownership": {
-              "default": 0
-            }
-          },
-          {
-            "name": "Heart Piercer (Rapier).",
-            "type": "monsterFeature",
-            "system": {
-              "macro": "",
-              "identifier": "",
-              "rules": [],
-              "activation": {
-                "acquireTargetsFromTemplate": false,
-                "cost": {
-                  "details": "",
-                  "quantity": 1,
-                  "type": "none",
-                  "isReaction": false
-                },
-                "duration": {
-                  "details": "",
-                  "quantity": 1,
-                  "type": "action"
-                },
-                "effects": [
-                  {
-                    "id": "Vmm3IICgQYD0xGC3",
-                    "type": "damage",
-                    "damageType": "acid",
-                    "formula": "2d4+3",
-                    "parentContext": null,
-                    "parentNode": null,
-                    "canCrit": true,
-                    "canMiss": true,
-                    "on": {
-                      "criticalHit": [
-                        {
-                          "id": "MpDaOq8uDvrZ2wMS",
-                          "type": "condition",
-                          "condition": "hampered",
-                          "parentContext": "criticalHit",
-                          "parentNode": "Vmm3IICgQYD0xGC3"
-                        },
-                        {
-                          "id": "bsAQa2WUYIGIyiqf",
-                          "type": "condition",
-                          "condition": "dazed",
-                          "parentContext": "criticalHit",
-                          "parentNode": "Vmm3IICgQYD0xGC3"
-                        }
-                      ],
-                      "hit": [
-                        {
-                          "id": "Y9wDO9u4qcW9qXnW",
-                          "type": "damageOutcome",
-                          "outcome": "fullDamage",
-                          "parentContext": "hit",
-                          "parentNode": "Vmm3IICgQYD0xGC3"
-                        }
-                      ]
-                    }
-                  }
-                ],
-                "showDescription": true,
-                "targets": {
-                  "count": 1,
-                  "restrictions": "",
-                  "attackType": "",
-                  "distance": 1
-                },
-                "template": {
-                  "length": 1,
-                  "radius": 1,
-                  "shape": "",
-                  "width": 1
-                }
-              },
-              "description": "<p>Move 8, 2d4+3 damage. On crit: Dazed.</p>",
-              "subtype": "action",
-              "parentItemId": "MFMzlm2y1DBiAtmk"
-            },
-            "_id": "35HP1npCJHxMtbS1",
-            "img": "icons/skills/melee/hand-grip-sword-red.webp",
-            "effects": [],
-            "folder": null,
-            "sort": 20000,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD",
-              "modifiedTime": 1769281868834
-            },
-            "ownership": {
-              "default": 0
-            }
-          },
-          {
-            "type": "monsterFeature",
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD",
-              "modifiedTime": 1769285361227
-            },
-            "effects": [],
-            "flags": {
-              "nimble": {
-                "collapsed": false
-              }
-            },
-            "name": "Bloodied",
-            "img": "icons/svg/blood.svg",
-            "_id": "0k4nZBbPulJBjNqo",
-            "folder": null,
-            "sort": 0,
-            "system": {
-              "description": "<p><strong>Smoke Bomb.</strong> At 62 HP, Thorn immediately becomes invisible (until the end of his next turn), then moves 8, ignoring opportunity attacks.</p>",
-              "macro": "",
-              "identifier": "",
-              "activation": {
-                "cost": {
-                  "isReaction": false,
-                  "quantity": 1,
-                  "details": "",
-                  "type": "none"
-                },
-                "targets": {
-                  "count": 1,
-                  "restrictions": "",
-                  "attackType": "",
-                  "distance": 1
-                },
-                "duration": {
-                  "quantity": 1,
-                  "details": "",
-                  "type": "none"
-                },
-                "template": {
-                  "radius": 1,
-                  "width": 1,
-                  "shape": "",
-                  "length": 1
-                },
-                "effects": [],
-                "acquireTargetsFromTemplate": false,
-                "showDescription": true
-              },
-              "rules": [],
-              "subtype": "bloodied",
-              "parentItemId": ""
-            },
-            "ownership": {
-              "default": 0
-            }
-          },
-          {
-            "name": "Strike Back.",
-            "type": "monsterFeature",
-            "_id": "cOghqOH57PZlsiRw",
-            "img": "icons/skills/ranged/arrow-barbed-flying-gray.webp",
-            "system": {
-              "macro": "",
-              "identifier": "",
-              "rules": [],
-              "activation": {
-                "acquireTargetsFromTemplate": false,
-                "cost": {
-                  "details": "",
-                  "quantity": 1,
-                  "type": "none",
-                  "isReaction": false
-                },
-                "duration": {
-                  "details": "",
-                  "quantity": 1,
-                  "type": "none"
-                },
-                "effects": [],
-                "showDescription": true,
-                "targets": {
-                  "count": 1,
-                  "restrictions": "",
-                  "attackType": "",
-                  "distance": 1
-                },
-                "template": {
-                  "length": 1,
-                  "radius": 1,
-                  "shape": "",
-                  "width": 1
-                }
-              },
-              "description": "<p>When crit, make a Heart Piercer or Stormquill attack in return.</p>",
-              "subtype": "feature",
-              "parentItemId": ""
-            },
-            "effects": [],
-            "folder": null,
-            "sort": 0,
-            "flags": {
-              "nimble": {
-                "collapsed": false
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD",
-              "modifiedTime": 1769285364723
-            },
-            "ownership": {
-              "default": 0
-            }
-          }
-        ],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "icons/svg/skull.svg",
-            "statuses": [
-              "dead"
-            ],
-            "_id": "6lYD2o54AlhIiJ6w",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 0,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 2
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "core": {
-                "overlay": true
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.5.0",
-              "createdTime": 1769283901597,
-              "modifiedTime": 1769283901597,
-              "lastModifiedBy": "AZkC7hgpqgKkBIwD"
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": "systems/nimble/assets/legendaryMonsterImages/core/thorn.webp",
-        "ownership": null
+      "hidden": true,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.9WKy1tqSaiffgo3r"
+        }
+      }
+    },
+    {
+      "_id": "oV3E8UPf8hlICUVE",
+      "name": "Bandit Assassin",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Bandit.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
-      "x": 5800,
-      "y": 200,
+      "hexagonalShape": 0,
+      "x": 5740,
+      "y": 3080,
       "elevation": 0,
+      "sort": 0,
       "locked": false,
-      "_movementHistory": [],
-      "_regions": []
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": true,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.9WKy1tqSaiffgo3r"
+        }
+      }
+    },
+    {
+      "_id": "qqF9KKsXZbFBEYze",
+      "name": "Thorn Quickblade",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": true,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "systems/nimble/assets/legendaryMonsterImages/core/thorn.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 6700,
+      "y": 2100,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.lgul04YrKU0RjG0F"
+        }
+      }
     }
   ],
   "lights": [

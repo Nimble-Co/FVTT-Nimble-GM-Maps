@@ -73,498 +73,1821 @@
   "drawings": [],
   "tokens": [
     {
-      "_id": "t9475870",
+      "_id": "UKBjPcpAezhktD44",
       "name": "Cultist",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 750,
-      "y": 520,
+      "y": 500,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t9617738",
+      "_id": "erUehQ7FnaOWlWjs",
       "name": "Cultist",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 1250,
-      "y": 520,
+      "y": 480,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t1377341",
+      "_id": "6TRhEcCmLaWtqvmQ",
       "name": "Cultist",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 1750,
       "y": 520,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t3509841",
+      "_id": "0nRSmwjOP550KroP",
       "name": "Cultist",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 2250,
-      "y": 520,
+      "y": 500,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t6951025",
+      "_id": "gq6fbdTwIQxCOJm5",
       "name": "Cultist",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 750,
-      "y": 1020,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 800,
+      "y": 1040,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t1676505",
+      "_id": "dgci68VkQdv9V6SK",
       "name": "Cultist",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1250,
-      "y": 1020,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1280,
+      "y": 1000,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t1747380",
+      "_id": "VQqEOJXlFraa6f2B",
       "name": "Cultist",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1750,
-      "y": 1020,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1780,
+      "y": 1040,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t1451074",
+      "_id": "z1gPZxzqVQLwnrgz",
       "name": "Cultist",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 2250,
-      "y": 1020,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.8,
-      "height": 0.8,
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2200,
+      "y": 1000,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "YjKhjwiYoNrrhXfo"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
         }
       }
     },
     {
-      "_id": "t8504352",
+      "_id": "fBTwstljPGXgt3dD",
       "name": "Fanatic",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
-      "x": 900,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 920,
+      "y": 800,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
+        }
+      }
+    },
+    {
+      "_id": "uaaPYopzTCsGI8Hf",
+      "name": "Fanatic",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2080,
       "y": 820,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "WJikH84pVBBYkwh0"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
         }
       }
     },
     {
-      "_id": "t7834991",
+      "_id": "gNMITrN1n3ErKF3X",
       "name": "Fanatic",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 2100,
-      "y": 820,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
-      "disposition": -1,
-      "displayBars": 20,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "flags": {
-        "core": {
-          "sourceId": "WJikH84pVBBYkwh0"
-        }
-      }
-    },
-    {
-      "_id": "t3499438",
-      "name": "Fanatic",
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 1100,
-      "y": 320,
+      "y": 300,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "WJikH84pVBBYkwh0"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
         }
       }
     },
     {
-      "_id": "t1987203",
+      "_id": "wZxmHI7KeQvaKqkC",
       "name": "Fanatic",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 1900,
       "y": 320,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "WJikH84pVBBYkwh0"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
         }
       }
     },
     {
-      "_id": "t6163923",
+      "_id": "f6iUNG5zTg3wSelA",
       "name": "Doomsayer",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 600,
-      "y": 1220,
+      "y": 1240,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "8cTXSC0sZZFE5Vbg"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
         }
       }
     },
     {
-      "_id": "t7342779",
+      "_id": "qkmGSeoGjj26cyKM",
       "name": "Doomsayer",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 2400,
-      "y": 1220,
+      "y": 1200,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "8cTXSC0sZZFE5Vbg"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
         }
       }
     },
     {
-      "_id": "t1298611",
+      "_id": "mf2zQ35zVfIRdb4G",
       "name": "Doomsayer",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "displayName": 20,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
       "x": 1400,
-      "y": 220,
+      "y": 200,
       "elevation": 0,
-      "lockRotation": false,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
-      "actorId": null,
-      "actorData": {},
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "8cTXSC0sZZFE5Vbg"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
         }
       }
     },
     {
-      "_id": "t5503",
+      "_id": "sv91RRbXwYpoiTgq",
       "name": "Doomsayer",
-      "actorLink": false,
-      "displayName": 20,
-      "x": 1600,
-      "y": 1220,
-      "elevation": 0,
-      "lockRotation": false,
-      "rotation": 0,
-      "texture": {
-        "src": "systems/nimble/assets/tokens/monsters/generic.webp"
-      },
-      "width": 0.85,
-      "height": 0.85,
+      "displayName": 50,
       "actorId": null,
-      "actorData": {},
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1600,
+      "y": 1240,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
       "disposition": -1,
-      "displayBars": 20,
+      "displayBars": 40,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
       "flags": {
         "core": {
-          "sourceId": "8cTXSC0sZZFE5Vbg"
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
+        }
+      }
+    },
+    {
+      "_id": "bbD2tS2asXs5e66m",
+      "name": "Azriel, Lord of Pain & Flame",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": true,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 3,
+      "height": 3,
+      "texture": {
+        "src": "systems/nimble/assets/legendaryMonsterImages/core/azriel.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1450,
+      "y": 1700,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.ZtvN9z6ZEolYZu1R"
         }
       }
     }

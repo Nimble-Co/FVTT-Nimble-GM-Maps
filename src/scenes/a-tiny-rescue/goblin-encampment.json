@@ -73,13 +73,18 @@
   "drawings": [],
   "tokens": [
     {
-      "name": "GobbyRider",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 2,
-      "height": 2,
+      "_id": "bhZbodsJ8DiclefK",
+      "name": "Goblin Ratrider",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": true,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
       "texture": {
-        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/gobbyratrider.png",
+        "src": "icons/creatures/mammals/rodent-rat-green.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -91,7 +96,13 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
-      "lockRotation": false,
+      "hexagonalShape": 0,
+      "x": 2000,
+      "y": 1100,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
@@ -154,81 +165,6 @@
           "texture": null
         }
       },
-      "flags": {
-        "about-face": {
-          "direction": 81.86989764584403,
-          "indicatorDisabled": false,
-          "flipOrRotate": "global",
-          "facingDirection": "global",
-          "rotationOffset": 0,
-          "prevPos": {
-            "x": 2100,
-            "y": 1300
-          }
-        }
-      },
-      "actorId": "qmifofKOdrSewVAf",
-      "hidden": false,
-      "sort": 5,
-      "_id": "x64p8Yla4KBooPr4",
-      "delta": {
-        "_id": "U8SV3Cu9v7nK9PX7",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 30,
-              "seconds": null,
-              "combat": null,
-              "rounds": null,
-              "turns": null,
-              "startRound": 3,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "dae": {
-                "specialDuration": []
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2200,
-      "y": 2000,
-      "elevation": 0,
-      "locked": false,
-      "_regions": [],
-      "shape": 4,
       "turnMarker": {
         "mode": 1,
         "animation": null,
@@ -236,16 +172,26 @@
         "disposition": false
       },
       "movementAction": null,
-      "_movementHistory": []
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD"
+        }
+      }
     },
     {
-      "name": "Gobby",
-      "displayName": 0,
+      "_id": "pp4KW55OCSt93rtt",
+      "name": "Goblin",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "width": 1,
-      "height": 1,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
       "texture": {
-        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/GoblinToken.png",
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -257,7 +203,13 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
-      "lockRotation": false,
+      "hexagonalShape": 0,
+      "x": 1500,
+      "y": 950,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
@@ -314,123 +266,12 @@
           "ring": null,
           "background": null
         },
-        "effects": 1,
+        "effects": 0,
         "subject": {
           "scale": 1,
           "texture": null
         }
       },
-      "flags": {
-        "about-face": {
-          "direction": 69.44395478041653,
-          "prevPos": {
-            "x": 1900,
-            "y": 1300
-          }
-        }
-      },
-      "actorId": "GDVjTUBcWuaibUOj",
-      "hidden": false,
-      "sort": 6,
-      "_id": "2OnfmR6pSPpPoDtl",
-      "delta": {
-        "_id": "JKm9ts4czLzM4Cmy",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Charged",
-            "img": "modules/nimble5e/icons/charged.svg",
-            "_id": "dnd5echarged0000",
-            "statuses": [
-              "charged"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 36,
-              "seconds": null,
-              "combat": null,
-              "rounds": null,
-              "turns": null,
-              "startRound": 4,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "dae": {
-                "specialDuration": []
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 36,
-              "seconds": null,
-              "combat": null,
-              "rounds": null,
-              "turns": null,
-              "startRound": 4,
-              "startTurn": 2
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "dae": {
-                "specialDuration": []
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2200,
-      "y": 2100,
-      "elevation": 0,
-      "locked": false,
-      "_regions": [],
-      "shape": 4,
       "turnMarker": {
         "mode": 1,
         "animation": null,
@@ -438,181 +279,26 @@
         "disposition": false
       },
       "movementAction": null,
-      "_movementHistory": []
-    },
-    {
-      "name": "Gobby",
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/GoblinToken.png",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": -1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": false,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "flags": {
-        "about-face": {
-          "direction": 90,
-          "prevPos": {
-            "x": 2300,
-            "y": 1200
-          }
-        },
-        "nimble5e": {
-          "squaresMoved": 0
-        }
-      },
-      "actorId": "GDVjTUBcWuaibUOj",
       "hidden": false,
-      "sort": 7,
-      "_id": "Dbchmx7BM9KneJzU",
-      "delta": {
-        "_id": "kcxd72GrCGSXZybD",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 30,
-              "seconds": null,
-              "combat": null,
-              "rounds": null,
-              "turns": null,
-              "startRound": 3,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "dae": {
-                "specialDuration": []
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2300,
-      "y": 2000,
-      "elevation": 0,
-      "locked": false,
-      "_regions": [],
-      "shape": 4,
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "_movementHistory": []
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+        }
+      }
     },
     {
-      "name": "Gobby",
-      "displayName": 0,
+      "_id": "WbTMspACglHYXPCi",
+      "name": "Goblin",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "width": 1,
-      "height": 1,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
       "texture": {
-        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/GoblinToken.png",
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -624,7 +310,13 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
-      "lockRotation": false,
+      "hexagonalShape": 0,
+      "x": 1700,
+      "y": 1100,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
@@ -681,83 +373,12 @@
           "ring": null,
           "background": null
         },
-        "effects": 1,
+        "effects": 0,
         "subject": {
           "scale": 1,
           "texture": null
         }
       },
-      "flags": {
-        "about-face": {
-          "direction": 69.44395478041653,
-          "prevPos": {
-            "x": 2000,
-            "y": 1300
-          }
-        }
-      },
-      "actorId": "GDVjTUBcWuaibUOj",
-      "hidden": false,
-      "sort": 6,
-      "delta": {
-        "_id": "JKm9ts4czLzM4Cmy",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 36,
-              "seconds": null,
-              "combat": null,
-              "rounds": null,
-              "turns": null,
-              "startRound": 4,
-              "startTurn": 3
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "dae": {
-                "specialDuration": []
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2300,
-      "y": 2100,
-      "elevation": 0,
-      "locked": false,
-      "_regions": [],
-      "_id": "eeCf4dwGSIhnrtKC",
-      "shape": 4,
       "turnMarker": {
         "mode": 1,
         "animation": null,
@@ -765,16 +386,26 @@
         "disposition": false
       },
       "movementAction": null,
-      "_movementHistory": []
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+        }
+      }
     },
     {
-      "name": "Gobby",
-      "displayName": 0,
+      "_id": "JGSK3EVHG58cMdr8",
+      "name": "Goblin",
+      "displayName": 50,
+      "actorId": null,
       "actorLink": false,
-      "width": 1,
-      "height": 1,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
       "texture": {
-        "src": "moulinette/adventures/trevor-carlston-nimble-gmguide-adventures/uploads/GoblinToken.png",
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -786,7 +417,13 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
-      "lockRotation": false,
+      "hexagonalShape": 0,
+      "x": 1200,
+      "y": 1350,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
       "disposition": -1,
@@ -843,86 +480,12 @@
           "ring": null,
           "background": null
         },
-        "effects": 1,
+        "effects": 0,
         "subject": {
           "scale": 1,
           "texture": null
         }
       },
-      "flags": {
-        "about-face": {
-          "direction": 36.86989764584402,
-          "prevPos": {
-            "x": 1800,
-            "y": 1700
-          }
-        },
-        "nimble5e": {
-          "squaresMoved": 0
-        }
-      },
-      "actorId": "GDVjTUBcWuaibUOj",
-      "hidden": false,
-      "sort": 6,
-      "delta": {
-        "_id": "JKm9ts4czLzM4Cmy",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 36,
-              "seconds": null,
-              "combat": null,
-              "rounds": null,
-              "turns": null,
-              "startRound": null,
-              "startTurn": null
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "dae": {
-                "specialDuration": []
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2200,
-      "y": 2000,
-      "elevation": 0,
-      "locked": false,
-      "_regions": [],
-      "_id": "kadaDfmSvUKUKO3c",
-      "shape": 4,
       "turnMarker": {
         "mode": 1,
         "animation": null,
@@ -930,7 +493,119 @@
         "disposition": false
       },
       "movementAction": null,
-      "_movementHistory": []
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+        }
+      }
+    },
+    {
+      "_id": "0QvQWFk0QORP2jQL",
+      "name": "Goblin",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 0.5,
+      "height": 0.5,
+      "texture": {
+        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1850,
+      "y": 1450,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+        }
+      }
     }
   ],
   "lights": [

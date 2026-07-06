@@ -73,246 +73,46 @@
   "drawings": [],
   "tokens": [
     {
-      "name": "Rat Swarm (Swarm of Rats)",
-      "texture": {
-        "offsetX": 0,
-        "offsetY": 0,
-        "scaleX": 1.5,
-        "scaleY": 1.5,
-        "src": "systems/dnd5e/tokens/beast/SwarmRats.webp",
-        "tint": "#ffffff",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "rotation": 0,
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0,
-        "enabled": false
-      },
-      "detectionModes": [],
+      "_id": "eGM7NhasfYe0surl",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
       "width": 1,
       "height": 1,
-      "alpha": 1,
-      "lockRotation": false,
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "displayBars": 0,
-      "displayName": 0,
-      "disposition": -1,
-      "rotation": 33.6900675259798,
-      "actorLink": false,
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "occludable": {
-        "radius": 0
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "dzqSJFngnBGRxcls",
-      "hidden": false,
+      "hexagonalShape": 0,
+      "x": 800,
+      "y": 800,
+      "elevation": 0,
       "sort": 0,
-      "shape": 4,
-      "_id": "qsRONlnJIlxLdvQR",
-      "delta": {
-        "_id": "8RMsZA7ANfdaean0",
-        "system": {
-          "attributes": {
-            "hp": {
-              "temp": 0,
-              "value": 0
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "_id": "dnd5ebloodied000",
-            "name": "Bloodied",
-            "img": "systems/dnd5e/icons/svg/statuses/bloodied.svg",
-            "statuses": [
-              "bloodied"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 246,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 246,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 3
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 1600,
-      "y": 2400,
-      "elevation": 0,
       "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Rat Swarm (Swarm of Rats)",
-      "texture": {
-        "offsetX": 0,
-        "offsetY": 0,
-        "scaleX": 1.5,
-        "scaleY": 1.5,
-        "src": "systems/dnd5e/tokens/beast/SwarmRats.webp",
-        "tint": "#ffffff",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "rotation": 0,
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0,
-        "enabled": false
-      },
-      "detectionModes": [],
-      "width": 1,
-      "height": 1,
+      "lockRotation": true,
+      "rotation": 0,
       "alpha": 1,
-      "lockRotation": false,
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
+      "disposition": -1,
+      "displayBars": 0,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
-      "displayBars": 0,
-      "displayName": 0,
-      "disposition": -1,
-      "rotation": 66.03751102542182,
-      "actorLink": false,
       "light": {
         "negative": false,
         "priority": 0,
@@ -337,316 +137,6 @@
           "min": 0,
           "max": 1
         }
-      },
-      "occludable": {
-        "radius": 0
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "dzqSJFngnBGRxcls",
-      "hidden": false,
-      "sort": 1,
-      "shape": 4,
-      "_id": "dapFvdgKaoWbAlXr",
-      "delta": {
-        "_id": "cUzSzV6ABK9ca3Nk",
-        "system": {
-          "attributes": {
-            "hp": {
-              "temp": 0,
-              "value": 0
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "_id": "dnd5ebloodied000",
-            "name": "Bloodied",
-            "img": "systems/dnd5e/icons/svg/statuses/bloodied.svg",
-            "statuses": [
-              "bloodied"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 240,
-              "combat": null,
-              "startRound": 1,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 240,
-              "combat": null,
-              "startRound": 1,
-              "startTurn": 1
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 1000,
-      "y": 2000,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Rat Swarm (Swarm of Rats)",
-      "texture": {
-        "offsetX": 0,
-        "offsetY": 0,
-        "scaleX": 1.5,
-        "scaleY": 1.5,
-        "src": "systems/dnd5e/tokens/beast/SwarmRats.webp",
-        "tint": "#ffffff",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "rotation": 0,
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0,
-        "enabled": false
-      },
-      "detectionModes": [],
-      "width": 1,
-      "height": 1,
-      "alpha": 1,
-      "lockRotation": false,
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "displayBars": 0,
-      "displayName": 0,
-      "disposition": -1,
-      "rotation": 39.80557109226521,
-      "actorLink": false,
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "occludable": {
-        "radius": 0
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "dzqSJFngnBGRxcls",
-      "hidden": false,
-      "sort": 2,
-      "shape": 4,
-      "_id": "oXEiZnsowaWcR2LM",
-      "delta": {
-        "_id": "LFnp90RqtG69HFSC",
-        "system": {
-          "attributes": {
-            "hp": {
-              "temp": 0,
-              "value": 0
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "_id": "dnd5ebloodied000",
-            "name": "Bloodied",
-            "img": "systems/dnd5e/icons/svg/statuses/bloodied.svg",
-            "statuses": [
-              "bloodied"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 240,
-              "combat": null,
-              "startRound": 1,
-              "startTurn": 1
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 246,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 1400,
-      "y": 2600,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Wax Golems (Appearance Only)",
-      "texture": {
-        "src": "systems/dnd5e/tokens/construct/ClayGolem.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
       },
       "sight": {
         "enabled": false,
@@ -660,46 +150,6 @@
         "contrast": 0
       },
       "detectionModes": [],
-      "displayName": 0,
-      "actorLink": false,
-      "width": 2,
-      "height": 2,
-      "lockRotation": false,
-      "rotation": 90,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
       "occludable": {
         "radius": 0
       },
@@ -709,7 +159,7 @@
           "ring": null,
           "background": null
         },
-        "effects": 1,
+        "effects": 0,
         "subject": {
           "scale": 1,
           "texture": null
@@ -722,343 +172,54 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "ro11TuQ2DbD3Lk5o",
       "hidden": false,
-      "sort": 5,
-      "shape": 4,
-      "_id": "YB0w1LPdMbcIo0cv",
-      "delta": {
-        "_id": "LRG5whQRvTkJYTFb",
-        "system": {},
-        "items": [],
-        "effects": [
-          {
-            "name": "Cursed",
-            "img": "systems/dnd5e/icons/svg/statuses/cursed.svg",
-            "_id": "dnd5ecursed00000",
-            "statuses": [
-              "cursed"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 258,
-              "combat": null,
-              "startRound": 1,
-              "startTurn": 4
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 276,
-              "combat": null,
-              "startRound": 4,
-              "startTurn": 0
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2000,
-      "y": 400,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "The Rat Prince (Appearance Only)",
-      "texture": {
-        "src": "systems/dnd5e/tokens/humanoid/Commoner.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "displayName": 0,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "lockRotation": false,
-      "rotation": 270,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
       "flags": {
-        "ATL": {
-          "originals": {}
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
         }
+      }
+    },
+    {
+      "_id": "BBh1HN0bqpBh28n8",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
-      "actorId": "HXbZaMJ5zah7zjHe",
-      "hidden": false,
-      "sort": 6,
-      "shape": 4,
-      "_id": "jwgJJfkrgzvj9vrD",
-      "delta": {
-        "_id": "gYp6WmHr9OVbjKiS",
-        "system": {
-          "attributes": {
-            "hp": {
-              "temp": 0,
-              "value": 19
-            },
-            "exhaustion": 0
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "name": "Cursed",
-            "img": "systems/dnd5e/icons/svg/statuses/cursed.svg",
-            "_id": "dnd5ecursed00000",
-            "statuses": [
-              "cursed"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 258,
-              "combat": null,
-              "startRound": 3,
-              "startTurn": 2
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 258,
-              "combat": null,
-              "startRound": 3,
-              "startTurn": 3
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 3800,
+      "hexagonalShape": 0,
+      "x": 1200,
       "y": 1000,
       "elevation": 0,
+      "sort": 0,
       "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Rat Swarm (Swarm of Rats)",
-      "texture": {
-        "offsetX": 0,
-        "offsetY": 0,
-        "scaleX": 1.5,
-        "scaleY": 1.5,
-        "src": "systems/dnd5e/tokens/beast/SwarmRats.webp",
-        "tint": "#ffffff",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "contain",
-        "rotation": 0,
-        "alphaThreshold": 0.75
-      },
-      "sight": {
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0,
-        "enabled": false
-      },
-      "detectionModes": [],
-      "width": 1,
-      "height": 1,
+      "lockRotation": true,
+      "rotation": 0,
       "alpha": 1,
-      "lockRotation": false,
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 1,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
+      "disposition": -1,
+      "displayBars": 0,
       "bar1": {
         "attribute": "attributes.hp"
       },
       "bar2": {
         "attribute": null
       },
-      "displayBars": 0,
-      "displayName": 0,
-      "disposition": -1,
-      "rotation": 45,
-      "actorLink": false,
       "light": {
         "negative": false,
         "priority": 0,
@@ -1084,8 +245,32 @@
           "max": 1
         }
       },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
       "occludable": {
         "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
       },
       "turnMarker": {
         "mode": 1,
@@ -1094,141 +279,1189 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "dzqSJFngnBGRxcls",
       "hidden": false,
-      "sort": 1,
-      "shape": 4,
-      "delta": {
-        "_id": "cUzSzV6ABK9ca3Nk",
-        "system": {
-          "attributes": {
-            "exhaustion": 1,
-            "hp": {
-              "temp": 0,
-              "value": 0
-            }
-          }
-        },
-        "items": [],
-        "effects": [
-          {
-            "name": "Exhaustion",
-            "img": "systems/dnd5e/icons/svg/statuses/exhaustion.svg",
-            "_id": "dnd5eexhaustion0",
-            "statuses": [
-              "exhaustion"
-            ],
-            "description": "@Embed[Compendium.dnd5e.content24.JournalEntry.phbAppendixCRule.JournalEntryPage.jSQtPgNm0i4f3Qi3 inline]",
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 240,
-              "combat": null,
-              "startRound": 1,
-              "startTurn": 1
-            },
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {
-              "dnd5e": {
-                "exhaustionLevel": 1
-              }
-            },
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "_id": "dnd5ebloodied000",
-            "name": "Bloodied",
-            "img": "systems/dnd5e/icons/svg/statuses/bloodied.svg",
-            "statuses": [
-              "bloodied"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 246,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 1
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          },
-          {
-            "name": "Dead",
-            "img": "systems/dnd5e/icons/svg/statuses/dead.svg",
-            "_id": "dnd5edead0000000",
-            "statuses": [
-              "dead"
-            ],
-            "type": "base",
-            "system": {},
-            "changes": [],
-            "disabled": false,
-            "duration": {
-              "startTime": 246,
-              "combat": null,
-              "startRound": 2,
-              "startTurn": 2
-            },
-            "description": "",
-            "origin": null,
-            "tint": "#ffffff",
-            "transfer": false,
-            "sort": 0,
-            "flags": {},
-            "_stats": {
-              "compendiumSource": null,
-              "duplicateSource": null,
-              "exportSource": null,
-              "coreVersion": "13.350",
-              "systemId": "nimble",
-              "systemVersion": "0.8.0",
-              "lastModifiedBy": null
-            }
-          }
-        ],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
+        }
+      }
+    },
+    {
+      "_id": "qAmI3yPsOsFbyHpw",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
-      "x": 800,
-      "y": 1600,
+      "hexagonalShape": 0,
+      "x": 900,
+      "y": 1400,
       "elevation": 0,
+      "sort": 0,
       "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "j337zhc0UkfO9eD9"
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
+        }
+      }
+    },
+    {
+      "_id": "jGYH1lGHGoN6K2qo",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 1300,
+      "y": 1500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
+        }
+      }
+    },
+    {
+      "_id": "usdwd4981uMwYvZ6",
+      "name": "Regenerating Corpse",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2100,
+      "y": 2300,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 0,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.uM5wkCvyEpfQ7DPU"
+        }
+      }
+    },
+    {
+      "_id": "3GTQGNvOy4rWU8mv",
+      "name": "Regenerating Corpse",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2400,
+      "y": 2600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 0,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.uM5wkCvyEpfQ7DPU"
+        }
+      }
+    },
+    {
+      "_id": "wUrCi9xn4b61VDb6",
+      "name": "Regenerating Corpse",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/death/hand-dirt-undead-zombie.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 2600,
+      "y": 2350,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": 0,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.uM5wkCvyEpfQ7DPU"
+        }
+      }
+    },
+    {
+      "_id": "rlIzdNrZXIDdK4Ac",
+      "name": "Guttermaw",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": true,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/magic/death/hand-withered-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3000,
+      "y": 1400,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.zAppnllBktv0BXEN"
+        }
+      }
+    },
+    {
+      "_id": "PcW8T2lKxHHOHKBk",
+      "name": "Rat Prince",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": true,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3900,
+      "y": 500,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 40,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.XQOBiTP8L3Yac9Up"
+        }
+      }
+    },
+    {
+      "_id": "oB5BGKyYTmouL9ue",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3600,
+      "y": 400,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
+        }
+      }
+    },
+    {
+      "_id": "fQQAkSlA8jvn4jrj",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 4200,
+      "y": 800,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
+        }
+      }
+    },
+    {
+      "_id": "Z9ldUVQu4HqcgLDq",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 3500,
+      "y": 900,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
+        }
+      }
+    },
+    {
+      "_id": "hTGs10KmITvaM0Cq",
+      "name": "Rat Swarm",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
+      },
+      "hexagonalShape": 0,
+      "x": 4500,
+      "y": 550,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
+      "lockRotation": true,
+      "rotation": 0,
+      "alpha": 1,
+      "disposition": -1,
+      "displayBars": 0,
+      "bar1": {
+        "attribute": "attributes.hp"
+      },
+      "bar2": {
+        "attribute": null
+      },
+      "light": {
+        "negative": false,
+        "priority": 0,
+        "alpha": 0.5,
+        "angle": 360,
+        "bright": 0,
+        "color": null,
+        "coloration": 1,
+        "dim": 0,
+        "attenuation": 0.5,
+        "luminosity": 0.5,
+        "saturation": 0,
+        "contrast": 0,
+        "shadows": 0,
+        "animation": {
+          "type": null,
+          "speed": 5,
+          "intensity": 5,
+          "reverse": false
+        },
+        "darkness": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "sight": {
+        "enabled": false,
+        "range": 0,
+        "angle": 360,
+        "visionMode": "basic",
+        "color": null,
+        "attenuation": 0.1,
+        "brightness": 0,
+        "saturation": 0,
+        "contrast": 0
+      },
+      "detectionModes": [],
+      "occludable": {
+        "radius": 0
+      },
+      "ring": {
+        "enabled": false,
+        "colors": {
+          "ring": null,
+          "background": null
+        },
+        "effects": 0,
+        "subject": {
+          "scale": 1,
+          "texture": null
+        }
+      },
+      "turnMarker": {
+        "mode": 1,
+        "animation": null,
+        "src": null,
+        "disposition": false
+      },
+      "movementAction": null,
+      "hidden": false,
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN"
+        }
+      }
     }
   ],
   "lights": [

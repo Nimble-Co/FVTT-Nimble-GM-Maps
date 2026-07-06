@@ -73,13 +73,18 @@
   "drawings": [],
   "tokens": [
     {
+      "_id": "ixqUPDD0uyemE1t6",
       "name": "Blue Drake",
       "displayName": 50,
+      "actorId": null,
       "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "tokenizer/npc-images/blue_drake.Token.webp?1774070823051",
+        "src": "icons/creatures/reptiles/dragon-horned-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -91,6 +96,12 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
+      "hexagonalShape": 0,
+      "x": 600,
+      "y": 600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
       "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
@@ -161,49 +172,43 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "IhZJzICHUXc6T4zr",
       "hidden": false,
-      "sort": 0,
-      "shape": 4,
-      "_id": "IhfCnodLHiU2zRYa",
-      "delta": {
-        "_id": "eMIYD0lOgjYHlfVd",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
+        }
+      }
+    },
+    {
+      "_id": "BYL9yu7qzEIM2iU2",
+      "name": "Blue Drake",
+      "displayName": 50,
+      "actorId": null,
+      "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
+      "width": 1,
+      "height": 1,
+      "texture": {
+        "src": "icons/creatures/reptiles/dragon-horned-blue.webp",
+        "anchorX": 0.5,
+        "anchorY": 0.5,
+        "offsetX": 0,
+        "offsetY": 0,
+        "fit": "contain",
+        "scaleX": 1,
+        "scaleY": 1,
+        "rotation": 0,
+        "tint": "#ffffff",
+        "alphaThreshold": 0.75
       },
+      "hexagonalShape": 0,
       "x": 1600,
-      "y": 1000,
+      "y": 500,
       "elevation": 0,
+      "sort": 0,
       "locked": false,
-      "_movementHistory": [],
-      "_regions": []
-    },
-    {
-      "name": "Blue Drake",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "tokenizer/npc-images/blue_drake.Token.webp?1774070823051",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
       "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
@@ -274,38 +279,26 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "IhZJzICHUXc6T4zr",
       "hidden": false,
-      "sort": 0,
-      "shape": 4,
-      "delta": {
-        "_id": "eMIYD0lOgjYHlfVd",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 1000,
-      "y": 1200,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "275PskB7xtC814BP"
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
+        }
+      }
     },
     {
+      "_id": "SPuryGmNgun9CGIT",
       "name": "Blue Drake",
       "displayName": 50,
+      "actorId": null,
       "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "tokenizer/npc-images/blue_drake.Token.webp?1774070823051",
+        "src": "icons/creatures/reptiles/dragon-horned-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -317,6 +310,12 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
+      "hexagonalShape": 0,
+      "x": 500,
+      "y": 1600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
       "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
@@ -387,38 +386,26 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "IhZJzICHUXc6T4zr",
       "hidden": false,
-      "sort": 0,
-      "shape": 4,
-      "delta": {
-        "_id": "eMIYD0lOgjYHlfVd",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 1400,
-      "y": 1000,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "TI7qGQHkpzACmrF7"
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
+        }
+      }
     },
     {
+      "_id": "TtinHTaxEU4znABB",
       "name": "Blue Drake",
       "displayName": 50,
+      "actorId": null,
       "actorLink": false,
+      "delta": {},
+      "appendNumber": false,
+      "prependAdjective": false,
       "width": 1,
       "height": 1,
       "texture": {
-        "src": "tokenizer/npc-images/blue_drake.Token.webp?1774070823051",
+        "src": "icons/creatures/reptiles/dragon-horned-blue.webp",
         "anchorX": 0.5,
         "anchorY": 0.5,
         "offsetX": 0,
@@ -430,6 +417,12 @@
         "tint": "#ffffff",
         "alphaThreshold": 0.75
       },
+      "hexagonalShape": 0,
+      "x": 1700,
+      "y": 1600,
+      "elevation": 0,
+      "sort": 0,
+      "locked": false,
       "lockRotation": true,
       "rotation": 0,
       "alpha": 1,
@@ -500,255 +493,12 @@
         "disposition": false
       },
       "movementAction": null,
-      "flags": {},
-      "actorId": "IhZJzICHUXc6T4zr",
       "hidden": false,
-      "sort": 0,
-      "shape": 4,
-      "delta": {
-        "_id": "eMIYD0lOgjYHlfVd",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2000,
-      "y": 2200,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "qxWITdGxDVW68Pua"
-    },
-    {
-      "name": "Blue Drake",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "tokenizer/npc-images/blue_drake.Token.webp?1774070823051",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
+      "flags": {
+        "core": {
+          "sourceId": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN"
         }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "IhZJzICHUXc6T4zr",
-      "hidden": false,
-      "sort": 0,
-      "shape": 4,
-      "delta": {
-        "_id": "eMIYD0lOgjYHlfVd",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2400,
-      "y": 1800,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "gSeGAlo0q5Z2DXoF"
-    },
-    {
-      "name": "Blue Drake",
-      "displayName": 50,
-      "actorLink": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "tokenizer/npc-images/blue_drake.Token.webp?1774070823051",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "flags": {},
-      "actorId": "IhZJzICHUXc6T4zr",
-      "hidden": false,
-      "sort": 0,
-      "shape": 4,
-      "delta": {
-        "_id": "eMIYD0lOgjYHlfVd",
-        "system": {},
-        "items": [],
-        "effects": [],
-        "flags": {},
-        "name": null,
-        "type": null,
-        "img": null,
-        "ownership": null
-      },
-      "x": 2200,
-      "y": 2000,
-      "elevation": 0,
-      "locked": false,
-      "_movementHistory": [],
-      "_regions": [],
-      "_id": "qT1GOLAEciknGZjs"
+      }
     }
   ],
   "lights": [],
