@@ -79,8 +79,8 @@
       "y": 1300,
       "rotation": 0,
       "config": {
-        "dim": 7,
-        "bright": 3,
+        "dim": 0,
+        "bright": 7,
         "angle": 360,
         "color": "#882211",
         "alpha": 0.28,
