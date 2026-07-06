@@ -8,6 +8,7 @@
 		"build": "node build/buildCompendia.mjs",
 		"merge:scenes": "node build/mergeSceneData.mjs",
 		"worktree:setup": "node build/worktreeSetup.mjs",
+		"worktree:cleanup": "node build/worktreeCleanup.mjs",
 		"dev:link": "ln -sfn \"$(pwd)\" ~/Library/Application\\ Support/FoundryVTT/Data/modules/nimble-maps && echo 'Symlink created successfully'"
 	},
 	"devDependencies": {
