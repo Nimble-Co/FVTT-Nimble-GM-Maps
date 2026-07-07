@@ -1,948 +1,900 @@
 {
-  "_id": "ATR001GoblinCamp",
-  "name": "Goblin Encampment",
-  "folder": "A Tiny Rescue",
-  "navigation": true,
-  "navOrder": 0,
-  "navName": "",
-  "background": {
-    "src": "modules/nimble-maps/assets/maps/a-tiny-rescue/goblin-encampment.webp",
-    "offsetX": 0,
-    "offsetY": 0,
-    "scaleX": 1,
-    "scaleY": 1,
-    "rotation": 0
-  },
-  "foreground": null,
-  "fogOverlay": null,
-  "fogExploredColor": "#000000",
-  "fogUnexploredColor": "#000000",
-  "width": 3000,
-  "height": 3000,
-  "padding": 0,
-  "initial": {
-    "x": 1500,
-    "y": 1500,
-    "scale": 0.7
-  },
-  "backgroundColor": "#000000",
-  "grid": {
-    "type": 1,
-    "size": 200,
-    "distance": 1,
-    "units": "spaces",
-    "color": "#000000",
-    "alpha": 0.2
-  },
-  "tokenVision": true,
-  "fogExploration": true,
-  "environment": {
-    "darknessLevel": 0,
-    "darknessLock": false,
-    "globalLight": {
-      "enabled": true,
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
-    }
-  },
-  "drawings": [],
-  "tokens": [
-    {
-      "_id": "bhZbodsJ8DiclefK",
-      "name": "Goblin Ratrider",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": true,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/mammals/rodent-rat-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2000,
-      "y": 1100,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD",
-          "adventure": "A Tiny Rescue"
-        }
-      }
-    },
-    {
-      "_id": "pp4KW55OCSt93rtt",
-      "name": "Goblin",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1500,
-      "y": 950,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
-          "adventure": "A Tiny Rescue"
-        }
-      }
-    },
-    {
-      "_id": "WbTMspACglHYXPCi",
-      "name": "Goblin",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1700,
-      "y": 1100,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
-          "adventure": "A Tiny Rescue"
-        }
-      }
-    },
-    {
-      "_id": "JGSK3EVHG58cMdr8",
-      "name": "Goblin",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1200,
-      "y": 1350,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
-          "adventure": "A Tiny Rescue"
-        }
-      }
-    },
-    {
-      "_id": "0QvQWFk0QORP2jQL",
-      "name": "Goblin",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "systems/nimble/assets/monsterImages/Goblin.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1850,
-      "y": 1450,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 0,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
-          "adventure": "A Tiny Rescue"
-        }
-      }
-    }
-  ],
-  "lights": [
-    {
-      "_id": "bhZbodsJ8DiclefK",
-      "x": 1500,
-      "y": 1280,
-      "elevation": 0,
-      "rotation": 0,
-      "walls": true,
-      "vision": false,
-      "config": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 6,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "coloration": 1,
-        "color": "#f0a050",
-        "animation": {
-          "type": "torch",
-          "speed": 3,
-          "intensity": 4,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "hidden": false,
-      "flags": {}
-    }
-  ],
-  "notes": [],
-  "sounds": [],
-  "templates": [],
-  "tiles": [],
-  "walls": [
-    {
-      "_id": "encwall00000000",
-      "c": [
-        0,
-        0,
-        3000,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00010000",
-      "c": [
-        3000,
-        0,
-        3000,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00020000",
-      "c": [
-        3000,
-        3000,
-        0,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00030000",
-      "c": [
-        0,
-        3000,
-        0,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00040000",
-      "c": [
-        915,
-        995,
-        1040,
-        1225
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00050000",
-      "c": [
-        1040,
-        1225,
-        1110,
-        1440
-      ],
-      "door": 1,
-      "ds": 1,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00060000",
-      "c": [
-        1110,
-        1440,
-        755,
-        1535
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00070000",
-      "c": [
-        755,
-        1535,
-        655,
-        1095
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00080000",
-      "c": [
-        655,
-        1095,
-        915,
-        995
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00090000",
-      "c": [
-        1775,
-        570,
-        2050,
-        850
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00100000",
-      "c": [
-        2050,
-        850,
-        1795,
-        1110
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00110000",
-      "c": [
-        1795,
-        1110,
-        1545,
-        820
-      ],
-      "door": 1,
-      "ds": 1,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00120000",
-      "c": [
-        1545,
-        820,
-        1775,
-        570
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00130000",
-      "c": [
-        1840,
-        1295,
-        2135,
-        1490
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00140000",
-      "c": [
-        2135,
-        1490,
-        1910,
-        1830
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00150000",
-      "c": [
-        1910,
-        1830,
-        1645,
-        1685
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    },
-    {
-      "_id": "encwall00160000",
-      "c": [
-        1645,
-        1685,
-        1840,
-        1295
-      ],
-      "door": 1,
-      "ds": 1,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "light": 10,
-      "flags": {}
-    }
-  ],
-  "flags": {}
+	"_id": "ATR001GoblinCamp",
+	"name": "Goblin Encampment",
+	"folder": "A Tiny Rescue",
+	"navigation": true,
+	"navOrder": 0,
+	"navName": "",
+	"background": {
+		"src": "modules/nimble-maps/assets/maps/a-tiny-rescue/goblin-encampment.webp",
+		"offsetX": 0,
+		"offsetY": 0,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	"foreground": null,
+	"fogOverlay": null,
+	"fogExploredColor": "#000000",
+	"fogUnexploredColor": "#000000",
+	"width": 3000,
+	"height": 3000,
+	"padding": 0,
+	"initial": {
+		"x": 1500,
+		"y": 1500,
+		"scale": 0.7
+	},
+	"backgroundColor": "#000000",
+	"grid": {
+		"type": 1,
+		"size": 200,
+		"distance": 1,
+		"units": "spaces",
+		"color": "#000000",
+		"alpha": 0.2
+	},
+	"tokenVision": true,
+	"fogExploration": true,
+	"environment": {
+		"darknessLevel": 0,
+		"darknessLock": false,
+		"globalLight": {
+			"enabled": true,
+			"alpha": 0.5,
+			"bright": false,
+			"color": null,
+			"coloration": 1,
+			"luminosity": 0,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"cycle": true,
+		"base": {
+			"hue": 0,
+			"intensity": 0,
+			"luminosity": 0,
+			"saturation": 0,
+			"shadows": 0
+		},
+		"dark": {
+			"hue": 0.7138888888888889,
+			"intensity": 0,
+			"luminosity": -0.25,
+			"saturation": 0,
+			"shadows": 0
+		}
+	},
+	"drawings": [],
+	"tokens": [
+		{
+			"_id": "bhZbodsJ8DiclefK",
+			"name": "Goblin Ratrider",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": true,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/mammals/rodent-rat-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 2000,
+			"y": 1100,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 0,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD",
+					"adventure": "A Tiny Rescue"
+				}
+			}
+		},
+		{
+			"_id": "pp4KW55OCSt93rtt",
+			"name": "Goblin",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1500,
+			"y": 950,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 0,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+					"adventure": "A Tiny Rescue"
+				}
+			}
+		},
+		{
+			"_id": "WbTMspACglHYXPCi",
+			"name": "Goblin",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1700,
+			"y": 1100,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 0,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+					"adventure": "A Tiny Rescue"
+				}
+			}
+		},
+		{
+			"_id": "JGSK3EVHG58cMdr8",
+			"name": "Goblin",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1200,
+			"y": 1350,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 0,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+					"adventure": "A Tiny Rescue"
+				}
+			}
+		},
+		{
+			"_id": "0QvQWFk0QORP2jQL",
+			"name": "Goblin",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1850,
+			"y": 1450,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 0,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
+					"adventure": "A Tiny Rescue"
+				}
+			}
+		}
+	],
+	"lights": [
+		{
+			"_id": "bhZbodsJ8DiclefK",
+			"x": 1500,
+			"y": 1280,
+			"elevation": 0,
+			"rotation": 0,
+			"walls": true,
+			"vision": false,
+			"config": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 6,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"coloration": 1,
+				"color": "#f0a050",
+				"animation": {
+					"type": "torch",
+					"speed": 3,
+					"intensity": 4,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"hidden": false,
+			"flags": {}
+		}
+	],
+	"notes": [],
+	"sounds": [],
+	"templates": [],
+	"tiles": [],
+	"walls": [
+		{
+			"_id": "encwall00000000",
+			"c": [
+				0,
+				0,
+				3000,
+				0
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"light": 20,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00010000",
+			"c": [
+				3000,
+				0,
+				3000,
+				3000
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"light": 20,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00020000",
+			"c": [
+				3000,
+				3000,
+				0,
+				3000
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"light": 20,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00030000",
+			"c": [
+				0,
+				3000,
+				0,
+				0
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"light": 20,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00040000",
+			"c": [
+				915,
+				995,
+				1040,
+				1225
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00060000",
+			"c": [
+				1110,
+				1440,
+				755,
+				1535
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00070000",
+			"c": [
+				755,
+				1535,
+				655,
+				1095
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00080000",
+			"c": [
+				655,
+				1095,
+				915,
+				995
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00090000",
+			"c": [
+				1775,
+				570,
+				2050,
+				850
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00100000",
+			"c": [
+				2050,
+				850,
+				1795,
+				1110
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00120000",
+			"c": [
+				1545,
+				820,
+				1775,
+				570
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00130000",
+			"c": [
+				1840,
+				1295,
+				2135,
+				1490
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00140000",
+			"c": [
+				2135,
+				1490,
+				1910,
+				1830
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		},
+		{
+			"_id": "encwall00150000",
+			"c": [
+				1910,
+				1830,
+				1645,
+				1685
+			],
+			"door": 0,
+			"ds": 0,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"light": 10,
+			"flags": {}
+		}
+	],
+	"flags": {}
 }
