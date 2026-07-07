@@ -1,7132 +1,2268 @@
 {
-  "_id": "BCV002BloodVats",
-  "name": "Beyond the Crimson Veil - Blood Vats",
-  "folder": "Beyond the Crimson Veil",
-  "navigation": true,
-  "navOrder": 1,
-  "navName": "",
-  "background": {
-    "src": "modules/nimble-maps/assets/maps/beyond-the-crimson-veil/blood-vats.webp",
-    "offsetX": 0,
-    "offsetY": 0,
-    "scaleX": 1,
-    "scaleY": 1,
-    "rotation": 0
-  },
-  "foreground": null,
-  "fogOverlay": null,
-  "fogExploredColor": "#000000",
-  "fogUnexploredColor": "#000000",
-  "width": 3000,
-  "height": 3000,
-  "padding": 0,
-  "initial": {
-    "x": 1500,
-    "y": 1500,
-    "scale": 0.7
-  },
-  "backgroundColor": "#000000",
-  "grid": {
-    "type": 1,
-    "size": 200,
-    "distance": 1,
-    "units": "spaces",
-    "color": "#000000",
-    "alpha": 0.2
-  },
-  "tokenVision": true,
-  "fogExploration": true,
-  "environment": {
-    "darknessLevel": 0,
-    "darknessLock": false,
-    "globalLight": {
-      "enabled": false,
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "darkness": {
-        "min": 0,
-        "max": 1
-      }
-    },
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
-    }
-  },
-  "drawings": [],
-  "tokens": [
-    {
-      "_id": "UKBjPcpAezhktD44",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 750,
-      "y": 500,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "erUehQ7FnaOWlWjs",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1250,
-      "y": 480,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "6TRhEcCmLaWtqvmQ",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1750,
-      "y": 520,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "0nRSmwjOP550KroP",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2250,
-      "y": 500,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "gq6fbdTwIQxCOJm5",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 800,
-      "y": 1040,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "dgci68VkQdv9V6SK",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1280,
-      "y": 1000,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "VQqEOJXlFraa6f2B",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1780,
-      "y": 1040,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "z1gPZxzqVQLwnrgz",
-      "name": "Cultist",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2200,
-      "y": 1000,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "fBTwstljPGXgt3dD",
-      "name": "Fanatic",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 920,
-      "y": 800,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "uaaPYopzTCsGI8Hf",
-      "name": "Fanatic",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2080,
-      "y": 820,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "gNMITrN1n3ErKF3X",
-      "name": "Fanatic",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1100,
-      "y": 300,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "wZxmHI7KeQvaKqkC",
-      "name": "Fanatic",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1900,
-      "y": 320,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "f6iUNG5zTg3wSelA",
-      "name": "Doomsayer",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 600,
-      "y": 1240,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "qkmGSeoGjj26cyKM",
-      "name": "Doomsayer",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2400,
-      "y": 1200,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "mf2zQ35zVfIRdb4G",
-      "name": "Doomsayer",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1400,
-      "y": 200,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "sv91RRbXwYpoiTgq",
-      "name": "Doomsayer",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/magic/unholy/hand-claw-fire-blue.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1600,
-      "y": 1240,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    },
-    {
-      "_id": "bbD2tS2asXs5e66m",
-      "name": "Azriel, Lord of Pain & Flame",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": true,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 3,
-      "height": 3,
-      "texture": {
-        "src": "systems/nimble/assets/legendaryMonsterImages/core/azriel.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1450,
-      "y": 1700,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.ZtvN9z6ZEolYZu1R"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.ZtvN9z6ZEolYZu1R",
-          "adventure": "Beyond the Crimson Veil"
-        }
-      }
-    }
-  ],
-  "lights": [
-    {
-      "_id": "pp4KW55OCSt93rtt",
-      "x": 254,
-      "y": 253,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "WbTMspACglHYXPCi",
-      "x": 1206,
-      "y": 195,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "JGSK3EVHG58cMdr8",
-      "x": 2185,
-      "y": 198,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "0QvQWFk0QORP2jQL",
-      "x": 204,
-      "y": 1197,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "QqhX6obxQW98WZOC",
-      "x": 1194,
-      "y": 1199,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "6tzP5HAH352epTHN",
-      "x": 2195,
-      "y": 1209,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "yzYsHYcivmozH6gi",
-      "x": 2995,
-      "y": 267,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    },
-    {
-      "_id": "NZVdxeTqskjGiYbg",
-      "x": 2995,
-      "y": 1232,
-      "rotation": 0,
-      "config": {
-        "dim": 0,
-        "bright": 7,
-        "angle": 360,
-        "color": "#bb2222",
-        "alpha": 0.35,
-        "animation": {
-          "type": "pulse",
-          "speed": 2,
-          "intensity": 2
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        },
-        "luminosity": 0.25
-      },
-      "hidden": false,
-      "flags": {}
-    }
-  ],
-  "notes": [],
-  "sounds": [],
-  "templates": [],
-  "tiles": [],
-  "walls": [
-    {
-      "_id": "wall0001",
-      "c": [
-        2484,
-        1416,
-        2484,
-        1464
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0002",
-      "c": [
-        2484,
-        2364,
-        2484,
-        2424
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0003",
-      "c": [
-        2484,
-        2604,
-        2484,
-        2664
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0004",
-      "c": [
-        2580,
-        1488,
-        2580,
-        1536
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0005",
-      "c": [
-        1092,
-        2148,
-        1092,
-        2196
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0006",
-      "c": [
-        1548,
-        1296,
-        1548,
-        1344
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0007",
-      "c": [
-        492,
-        2352,
-        492,
-        2400
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0008",
-      "c": [
-        852,
-        1308,
-        852,
-        1356
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0009",
-      "c": [
-        2544,
-        2208,
-        2544,
-        2352
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0010",
-      "c": [
-        2544,
-        2760,
-        2544,
-        2808
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0011",
-      "c": [
-        1908,
-        1392,
-        1908,
-        1440
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0012",
-      "c": [
-        2292,
-        2496,
-        2292,
-        2544
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0013",
-      "c": [
-        2472,
-        936,
-        2472,
-        984
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0014",
-      "c": [
-        2472,
-        2616,
-        2472,
-        2664
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0015",
-      "c": [
-        2472,
-        2904,
-        2472,
-        2952
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0016",
-      "c": [
-        912,
-        948,
-        912,
-        996
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0017",
-      "c": [
-        2832,
-        252,
-        2832,
-        312
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0018",
-      "c": [
-        2064,
-        1644,
-        2064,
-        1716
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0019",
-      "c": [
-        2136,
-        2844,
-        2136,
-        2892
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0020",
-      "c": [
-        384,
-        1608,
-        384,
-        1668
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0021",
-      "c": [
-        1440,
-        1572,
-        1440,
-        1620
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0022",
-      "c": [
-        144,
-        1632,
-        144,
-        1704
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0023",
-      "c": [
-        2904,
-        1488,
-        2904,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0024",
-      "c": [
-        2856,
-        2280,
-        2856,
-        2328
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0025",
-      "c": [
-        168,
-        2772,
-        168,
-        2832
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0026",
-      "c": [
-        1488,
-        948,
-        1488,
-        996
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0027",
-      "c": [
-        1932,
-        516,
-        1932,
-        564
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0028",
-      "c": [
-        864,
-        900,
-        864,
-        960
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0029",
-      "c": [
-        864,
-        1464,
-        864,
-        1536
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0030",
-      "c": [
-        1500,
-        504,
-        1500,
-        564
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0031",
-      "c": [
-        1500,
-        1488,
-        1500,
-        1548
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0032",
-      "c": [
-        2964,
-        2304,
-        2964,
-        2352
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0033",
-      "c": [
-        2964,
-        2424,
-        2964,
-        2472
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0034",
-      "c": [
-        2256,
-        2688,
-        2256,
-        2784
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0035",
-      "c": [
-        1248,
-        1776,
-        1248,
-        1836
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0036",
-      "c": [
-        1248,
-        1968,
-        1248,
-        2040
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0037",
-      "c": [
-        1248,
-        2172,
-        1248,
-        2244
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0038",
-      "c": [
-        1248,
-        2796,
-        1248,
-        2856
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0039",
-      "c": [
-        2628,
-        2520,
-        2628,
-        2568
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0040",
-      "c": [
-        156,
-        2736,
-        156,
-        2796
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0041",
-      "c": [
-        960,
-        1452,
-        960,
-        1500
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0042",
-      "c": [
-        0,
-        516,
-        0,
-        576
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0043",
-      "c": [
-        0,
-        588,
-        0,
-        780
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0044",
-      "c": [
-        0,
-        828,
-        0,
-        888
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0045",
-      "c": [
-        0,
-        1512,
-        0,
-        1572
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0046",
-      "c": [
-        0,
-        1608,
-        0,
-        1776
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0047",
-      "c": [
-        0,
-        1788,
-        0,
-        2580
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0048",
-      "c": [
-        0,
-        2604,
-        0,
-        2688
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0049",
-      "c": [
-        0,
-        2832,
-        0,
-        2904
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0050",
-      "c": [
-        0,
-        2952,
-        0,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0051",
-      "c": [
-        1188,
-        1956,
-        1188,
-        2004
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0052",
-      "c": [
-        252,
-        2772,
-        252,
-        2820
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0053",
-      "c": [
-        1728,
-        2544,
-        1728,
-        2592
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0054",
-      "c": [
-        1320,
-        1680,
-        1320,
-        1728
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0055",
-      "c": [
-        1152,
-        1968,
-        1152,
-        2016
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0056",
-      "c": [
-        1212,
-        1896,
-        1212,
-        1968
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0057",
-      "c": [
-        1212,
-        2688,
-        1212,
-        2736
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0058",
-      "c": [
-        2820,
-        2256,
-        2820,
-        2340
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0059",
-      "c": [
-        2616,
-        2496,
-        2616,
-        2544
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0060",
-      "c": [
-        1452,
-        900,
-        1452,
-        960
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0061",
-      "c": [
-        1452,
-        1632,
-        1452,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0062",
-      "c": [
-        264,
-        2676,
-        264,
-        2724
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0063",
-      "c": [
-        264,
-        2844,
-        264,
-        2892
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0064",
-      "c": [
-        240,
-        816,
-        240,
-        864
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0065",
-      "c": [
-        1572,
-        96,
-        1572,
-        180
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0066",
-      "c": [
-        12,
-        2688,
-        12,
-        2736
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0067",
-      "c": [
-        1860,
-        468,
-        1860,
-        540
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0068",
-      "c": [
-        1428,
-        1704,
-        1428,
-        1752
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0069",
-      "c": [
-        1260,
-        1620,
-        1260,
-        1668
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0070",
-      "c": [
-        1260,
-        1968,
-        1260,
-        2064
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0071",
-      "c": [
-        1284,
-        1776,
-        1284,
-        1836
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0072",
-      "c": [
-        1284,
-        2028,
-        1284,
-        2112
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0073",
-      "c": [
-        2508,
-        1548,
-        2508,
-        1596
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0074",
-      "c": [
-        2508,
-        2544,
-        2508,
-        2652
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0075",
-      "c": [
-        2808,
-        360,
-        2808,
-        576
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0076",
-      "c": [
-        2808,
-        828,
-        2808,
-        1032
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0077",
-      "c": [
-        2808,
-        1368,
-        2808,
-        1596
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0078",
-      "c": [
-        2496,
-        1488,
-        2496,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0079",
-      "c": [
-        2436,
-        2616,
-        2436,
-        2688
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0080",
-      "c": [
-        588,
-        372,
-        588,
-        576
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0081",
-      "c": [
-        588,
-        816,
-        588,
-        876
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0082",
-      "c": [
-        588,
-        888,
-        588,
-        1032
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0083",
-      "c": [
-        588,
-        1368,
-        588,
-        1596
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0084",
-      "c": [
-        948,
-        1608,
-        948,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0085",
-      "c": [
-        2916,
-        408,
-        2916,
-        456
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0086",
-      "c": [
-        1056,
-        2160,
-        1056,
-        2208
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0087",
-      "c": [
-        1476,
-        1416,
-        1476,
-        1464
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0088",
-      "c": [
-        1476,
-        2520,
-        1476,
-        2580
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0089",
-      "c": [
-        2736,
-        2856,
-        2736,
-        2904
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0090",
-      "c": [
-        1116,
-        1896,
-        1116,
-        1944
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0091",
-      "c": [
-        2940,
-        1524,
-        2940,
-        1572
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0092",
-      "c": [
-        1200,
-        1632,
-        1200,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0093",
-      "c": [
-        816,
-        408,
-        816,
-        456
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0094",
-      "c": [
-        816,
-        468,
-        816,
-        540
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0095",
-      "c": [
-        816,
-        972,
-        816,
-        1032
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0096",
-      "c": [
-        816,
-        1356,
-        816,
-        1488
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0097",
-      "c": [
-        816,
-        1500,
-        816,
-        1608
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0098",
-      "c": [
-        2556,
-        1284,
-        2556,
-        1344
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0099",
-      "c": [
-        2412,
-        1476,
-        2412,
-        1524
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0100",
-      "c": [
-        1356,
-        2568,
-        1356,
-        2628
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0101",
-      "c": [
-        2088,
-        1704,
-        2088,
-        1752
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0102",
-      "c": [
-        2592,
-        360,
-        2592,
-        576
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0103",
-      "c": [
-        2592,
-        828,
-        2592,
-        1044
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0104",
-      "c": [
-        2592,
-        1368,
-        2592,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0105",
-      "c": [
-        3000,
-        516,
-        3000,
-        564
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0106",
-      "c": [
-        3000,
-        588,
-        3000,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0107",
-      "c": [
-        3000,
-        1512,
-        3000,
-        1572
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0108",
-      "c": [
-        3000,
-        1644,
-        3000,
-        2256
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0109",
-      "c": [
-        3000,
-        2292,
-        3000,
-        2340
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0110",
-      "c": [
-        3000,
-        2400,
-        3000,
-        2460
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0111",
-      "c": [
-        3000,
-        2484,
-        3000,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0112",
-      "c": [
-        24,
-        492,
-        24,
-        540
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0113",
-      "c": [
-        924,
-        408,
-        924,
-        456
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0114",
-      "c": [
-        840,
-        480,
-        840,
-        540
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0115",
-      "c": [
-        1656,
-        2832,
-        1656,
-        2880
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0116",
-      "c": [
-        456,
-        2496,
-        456,
-        2544
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0117",
-      "c": [
-        444,
-        2256,
-        444,
-        2304
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0118",
-      "c": [
-        2868,
-        1020,
-        2868,
-        1068
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0119",
-      "c": [
-        2868,
-        1488,
-        2868,
-        1536
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0120",
-      "c": [
-        1824,
-        432,
-        1824,
-        492
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0121",
-      "c": [
-        2976,
-        2256,
-        2976,
-        2304
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0122",
-      "c": [
-        36,
-        1788,
-        36,
-        1836
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0123",
-      "c": [
-        2448,
-        1440,
-        2448,
-        1488
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0124",
-      "c": [
-        2448,
-        2628,
-        2448,
-        2688
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0125",
-      "c": [
-        1812,
-        372,
-        1812,
-        492
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0126",
-      "c": [
-        1812,
-        816,
-        1812,
-        1032
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0127",
-      "c": [
-        1812,
-        1368,
-        1812,
-        1608
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0128",
-      "c": [
-        2844,
-        1476,
-        2844,
-        1536
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0129",
-      "c": [
-        2844,
-        2400,
-        2844,
-        2460
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0130",
-      "c": [
-        1968,
-        900,
-        1968,
-        948
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0131",
-      "c": [
-        2208,
-        1656,
-        2208,
-        1740
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0132",
-      "c": [
-        1584,
-        360,
-        1584,
-        492
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0133",
-      "c": [
-        1584,
-        528,
-        1584,
-        576
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0134",
-      "c": [
-        1584,
-        816,
-        1584,
-        912
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0135",
-      "c": [
-        1584,
-        1356,
-        1584,
-        1404
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0136",
-      "c": [
-        1584,
-        1416,
-        1584,
-        1500
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0137",
-      "c": [
-        2268,
-        1656,
-        2268,
-        1716
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0138",
-      "c": [
-        1884,
-        1356,
-        1884,
-        1404
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0139",
-      "c": [
-        1884,
-        1464,
-        1884,
-        1536
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0140",
-      "c": [
-        420,
-        2160,
-        420,
-        2208
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0141",
-      "c": [
-        228,
-        2844,
-        228,
-        2892
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0142",
-      "c": [
-        1164,
-        912,
-        1164,
-        972
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0143",
-      "c": [
-        1164,
-        1788,
-        1164,
-        1836
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0144",
-      "c": [
-        1128,
-        1980,
-        1128,
-        2028
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0145",
-      "c": [
-        1332,
-        1656,
-        1332,
-        1716
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0146",
-      "c": [
-        336,
-        1620,
-        336,
-        1668
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0147",
-      "c": [
-        756,
-        1632,
-        756,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0148",
-      "c": [
-        1296,
-        1728,
-        1296,
-        1788
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0149",
-      "c": [
-        1296,
-        2028,
-        1296,
-        2088
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0150",
-      "c": [
-        1296,
-        2436,
-        1296,
-        2508
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0151",
-      "c": [
-        2700,
-        2304,
-        2700,
-        2352
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0152",
-      "c": [
-        1944,
-        1524,
-        1944,
-        1572
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0153",
-      "c": [
-        516,
-        372,
-        516,
-        420
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0154",
-      "c": [
-        516,
-        2052,
-        516,
-        2100
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0155",
-      "c": [
-        516,
-        2304,
-        516,
-        2352
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0156",
-      "c": [
-        1368,
-        1908,
-        1368,
-        1956
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0157",
-      "c": [
-        1080,
-        2184,
-        1080,
-        2232
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0158",
-      "c": [
-        2244,
-        2784,
-        2244,
-        2844
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0159",
-      "c": [
-        1956,
-        444,
-        1956,
-        492
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0160",
-      "c": [
-        204,
-        2640,
-        204,
-        2688
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0161",
-      "c": [
-        348,
-        1668,
-        348,
-        1716
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0162",
-      "c": [
-        1104,
-        2700,
-        1104,
-        2748
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0163",
-      "c": [
-        2220,
-        2856,
-        2220,
-        2928
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0164",
-      "c": [
-        2340,
-        2820,
-        2340,
-        2868
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0165",
-      "c": [
-        1224,
-        2028,
-        1224,
-        2076
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0166",
-      "c": [
-        1104,
-        2580,
-        1164,
-        2580
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0167",
-      "c": [
-        1332,
-        2580,
-        1380,
-        2580
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0168",
-      "c": [
-        1704,
-        2580,
-        1764,
-        2580
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0169",
-      "c": [
-        360,
-        2148,
-        420,
-        2148
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0170",
-      "c": [
-        2928,
-        1548,
-        2976,
-        1548
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0171",
-      "c": [
-        1692,
-        1800,
-        1740,
-        1800
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0172",
-      "c": [
-        360,
-        816,
-        552,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0173",
-      "c": [
-        1368,
-        816,
-        1452,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0174",
-      "c": [
-        1464,
-        816,
-        1548,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0175",
-      "c": [
-        1812,
-        816,
-        1980,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0176",
-      "c": [
-        2364,
-        816,
-        2544,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0177",
-      "c": [
-        2820,
-        816,
-        2916,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0178",
-      "c": [
-        2928,
-        816,
-        3000,
-        816
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0179",
-      "c": [
-        516,
-        0,
-        576,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0180",
-      "c": [
-        588,
-        0,
-        816,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0181",
-      "c": [
-        828,
-        0,
-        888,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0182",
-      "c": [
-        1524,
-        0,
-        1572,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0183",
-      "c": [
-        1620,
-        0,
-        1812,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0184",
-      "c": [
-        1824,
-        0,
-        1884,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0185",
-      "c": [
-        2520,
-        0,
-        2580,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0186",
-      "c": [
-        2592,
-        0,
-        2808,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0187",
-      "c": [
-        2832,
-        0,
-        2892,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0188",
-      "c": [
-        2340,
-        2460,
-        2388,
-        2460
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0189",
-      "c": [
-        2952,
-        2460,
-        3000,
-        2460
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0190",
-      "c": [
-        2436,
-        2244,
-        2484,
-        2244
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0191",
-      "c": [
-        2376,
-        2760,
-        2424,
-        2760
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0192",
-      "c": [
-        1524,
-        576,
-        1584,
-        576
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0193",
-      "c": [
-        2604,
-        2508,
-        2652,
-        2508
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0194",
-      "c": [
-        1320,
-        2640,
-        1368,
-        2640
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0195",
-      "c": [
-        0,
-        2952,
-        72,
-        2952
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0196",
-      "c": [
-        1992,
-        2952,
-        2052,
-        2952
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0197",
-      "c": [
-        2652,
-        2952,
-        2712,
-        2952
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0198",
-      "c": [
-        2400,
-        1488,
-        2448,
-        1488
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0199",
-      "c": [
-        1284,
-        2532,
-        1332,
-        2532
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0200",
-      "c": [
-        2424,
-        2532,
-        2472,
-        2532
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0201",
-      "c": [
-        2604,
-        2532,
-        2676,
-        2532
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0202",
-      "c": [
-        2496,
-        540,
-        2544,
-        540
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0203",
-      "c": [
-        2892,
-        540,
-        2964,
-        540
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0204",
-      "c": [
-        2832,
-        1284,
-        2880,
-        1284
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0205",
-      "c": [
-        588,
-        1644,
-        780,
-        1644
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0206",
-      "c": [
-        1656,
-        1644,
-        1752,
-        1644
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0207",
-      "c": [
-        2616,
-        1644,
-        2664,
-        1644
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0208",
-      "c": [
-        576,
-        1896,
-        624,
-        1896
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0209",
-      "c": [
-        0,
-        3000,
-        132,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0210",
-      "c": [
-        168,
-        3000,
-        552,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0211",
-      "c": [
-        564,
-        3000,
-        876,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0212",
-      "c": [
-        888,
-        3000,
-        1008,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0213",
-      "c": [
-        1020,
-        3000,
-        1680,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0214",
-      "c": [
-        1920,
-        3000,
-        2136,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0215",
-      "c": [
-        2148,
-        3000,
-        2580,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0216",
-      "c": [
-        2592,
-        3000,
-        2676,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0217",
-      "c": [
-        2760,
-        3000,
-        2832,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0218",
-      "c": [
-        2880,
-        3000,
-        3000,
-        3000
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0219",
-      "c": [
-        2352,
-        2832,
-        2424,
-        2832
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0220",
-      "c": [
-        1824,
-        1272,
-        1872,
-        1272
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0221",
-      "c": [
-        2448,
-        2628,
-        2520,
-        2628
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0222",
-      "c": [
-        552,
-        1884,
-        624,
-        1884
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0223",
-      "c": [
-        2292,
-        2484,
-        2340,
-        2484
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0224",
-      "c": [
-        0,
-        1776,
-        48,
-        1776
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0225",
-      "c": [
-        516,
-        1776,
-        564,
-        1776
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0226",
-      "c": [
-        984,
-        1776,
-        1044,
-        1776
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0227",
-      "c": [
-        1068,
-        1920,
-        1140,
-        1920
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0228",
-      "c": [
-        144,
-        1572,
-        228,
-        1572
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0229",
-      "c": [
-        1224,
-        1572,
-        1308,
-        1572
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0230",
-      "c": [
-        780,
-        1632,
-        828,
-        1632
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0231",
-      "c": [
-        1980,
-        1632,
-        2040,
-        1632
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0232",
-      "c": [
-        1512,
-        1476,
-        1560,
-        1476
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0233",
-      "c": [
-        1932,
-        1476,
-        1980,
-        1476
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0234",
-      "c": [
-        1872,
-        1512,
-        1920,
-        1512
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0235",
-      "c": [
-        1680,
-        1680,
-        1764,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0236",
-      "c": [
-        2040,
-        1680,
-        2100,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0237",
-      "c": [
-        2712,
-        1680,
-        2760,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0238",
-      "c": [
-        492,
-        1032,
-        540,
-        1032
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0239",
-      "c": [
-        276,
-        1560,
-        324,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0240",
-      "c": [
-        1404,
-        1560,
-        1464,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0241",
-      "c": [
-        2280,
-        1560,
-        2328,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0242",
-      "c": [
-        2400,
-        1560,
-        2460,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0243",
-      "c": [
-        2040,
-        852,
-        2088,
-        852
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0244",
-      "c": [
-        132,
-        1620,
-        240,
-        1620
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0245",
-      "c": [
-        1104,
-        1620,
-        1260,
-        1620
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0246",
-      "c": [
-        1776,
-        1620,
-        1860,
-        1620
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0247",
-      "c": [
-        2124,
-        1620,
-        2256,
-        1620
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0248",
-      "c": [
-        2772,
-        1620,
-        2856,
-        1620
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0249",
-      "c": [
-        2460,
-        972,
-        2508,
-        972
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0250",
-      "c": [
-        1320,
-        1836,
-        1380,
-        1836
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0251",
-      "c": [
-        660,
-        1668,
-        708,
-        1668
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0252",
-      "c": [
-        300,
-        2160,
-        348,
-        2160
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0253",
-      "c": [
-        2280,
-        2160,
-        2340,
-        2160
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0254",
-      "c": [
-        276,
-        1608,
-        324,
-        1608
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0255",
-      "c": [
-        576,
-        1608,
-        636,
-        1608
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0256",
-      "c": [
-        768,
-        1608,
-        816,
-        1608
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0257",
-      "c": [
-        2076,
-        1608,
-        2124,
-        1608
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0258",
-      "c": [
-        1308,
-        2556,
-        1368,
-        2556
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0259",
-      "c": [
-        1440,
-        948,
-        1488,
-        948
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0260",
-      "c": [
-        924,
-        1464,
-        972,
-        1464
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0261",
-      "c": [
-        324,
-        1596,
-        372,
-        1596
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0262",
-      "c": [
-        288,
-        2844,
-        336,
-        2844
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0263",
-      "c": [
-        948,
-        492,
-        996,
-        492
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0264",
-      "c": [
-        1884,
-        1536,
-        1956,
-        1536
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0265",
-      "c": [
-        2880,
-        1536,
-        2952,
-        1536
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0266",
-      "c": [
-        1884,
-        1404,
-        1932,
-        1404
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0267",
-      "c": [
-        48,
-        2748,
-        96,
-        2748
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0268",
-      "c": [
-        1200,
-        2748,
-        1248,
-        2748
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0269",
-      "c": [
-        2388,
-        2748,
-        2436,
-        2748
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0270",
-      "c": [
-        2376,
-        2520,
-        2424,
-        2520
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0271",
-      "c": [
-        2628,
-        1656,
-        2712,
-        1656
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0272",
-      "c": [
-        1860,
-        12,
-        1908,
-        12
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0273",
-      "c": [
-        2808,
-        156,
-        2868,
-        156
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0274",
-      "c": [
-        1128,
-        2064,
-        1176,
-        2064
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0275",
-      "c": [
-        2352,
-        2064,
-        2400,
-        2064
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0276",
-      "c": [
-        1824,
-        2988,
-        1872,
-        2988
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0277",
-      "c": [
-        2676,
-        2988,
-        2724,
-        2988
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0278",
-      "c": [
-        372,
-        588,
-        576,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0279",
-      "c": [
-        984,
-        588,
-        1032,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0280",
-      "c": [
-        1368,
-        588,
-        1572,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0281",
-      "c": [
-        1824,
-        588,
-        1884,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0282",
-      "c": [
-        1908,
-        588,
-        2040,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0283",
-      "c": [
-        2364,
-        588,
-        2580,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0284",
-      "c": [
-        2820,
-        588,
-        2892,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0285",
-      "c": [
-        2904,
-        588,
-        3000,
-        588
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0286",
-      "c": [
-        1380,
-        504,
-        1428,
-        504
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0287",
-      "c": [
-        96,
-        2736,
-        156,
-        2736
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0288",
-      "c": [
-        1176,
-        1728,
-        1236,
-        1728
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0289",
-      "c": [
-        1140,
-        2100,
-        1248,
-        2100
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0290",
-      "c": [
-        864,
-        384,
-        912,
-        384
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0291",
-      "c": [
-        2520,
-        2088,
-        2580,
-        2088
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0292",
-      "c": [
-        384,
-        2112,
-        432,
-        2112
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0293",
-      "c": [
-        2088,
-        2904,
-        2136,
-        2904
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0294",
-      "c": [
-        1392,
-        1812,
-        1440,
-        1812
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0295",
-      "c": [
-        864,
-        1392,
-        912,
-        1392
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0296",
-      "c": [
-        984,
-        1788,
-        1032,
-        1788
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0297",
-      "c": [
-        888,
-        420,
-        936,
-        420
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0298",
-      "c": [
-        1884,
-        420,
-        1932,
-        420
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0299",
-      "c": [
-        24,
-        2940,
-        96,
-        2940
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0300",
-      "c": [
-        2016,
-        2940,
-        2100,
-        2940
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0301",
-      "c": [
-        1932,
-        1584,
-        1980,
-        1584
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0302",
-      "c": [
-        2520,
-        300,
-        2568,
-        300
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0303",
-      "c": [
-        1692,
-        2964,
-        1740,
-        2964
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0304",
-      "c": [
-        1872,
-        2964,
-        1944,
-        2964
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0305",
-      "c": [
-        2016,
-        2964,
-        2064,
-        2964
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0306",
-      "c": [
-        2136,
-        2688,
-        2184,
-        2688
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0307",
-      "c": [
-        516,
-        1080,
-        564,
-        1080
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0308",
-      "c": [
-        156,
-        2712,
-        204,
-        2712
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0309",
-      "c": [
-        1008,
-        1944,
-        1104,
-        1944
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0310",
-      "c": [
-        1836,
-        1320,
-        1884,
-        1320
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    }
-  ],
-  "flags": {}
+	"_id": "BCV002BloodVats",
+	"name": "Beyond the Crimson Veil - Blood Vats",
+	"folder": "Beyond the Crimson Veil",
+	"navigation": true,
+	"navOrder": 1,
+	"navName": "",
+	"background": {
+		"src": "modules/nimble-maps/assets/maps/beyond-the-crimson-veil/blood-vats.webp",
+		"offsetX": 0,
+		"offsetY": 0,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	"foreground": null,
+	"fogOverlay": null,
+	"fogExploredColor": "#000000",
+	"fogUnexploredColor": "#000000",
+	"width": 3000,
+	"height": 3000,
+	"padding": 0,
+	"initial": {
+		"x": 1500,
+		"y": 1500,
+		"scale": 0.7
+	},
+	"backgroundColor": "#000000",
+	"grid": {
+		"type": 1,
+		"size": 200,
+		"distance": 1,
+		"units": "spaces",
+		"color": "#000000",
+		"alpha": 0.2
+	},
+	"tokenVision": true,
+	"fogExploration": true,
+	"environment": {
+		"darknessLevel": 0,
+		"darknessLock": false,
+		"globalLight": {
+			"enabled": false,
+			"alpha": 0.5,
+			"bright": false,
+			"color": null,
+			"coloration": 1,
+			"luminosity": 0,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"darkness": {
+				"min": 0,
+				"max": 1
+			}
+		},
+		"cycle": true,
+		"base": {
+			"hue": 0,
+			"intensity": 0,
+			"luminosity": 0,
+			"saturation": 0,
+			"shadows": 0
+		},
+		"dark": {
+			"hue": 0.7138888888888889,
+			"intensity": 0,
+			"luminosity": -0.25,
+			"saturation": 0,
+			"shadows": 0
+		}
+	},
+	"drawings": [],
+	"tokens": [
+		{
+			"_id": "UKBjPcpAezhktD44",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 750,
+			"y": 500,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "erUehQ7FnaOWlWjs",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1250,
+			"y": 480,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "6TRhEcCmLaWtqvmQ",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1750,
+			"y": 520,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "0nRSmwjOP550KroP",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 2250,
+			"y": 500,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "gq6fbdTwIQxCOJm5",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 800,
+			"y": 1040,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "dgci68VkQdv9V6SK",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1280,
+			"y": 1000,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "VQqEOJXlFraa6f2B",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1780,
+			"y": 1040,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "z1gPZxzqVQLwnrgz",
+			"name": "Cultist",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 2200,
+			"y": 1000,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "fBTwstljPGXgt3dD",
+			"name": "Fanatic",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 920,
+			"y": 800,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "uaaPYopzTCsGI8Hf",
+			"name": "Fanatic",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 2080,
+			"y": 820,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "gNMITrN1n3ErKF3X",
+			"name": "Fanatic",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1100,
+			"y": 300,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "wZxmHI7KeQvaKqkC",
+			"name": "Fanatic",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1900,
+			"y": 320,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "f6iUNG5zTg3wSelA",
+			"name": "Doomsayer",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 600,
+			"y": 1240,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "qkmGSeoGjj26cyKM",
+			"name": "Doomsayer",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 2400,
+			"y": 1200,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "mf2zQ35zVfIRdb4G",
+			"name": "Doomsayer",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1400,
+			"y": 200,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "sv91RRbXwYpoiTgq",
+			"name": "Doomsayer",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1600,
+			"y": 1240,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		},
+		{
+			"_id": "bbD2tS2asXs5e66m",
+			"name": "Azriel, Lord of Pain & Flame",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": true,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 3,
+			"height": 3,
+			"texture": {
+				"src": "systems/nimble/assets/legendaryMonsterImages/core/azriel.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1450,
+			"y": 1700,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-legendary-monsters.Actor.ZtvN9z6ZEolYZu1R"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.ZtvN9z6ZEolYZu1R",
+					"adventure": "Beyond the Crimson Veil"
+				}
+			}
+		}
+	],
+	"lights": [
+		{
+			"_id": "pp4KW55OCSt93rtt",
+			"x": 254,
+			"y": 253,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		},
+		{
+			"_id": "WbTMspACglHYXPCi",
+			"x": 1206,
+			"y": 195,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		},
+		{
+			"_id": "JGSK3EVHG58cMdr8",
+			"x": 2185,
+			"y": 198,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		},
+		{
+			"_id": "0QvQWFk0QORP2jQL",
+			"x": 204,
+			"y": 1197,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		},
+		{
+			"_id": "QqhX6obxQW98WZOC",
+			"x": 1194,
+			"y": 1199,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		},
+		{
+			"_id": "6tzP5HAH352epTHN",
+			"x": 2195,
+			"y": 1209,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		},
+		{
+			"_id": "yzYsHYcivmozH6gi",
+			"x": 2995,
+			"y": 267,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		},
+		{
+			"_id": "NZVdxeTqskjGiYbg",
+			"x": 2995,
+			"y": 1232,
+			"rotation": 0,
+			"config": {
+				"dim": 0,
+				"bright": 7,
+				"angle": 360,
+				"color": "#bb2222",
+				"alpha": 0.35,
+				"animation": {
+					"type": "pulse",
+					"speed": 2,
+					"intensity": 2
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				},
+				"luminosity": 0.25
+			},
+			"hidden": false,
+			"flags": {}
+		}
+	],
+	"notes": [],
+	"sounds": [],
+	"templates": [],
+	"tiles": [],
+	"walls": [
+		{
+			"_id": "f6jT0UsvS7PHyzSA",
+			"c": [
+				0,
+				0,
+				3000,
+				0
+			],
+			"light": 20,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "HNNcoRJZdoFUmVzs",
+			"c": [
+				3000,
+				0,
+				3000,
+				3000
+			],
+			"light": 20,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Zg5twmD0nIBsiRzD",
+			"c": [
+				3000,
+				3000,
+				0,
+				3000
+			],
+			"light": 20,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "LgY3pYRsqfzBEDIh",
+			"c": [
+				0,
+				3000,
+				0,
+				0
+			],
+			"light": 20,
+			"move": 20,
+			"sight": 20,
+			"sound": 20,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		}
+	],
+	"flags": {}
 }
