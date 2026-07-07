@@ -1,1776 +1,1608 @@
 {
-  "_id": "LT002RuindCarvn",
-  "name": "Lost Temple - Ruined Caravan",
-  "folder": "Lost Temple of Heytet-Seqat",
-  "navigation": true,
-  "navOrder": 1,
-  "navName": "",
-  "background": {
-    "src": "modules/nimble-maps/assets/maps/lost-temple-of-heytet-seqat/ruined-caravan.webp",
-    "offsetX": 0,
-    "offsetY": 0,
-    "scaleX": 1,
-    "scaleY": 1,
-    "rotation": 0
-  },
-  "foreground": null,
-  "fogOverlay": null,
-  "fogExploredColor": "#000000",
-  "fogUnexploredColor": "#000000",
-  "width": 2400,
-  "height": 2400,
-  "padding": 0,
-  "initial": {
-    "x": 1200,
-    "y": 1200,
-    "scale": 0.8
-  },
-  "backgroundColor": "#000000",
-  "grid": {
-    "type": 1,
-    "size": 200,
-    "distance": 1,
-    "units": "spaces",
-    "color": "#000000",
-    "alpha": 0.2
-  },
-  "tokenVision": true,
-  "fogExploration": true,
-  "environment": {
-    "darknessLevel": 0,
-    "darknessLock": false,
-    "globalLight": {
-      "enabled": true,
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "darkness": {
-        "min": 0,
-        "max": 0.25
-      }
-    },
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
-    }
-  },
-  "drawings": [],
-  "tokens": [
-    {
-      "_id": "heL9nXociN0j0LLQ",
-      "name": "Snakeman (playing dead)",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1180,
-      "y": 960,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "pzusS9nH8j7bj3k0",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 600,
-      "y": 600,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "DdWexfMTtJrdHG3g",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 800,
-      "y": 1400,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "wvGGRLE3O69Mk12F",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 500,
-      "y": 1000,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "hlYSdfbsr6hLPQCL",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1400,
-      "y": 1700,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "vAJQkSs4oJv8rDHL",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1900,
-      "y": 1500,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "nupFXrp534p3v64Z",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2100,
-      "y": 800,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "PnDBDWSOoXqJJ17W",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1600,
-      "y": 300,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "pPnXUClNHL7V2dGo",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1000,
-      "y": 200,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "yHhxsWfo6PomsdJ4",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 400,
-      "y": 1700,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "GSd7XwlbWUNAXyHy",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 2000,
-      "y": 1900,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    },
-    {
-      "_id": "6P5Sb5V4aWfVW1PE",
-      "name": "Snakeman",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 1,
-      "height": 1,
-      "texture": {
-        "src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1300,
-      "y": 2000,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 50,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": true,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
-          "adventure": "Lost Temple of Heytet-Seqat"
-        }
-      }
-    }
-  ],
-  "lights": [],
-  "notes": [],
-  "sounds": [],
-  "templates": [],
-  "tiles": [],
-  "walls": [
-    {
-      "_id": "zl4jYRPGwluoRzcd",
-      "c": [
-        1140,
-        700,
-        1250,
-        500
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "3dmpDlrNf4nwj4s2",
-      "c": [
-        1250,
-        500,
-        1500,
-        420
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "IUExYa619EyA5RjW",
-      "c": [
-        1500,
-        420,
-        1780,
-        430
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "r02KUBCG6rN0lsdk",
-      "c": [
-        1780,
-        430,
-        1930,
-        570
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "DYM5mLM86GpE9d7W",
-      "c": [
-        1930,
-        570,
-        1900,
-        800
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "YlL722Gr6jLHucQb",
-      "c": [
-        1900,
-        800,
-        1720,
-        1010
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "MNghrtD9PTktqq7z",
-      "c": [
-        1720,
-        1010,
-        1400,
-        950
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "qM5RbGLVIMPetzT1",
-      "c": [
-        1400,
-        950,
-        1200,
-        830
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "0zrzyqQ7LfQ9CopQ",
-      "c": [
-        1200,
-        830,
-        1140,
-        700
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "MI0WO8DZx61ES8yq",
-      "c": [
-        1400,
-        1150,
-        1500,
-        1060
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "WhB82I99tw04ozgg",
-      "c": [
-        1500,
-        1060,
-        1680,
-        1080
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "eabWVfYryz7vD0ae",
-      "c": [
-        1680,
-        1080,
-        1720,
-        1180
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "qwuQ2YF1gu18Ibts",
-      "c": [
-        1720,
-        1180,
-        1580,
-        1260
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "mbHTkMVggKytKjxi",
-      "c": [
-        1580,
-        1260,
-        1440,
-        1240
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    },
-    {
-      "_id": "KECcBoTbAQ9JL2No",
-      "c": [
-        1440,
-        1240,
-        1400,
-        1150
-      ],
-      "light": 10,
-      "move": 20,
-      "sight": 10,
-      "sound": 10,
-      "dir": 0,
-      "door": 0,
-      "ds": 0,
-      "threshold": {
-        "light": null,
-        "sight": null,
-        "sound": null,
-        "attenuation": false
-      },
-      "animation": null,
-      "flags": {}
-    }
-  ],
-  "flags": {}
+	"_id": "LT002RuindCarvn",
+	"name": "Lost Temple - Ruined Caravan",
+	"folder": "Lost Temple of Heytet-Seqat",
+	"navigation": true,
+	"navOrder": 1,
+	"navName": "",
+	"background": {
+		"src": "modules/nimble-maps/assets/maps/lost-temple-of-heytet-seqat/ruined-caravan.webp",
+		"offsetX": 0,
+		"offsetY": 0,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	"foreground": null,
+	"fogOverlay": null,
+	"fogExploredColor": "#000000",
+	"fogUnexploredColor": "#000000",
+	"width": 2400,
+	"height": 2400,
+	"padding": 0,
+	"initial": {
+		"x": 1200,
+		"y": 1200,
+		"scale": 0.8
+	},
+	"backgroundColor": "#000000",
+	"grid": {
+		"type": 1,
+		"size": 200,
+		"distance": 1,
+		"units": "spaces",
+		"color": "#000000",
+		"alpha": 0.2
+	},
+	"tokenVision": true,
+	"fogExploration": true,
+	"environment": {
+		"darknessLevel": 0,
+		"darknessLock": false,
+		"globalLight": {
+			"enabled": true,
+			"alpha": 0.5,
+			"bright": false,
+			"color": null,
+			"coloration": 1,
+			"luminosity": 0,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"darkness": {
+				"min": 0,
+				"max": 0.25
+			}
+		},
+		"cycle": true,
+		"base": {
+			"hue": 0,
+			"intensity": 0,
+			"luminosity": 0,
+			"saturation": 0,
+			"shadows": 0
+		},
+		"dark": {
+			"hue": 0.7138888888888889,
+			"intensity": 0,
+			"luminosity": -0.25,
+			"saturation": 0,
+			"shadows": 0
+		}
+	},
+	"drawings": [],
+	"tokens": [
+		{
+			"_id": "heL9nXociN0j0LLQ",
+			"name": "Snakeman (playing dead)",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1180,
+			"y": 960,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "pzusS9nH8j7bj3k0",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 600,
+			"y": 600,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "DdWexfMTtJrdHG3g",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 800,
+			"y": 1400,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "wvGGRLE3O69Mk12F",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 500,
+			"y": 1000,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "hlYSdfbsr6hLPQCL",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1400,
+			"y": 1700,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "vAJQkSs4oJv8rDHL",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1900,
+			"y": 1500,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "nupFXrp534p3v64Z",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 2100,
+			"y": 800,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "PnDBDWSOoXqJJ17W",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1600,
+			"y": 300,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "pPnXUClNHL7V2dGo",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1000,
+			"y": 200,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "yHhxsWfo6PomsdJ4",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 400,
+			"y": 1700,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "GSd7XwlbWUNAXyHy",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 2000,
+			"y": 1900,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		},
+		{
+			"_id": "6P5Sb5V4aWfVW1PE",
+			"name": "Snakeman",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 1,
+			"height": 1,
+			"texture": {
+				"src": "icons/creatures/reptiles/snake-fangs-bite-green.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1300,
+			"y": 2000,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 50,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": true,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1z0344rf5edBa077",
+					"adventure": "Lost Temple of Heytet-Seqat"
+				}
+			}
+		}
+	],
+	"lights": [],
+	"notes": [],
+	"sounds": [],
+	"templates": [],
+	"tiles": [],
+	"walls": [
+		{
+			"_id": "agyQigoUjTPiHBz9",
+			"c": [
+				1770,
+				430,
+				1880,
+				490
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "fb6ymuw7nnKH7Zwm",
+			"c": [
+				1880,
+				490,
+				1905,
+				615
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Z9bT1OnXTmNncuuy",
+			"c": [
+				1905,
+				615,
+				1875,
+				730
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "OZ789WskMHPfl5LR",
+			"c": [
+				1875,
+				730,
+				1770,
+				800
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "fy4O9mCXBWIhg8hm",
+			"c": [
+				1770,
+				800,
+				1665,
+				745
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "uS0DEWrxLNcgiSQ8",
+			"c": [
+				1665,
+				745,
+				1640,
+				615
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "VpV9vaxrkch1dMml",
+			"c": [
+				1640,
+				615,
+				1670,
+				490
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "YslCRG1yGSCSCihW",
+			"c": [
+				1670,
+				490,
+				1770,
+				430
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		}
+	],
+	"flags": {}
 }
