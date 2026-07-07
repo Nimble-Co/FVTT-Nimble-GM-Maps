@@ -1,2312 +1,3336 @@
 {
-  "_id": "HHC002TreantSnt",
-  "name": "Hidden Honey Cavern - Treant Sentinels",
-  "folder": "Hidden Honey Cavern",
-  "navigation": true,
-  "navOrder": 1,
-  "navName": "",
-  "background": {
-    "src": "modules/nimble-maps/assets/maps/hidden-honey-cavern/treant-sentinels.webp",
-    "offsetX": 0,
-    "offsetY": 0,
-    "scaleX": 1,
-    "scaleY": 1,
-    "rotation": 0
-  },
-  "foreground": null,
-  "fogOverlay": null,
-  "fogExploredColor": "#000000",
-  "fogUnexploredColor": "#000000",
-  "width": 2400,
-  "height": 2400,
-  "padding": 0,
-  "initial": {
-    "x": 1200,
-    "y": 1200,
-    "scale": 0.8
-  },
-  "backgroundColor": "#000000",
-  "grid": {
-    "type": 1,
-    "size": 200,
-    "distance": 1,
-    "units": "spaces",
-    "color": "#000000",
-    "alpha": 0.2
-  },
-  "tokenVision": true,
-  "fogExploration": true,
-  "environment": {
-    "darknessLevel": 0,
-    "darknessLock": false,
-    "globalLight": {
-      "enabled": true,
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0,
-      "darkness": {
-        "min": 0,
-        "max": 0.25
-      }
-    },
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
-    }
-  },
-  "drawings": [],
-  "tokens": [
-    {
-      "_id": "0Pjtni8vF8POKhCw",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 800,
-      "y": 600,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "MBJ1OyjYFnA5qfbD",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1300,
-      "y": 500,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "qdofOBJdm5okb6ur",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1700,
-      "y": 700,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "Kwwky7UsFISIjzC7",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 600,
-      "y": 1000,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "m4SunCn4ubuwiN0b",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1900,
-      "y": 1100,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "SxHS82SdEYURh7VB",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 500,
-      "y": 1500,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "QAxpEZxNE2MASrdz",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1900,
-      "y": 1600,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "X3LkBsBqQ477VxzY",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 800,
-      "y": 1800,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "9RbvzBAQMK8bN8uG",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1300,
-      "y": 1900,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "blkBUXT25mlGkDdt",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1600,
-      "y": 2000,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "P3ItYzu7rEtIWccZ",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 700,
-      "y": 2100,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    },
-    {
-      "_id": "0P5m475TYjhf5D66",
-      "name": "Treant Sapling",
-      "displayName": 50,
-      "actorId": null,
-      "actorLink": false,
-      "delta": {},
-      "appendNumber": false,
-      "prependAdjective": false,
-      "width": 0.5,
-      "height": 0.5,
-      "texture": {
-        "src": "icons/magic/nature/tree-elm-roots-brown.webp",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "offsetX": 0,
-        "offsetY": 0,
-        "fit": "contain",
-        "scaleX": 1,
-        "scaleY": 1,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "alphaThreshold": 0.75
-      },
-      "hexagonalShape": 0,
-      "x": 1100,
-      "y": 900,
-      "elevation": 0,
-      "sort": 0,
-      "locked": false,
-      "lockRotation": true,
-      "rotation": 0,
-      "alpha": 1,
-      "disposition": -1,
-      "displayBars": 40,
-      "bar1": {
-        "attribute": "attributes.hp"
-      },
-      "bar2": {
-        "attribute": null
-      },
-      "light": {
-        "negative": false,
-        "priority": 0,
-        "alpha": 0.5,
-        "angle": 360,
-        "bright": 0,
-        "color": null,
-        "coloration": 1,
-        "dim": 0,
-        "attenuation": 0.5,
-        "luminosity": 0.5,
-        "saturation": 0,
-        "contrast": 0,
-        "shadows": 0,
-        "animation": {
-          "type": null,
-          "speed": 5,
-          "intensity": 5,
-          "reverse": false
-        },
-        "darkness": {
-          "min": 0,
-          "max": 1
-        }
-      },
-      "sight": {
-        "enabled": false,
-        "range": 0,
-        "angle": 360,
-        "visionMode": "basic",
-        "color": null,
-        "attenuation": 0.1,
-        "brightness": 0,
-        "saturation": 0,
-        "contrast": 0
-      },
-      "detectionModes": [],
-      "occludable": {
-        "radius": 0
-      },
-      "ring": {
-        "enabled": false,
-        "colors": {
-          "ring": null,
-          "background": null
-        },
-        "effects": 0,
-        "subject": {
-          "scale": 1,
-          "texture": null
-        }
-      },
-      "turnMarker": {
-        "mode": 1,
-        "animation": null,
-        "src": null,
-        "disposition": false
-      },
-      "movementAction": null,
-      "hidden": false,
-      "flags": {
-        "core": {
-          "sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
-        },
-        "nimble-maps": {
-          "actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
-          "adventure": "Hidden Honey Cavern"
-        }
-      }
-    }
-  ],
-  "lights": [],
-  "notes": [],
-  "sounds": [],
-  "templates": [],
-  "tiles": [],
-  "walls": [
-    {
-      "_id": "wall0001",
-      "c": [
-        0,
-        0,
-        0,
-        336
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0002",
-      "c": [
-        0,
-        372,
-        0,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0003",
-      "c": [
-        0,
-        1704,
-        0,
-        1752
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0004",
-      "c": [
-        0,
-        1812,
-        0,
-        2400
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0005",
-      "c": [
-        2400,
-        0,
-        2400,
-        372
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0006",
-      "c": [
-        2400,
-        480,
-        2400,
-        552
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0007",
-      "c": [
-        2400,
-        564,
-        2400,
-        1092
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0008",
-      "c": [
-        2400,
-        1128,
-        2400,
-        1416
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0009",
-      "c": [
-        2400,
-        1428,
-        2400,
-        1548
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0010",
-      "c": [
-        2400,
-        1740,
-        2400,
-        2400
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0011",
-      "c": [
-        2256,
-        360,
-        2256,
-        408
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0012",
-      "c": [
-        2256,
-        420,
-        2256,
-        480
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0013",
-      "c": [
-        2064,
-        1056,
-        2064,
-        1116
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0014",
-      "c": [
-        852,
-        84,
-        852,
-        144
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0015",
-      "c": [
-        528,
-        2220,
-        528,
-        2268
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0016",
-      "c": [
-        204,
-        228,
-        204,
-        276
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0017",
-      "c": [
-        204,
-        864,
-        204,
-        948
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0018",
-      "c": [
-        2040,
-        996,
-        2040,
-        1044
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0019",
-      "c": [
-        132,
-        1764,
-        132,
-        1824
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0020",
-      "c": [
-        2028,
-        2136,
-        2028,
-        2184
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0021",
-      "c": [
-        2244,
-        360,
-        2244,
-        408
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0022",
-      "c": [
-        384,
-        2076,
-        384,
-        2124
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0023",
-      "c": [
-        516,
-        2220,
-        516,
-        2280
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0024",
-      "c": [
-        348,
-        888,
-        348,
-        960
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0025",
-      "c": [
-        2184,
-        2124,
-        2184,
-        2196
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0026",
-      "c": [
-        468,
-        2196,
-        468,
-        2244
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0027",
-      "c": [
-        108,
-        456,
-        108,
-        504
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0028",
-      "c": [
-        2364,
-        1140,
-        2364,
-        1188
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0029",
-      "c": [
-        1512,
-        1392,
-        1512,
-        1464
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0030",
-      "c": [
-        72,
-        396,
-        72,
-        444
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0031",
-      "c": [
-        1644,
-        1392,
-        1644,
-        1464
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0032",
-      "c": [
-        480,
-        2148,
-        480,
-        2196
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0033",
-      "c": [
-        2112,
-        2028,
-        2112,
-        2076
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0034",
-      "c": [
-        0,
-        0,
-        804,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0035",
-      "c": [
-        816,
-        0,
-        2400,
-        0
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0036",
-      "c": [
-        2340,
-        1680,
-        2388,
-        1680
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0037",
-      "c": [
-        804,
-        192,
-        852,
-        192
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0038",
-      "c": [
-        240,
-        840,
-        300,
-        840
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0039",
-      "c": [
-        1548,
-        1356,
-        1596,
-        1356
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0040",
-      "c": [
-        732,
-        48,
-        804,
-        48
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0041",
-      "c": [
-        1488,
-        1368,
-        1548,
-        1368
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0042",
-      "c": [
-        0,
-        2400,
-        2400,
-        2400
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0043",
-      "c": [
-        1548,
-        1500,
-        1620,
-        1500
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0044",
-      "c": [
-        2052,
-        2100,
-        2112,
-        2100
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0045",
-      "c": [
-        396,
-        2280,
-        444,
-        2280
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0046",
-      "c": [
-        2052,
-        2256,
-        2112,
-        2256
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0047",
-      "c": [
-        1944,
-        1104,
-        1992,
-        1104
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0048",
-      "c": [
-        2340,
-        396,
-        2400,
-        396
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0049",
-      "c": [
-        24,
-        1836,
-        120,
-        1836
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0050",
-      "c": [
-        2328,
-        516,
-        2376,
-        516
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0051",
-      "c": [
-        2292,
-        384,
-        2340,
-        384
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0052",
-      "c": [
-        192,
-        252,
-        252,
-        252
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0053",
-      "c": [
-        180,
-        168,
-        228,
-        168
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0054",
-      "c": [
-        2340,
-        1560,
-        2388,
-        1560
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0055",
-      "c": [
-        360,
-        2316,
-        408,
-        2316
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    },
-    {
-      "_id": "wall0056",
-      "c": [
-        456,
-        2316,
-        504,
-        2316
-      ],
-      "door": 0,
-      "ds": 0,
-      "move": 20,
-      "sight": 20,
-      "sound": 20,
-      "light": 20,
-      "flags": {}
-    }
-  ],
-  "flags": {}
+	"_id": "HHC002TreantSnt",
+	"name": "Hidden Honey Cavern - Treant Sentinels",
+	"folder": "Hidden Honey Cavern",
+	"navigation": true,
+	"navOrder": 1,
+	"navName": "",
+	"background": {
+		"src": "modules/nimble-maps/assets/maps/hidden-honey-cavern/treant-sentinels.webp",
+		"offsetX": 0,
+		"offsetY": 0,
+		"scaleX": 1,
+		"scaleY": 1,
+		"rotation": 0
+	},
+	"foreground": null,
+	"fogOverlay": null,
+	"fogExploredColor": "#000000",
+	"fogUnexploredColor": "#000000",
+	"width": 2400,
+	"height": 2400,
+	"padding": 0,
+	"initial": {
+		"x": 1200,
+		"y": 1200,
+		"scale": 0.8
+	},
+	"backgroundColor": "#000000",
+	"grid": {
+		"type": 1,
+		"size": 200,
+		"distance": 1,
+		"units": "spaces",
+		"color": "#000000",
+		"alpha": 0.2
+	},
+	"tokenVision": true,
+	"fogExploration": true,
+	"environment": {
+		"darknessLevel": 0,
+		"darknessLock": false,
+		"globalLight": {
+			"enabled": true,
+			"alpha": 0.5,
+			"bright": false,
+			"color": null,
+			"coloration": 1,
+			"luminosity": 0,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0,
+			"darkness": {
+				"min": 0,
+				"max": 0.25
+			}
+		},
+		"cycle": true,
+		"base": {
+			"hue": 0,
+			"intensity": 0,
+			"luminosity": 0,
+			"saturation": 0,
+			"shadows": 0
+		},
+		"dark": {
+			"hue": 0.7138888888888889,
+			"intensity": 0,
+			"luminosity": -0.25,
+			"saturation": 0,
+			"shadows": 0
+		}
+	},
+	"drawings": [],
+	"tokens": [
+		{
+			"_id": "0Pjtni8vF8POKhCw",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 800,
+			"y": 600,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "MBJ1OyjYFnA5qfbD",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1300,
+			"y": 500,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "qdofOBJdm5okb6ur",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1700,
+			"y": 700,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "Kwwky7UsFISIjzC7",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 600,
+			"y": 1000,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "m4SunCn4ubuwiN0b",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1900,
+			"y": 1100,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "SxHS82SdEYURh7VB",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 500,
+			"y": 1500,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "QAxpEZxNE2MASrdz",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1900,
+			"y": 1600,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "X3LkBsBqQ477VxzY",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 800,
+			"y": 1800,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "9RbvzBAQMK8bN8uG",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1300,
+			"y": 1900,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "blkBUXT25mlGkDdt",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1600,
+			"y": 2000,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "P3ItYzu7rEtIWccZ",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 700,
+			"y": 2100,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		},
+		{
+			"_id": "0P5m475TYjhf5D66",
+			"name": "Treant Sapling",
+			"displayName": 50,
+			"actorId": null,
+			"actorLink": false,
+			"delta": {},
+			"appendNumber": false,
+			"prependAdjective": false,
+			"width": 0.5,
+			"height": 0.5,
+			"texture": {
+				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
+				"anchorX": 0.5,
+				"anchorY": 0.5,
+				"offsetX": 0,
+				"offsetY": 0,
+				"fit": "contain",
+				"scaleX": 1,
+				"scaleY": 1,
+				"rotation": 0,
+				"tint": "#ffffff",
+				"alphaThreshold": 0.75
+			},
+			"hexagonalShape": 0,
+			"x": 1100,
+			"y": 900,
+			"elevation": 0,
+			"sort": 0,
+			"locked": false,
+			"lockRotation": true,
+			"rotation": 0,
+			"alpha": 1,
+			"disposition": -1,
+			"displayBars": 40,
+			"bar1": {
+				"attribute": "attributes.hp"
+			},
+			"bar2": {
+				"attribute": null
+			},
+			"light": {
+				"negative": false,
+				"priority": 0,
+				"alpha": 0.5,
+				"angle": 360,
+				"bright": 0,
+				"color": null,
+				"coloration": 1,
+				"dim": 0,
+				"attenuation": 0.5,
+				"luminosity": 0.5,
+				"saturation": 0,
+				"contrast": 0,
+				"shadows": 0,
+				"animation": {
+					"type": null,
+					"speed": 5,
+					"intensity": 5,
+					"reverse": false
+				},
+				"darkness": {
+					"min": 0,
+					"max": 1
+				}
+			},
+			"sight": {
+				"enabled": false,
+				"range": 0,
+				"angle": 360,
+				"visionMode": "basic",
+				"color": null,
+				"attenuation": 0.1,
+				"brightness": 0,
+				"saturation": 0,
+				"contrast": 0
+			},
+			"detectionModes": [],
+			"occludable": {
+				"radius": 0
+			},
+			"ring": {
+				"enabled": false,
+				"colors": {
+					"ring": null,
+					"background": null
+				},
+				"effects": 0,
+				"subject": {
+					"scale": 1,
+					"texture": null
+				}
+			},
+			"turnMarker": {
+				"mode": 1,
+				"animation": null,
+				"src": null,
+				"disposition": false
+			},
+			"movementAction": null,
+			"hidden": false,
+			"flags": {
+				"core": {
+					"sourceId": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC"
+				},
+				"nimble-maps": {
+					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
+					"adventure": "Hidden Honey Cavern"
+				}
+			}
+		}
+	],
+	"lights": [],
+	"notes": [],
+	"sounds": [],
+	"templates": [],
+	"tiles": [],
+	"walls": [
+		{
+			"_id": "0Omm3zIw6LZzQehs",
+			"c": [
+				2400,
+				430,
+				2400,
+				536
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "r7nI2H3RUis1xVN8",
+			"c": [
+				2400,
+				536,
+				2290,
+				580
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "H7ZR7PBYRIUH3G3B",
+			"c": [
+				2290,
+				580,
+				2177,
+				536
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Yc6iyqYPAfD11t9r",
+			"c": [
+				2177,
+				536,
+				2130,
+				430
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "6gcMtMEm4bsJMurl",
+			"c": [
+				2130,
+				430,
+				2177,
+				324
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Zym2W2I9z37LFMRp",
+			"c": [
+				2177,
+				324,
+				2290,
+				280
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "9T51lbpX6owavjNM",
+			"c": [
+				2290,
+				280,
+				2400,
+				324
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "4hroNBLanGQWjHpO",
+			"c": [
+				2400,
+				324,
+				2400,
+				430
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "2kdt2bfxz1a6s8Pj",
+			"c": [
+				435,
+				930,
+				390,
+				1025
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "l8ptUs7if7BVtXEh",
+			"c": [
+				390,
+				1025,
+				280,
+				1065
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "EJ634RWJLTFzKwyC",
+			"c": [
+				280,
+				1065,
+				170,
+				1025
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "pjQkptIziOSayrNE",
+			"c": [
+				170,
+				1025,
+				125,
+				930
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "PDpneZKvK6MlfxZJ",
+			"c": [
+				125,
+				930,
+				170,
+				835
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "JaPrhsxblKDOB9uc",
+			"c": [
+				170,
+				835,
+				280,
+				795
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "pp6c87Sx5WyGGh2d",
+			"c": [
+				280,
+				795,
+				390,
+				835
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "fTQQcx4qlq1noEGx",
+			"c": [
+				390,
+				835,
+				435,
+				930
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "dEc5QHOE4GXiyIWe",
+			"c": [
+				2125,
+				1020,
+				2077,
+				1119
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "O5sCM0wBVWiGLctC",
+			"c": [
+				2077,
+				1119,
+				1960,
+				1160
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "IkNxV3ShzlQtZljW",
+			"c": [
+				1960,
+				1160,
+				1843,
+				1119
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Z7fwDqWurFQNov2X",
+			"c": [
+				1843,
+				1119,
+				1795,
+				1020
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "u0bP06Wp6NQFXU2D",
+			"c": [
+				1795,
+				1020,
+				1843,
+				921
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "txrfhAATsnVbWnG5",
+			"c": [
+				1843,
+				921,
+				1960,
+				880
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "njZErrEc7YnHVTRO",
+			"c": [
+				1960,
+				880,
+				2077,
+				921
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "3RLIfJDkIay8EuSU",
+			"c": [
+				2077,
+				921,
+				2125,
+				1020
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "vc4w4YU9CPfHrWDk",
+			"c": [
+				1700,
+				1445,
+				1660,
+				1540
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "rBzJri6fp1OR4VuV",
+			"c": [
+				1660,
+				1540,
+				1565,
+				1580
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "5WIeeTP9tzsNzLv5",
+			"c": [
+				1565,
+				1580,
+				1470,
+				1540
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "20PKu2mSLTsXdwS6",
+			"c": [
+				1470,
+				1540,
+				1430,
+				1445
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "NrQBWDsMxGufr1si",
+			"c": [
+				1430,
+				1445,
+				1470,
+				1350
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "xIrulfDE3wNZhOyd",
+			"c": [
+				1470,
+				1350,
+				1565,
+				1310
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "fPwY9I2hQEo4HEeQ",
+			"c": [
+				1565,
+				1310,
+				1660,
+				1350
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "YjYQNzLCk0Xfm3lX",
+			"c": [
+				1660,
+				1350,
+				1700,
+				1445
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "rgDohaA4EzRJXvBG",
+			"c": [
+				220,
+				1740,
+				176,
+				1843
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "lG0DWodINQJBqxbV",
+			"c": [
+				176,
+				1843,
+				70,
+				1885
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "iMFNUydVyfGggQ8H",
+			"c": [
+				70,
+				1885,
+				0,
+				1843
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "ID262AlwgDLDbdjm",
+			"c": [
+				0,
+				1843,
+				0,
+				1740
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "F8Nni2asDZVtbvdY",
+			"c": [
+				0,
+				1740,
+				0,
+				1637
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Zcj60Vw5wJrfHxKd",
+			"c": [
+				0,
+				1637,
+				70,
+				1595
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Pd2MS9LykksiY4Qo",
+			"c": [
+				70,
+				1595,
+				176,
+				1637
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "mlrRfSlc7I88m5GS",
+			"c": [
+				176,
+				1637,
+				220,
+				1740
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "v22YGg1Wre4lEAeT",
+			"c": [
+				2400,
+				1650,
+				2400,
+				1735
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "hDM9yTew2gSXRv34",
+			"c": [
+				2400,
+				1735,
+				2355,
+				1770
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "mcLmosD7IgSqORJ8",
+			"c": [
+				2355,
+				1770,
+				2263,
+				1735
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "ItPkjHQIidXQeiEJ",
+			"c": [
+				2263,
+				1735,
+				2225,
+				1650
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "xGQ8OPv6tOYlvmxS",
+			"c": [
+				2225,
+				1650,
+				2263,
+				1565
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "JEERcyRG6yXrZygI",
+			"c": [
+				2263,
+				1565,
+				2355,
+				1530
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "CNczJ9zIF0r4siGz",
+			"c": [
+				2355,
+				1530,
+				2400,
+				1565
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "G7Ttosfe32ZX1EdT",
+			"c": [
+				2400,
+				1565,
+				2400,
+				1650
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "pJTTEmK3aLGG2fHJ",
+			"c": [
+				585,
+				2160,
+				534,
+				2277
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "pJLfZkP4D4WVqjlV",
+			"c": [
+				534,
+				2277,
+				410,
+				2325
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Rzjr346ZakIAsA2c",
+			"c": [
+				410,
+				2325,
+				286,
+				2277
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "eFTuNTE988j6yljY",
+			"c": [
+				286,
+				2277,
+				235,
+				2160
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "RPNPUQMJFd1LhKAs",
+			"c": [
+				235,
+				2160,
+				286,
+				2043
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "AwirzJvJkrs9lVtv",
+			"c": [
+				286,
+				2043,
+				410,
+				1995
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "3KTLlBv2kxePdfCD",
+			"c": [
+				410,
+				1995,
+				534,
+				2043
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "7oM9j3YyJn1BIHOH",
+			"c": [
+				534,
+				2043,
+				585,
+				2160
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "2chzO3mzCouekrzL",
+			"c": [
+				2260,
+				2150,
+				2216,
+				2249
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "qU31CSfS7wjlfEQR",
+			"c": [
+				2216,
+				2249,
+				2110,
+				2290
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "b46nzqKRgORDurf9",
+			"c": [
+				2110,
+				2290,
+				2004,
+				2249
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "GRdKmSUILtRs0HjP",
+			"c": [
+				2004,
+				2249,
+				1960,
+				2150
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "yx4YY2J0HDDIaler",
+			"c": [
+				1960,
+				2150,
+				2004,
+				2051
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "o7ogF8o9CUYaRAr7",
+			"c": [
+				2004,
+				2051,
+				2110,
+				2010
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "kkTYd6PytvgMT03j",
+			"c": [
+				2110,
+				2010,
+				2216,
+				2051
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "UQZEGOgRipwyxSRk",
+			"c": [
+				2216,
+				2051,
+				2260,
+				2150
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "4MGV0350wCoXBtY8",
+			"c": [
+				2020,
+				1180,
+				2180,
+				1300
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "a1BrRTqJX82NicV0",
+			"c": [
+				2180,
+				1300,
+				2330,
+				1450
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "JYEcFRW3tJPZHnxG",
+			"c": [
+				2330,
+				1450,
+				2400,
+				1530
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "8ziworrHARpWTIg1",
+			"c": [
+				0,
+				120,
+				140,
+				180
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "o92TNRELKUNGMEsc",
+			"c": [
+				140,
+				180,
+				250,
+				300
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "cZsxPY72c6CwuADx",
+			"c": [
+				250,
+				300,
+				240,
+				430
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "PjP8YOheEWAFPHNZ",
+			"c": [
+				240,
+				430,
+				120,
+				470
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "Yzk4rLaOdjJzOQI4",
+			"c": [
+				120,
+				470,
+				0,
+				440
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "fDU9Qu5xQUlV5bFU",
+			"c": [
+				945,
+				105,
+				894,
+				208
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "mfDg5cawrR8wjONn",
+			"c": [
+				894,
+				208,
+				770,
+				250
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "1nezwEHaxsRu7VuK",
+			"c": [
+				770,
+				250,
+				646,
+				208
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "pbU211aaIlXKt46e",
+			"c": [
+				646,
+				208,
+				595,
+				105
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "ciXch1szrjrAHhM1",
+			"c": [
+				595,
+				105,
+				646,
+				2
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "8E0MyqiV03MoPrH3",
+			"c": [
+				646,
+				2,
+				770,
+				0
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "HRQBXnMZWcsSGpFC",
+			"c": [
+				770,
+				0,
+				894,
+				2
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		},
+		{
+			"_id": "mXK4GW9lExvKO1oU",
+			"c": [
+				894,
+				2,
+				945,
+				105
+			],
+			"light": 10,
+			"move": 20,
+			"sight": 10,
+			"sound": 10,
+			"dir": 0,
+			"door": 0,
+			"ds": 0,
+			"threshold": {
+				"light": null,
+				"sight": null,
+				"sound": null,
+				"attenuation": false
+			},
+			"animation": null,
+			"flags": {}
+		}
+	],
+	"flags": {}
 }
