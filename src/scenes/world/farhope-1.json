@@ -69,7 +69,41 @@
       "shadows": 0
     }
   },
-  "drawings": [],
+  "drawings": [
+    {
+      "_id": "oBwquU54Myr95Q3g",
+      "author": null,
+      "shape": {
+        "type": "r",
+        "width": 820,
+        "height": 190,
+        "radius": null,
+        "points": []
+      },
+      "x": 50,
+      "y": 30,
+      "elevation": 0,
+      "sort": 0,
+      "rotation": 0,
+      "bezierFactor": 0,
+      "fillType": 0,
+      "fillColor": "#000000",
+      "fillAlpha": 0.0,
+      "strokeWidth": 0,
+      "strokeColor": "#000000",
+      "strokeAlpha": 0.0,
+      "texture": null,
+      "text": "Farhope",
+      "fontFamily": "Signika",
+      "fontSize": 150,
+      "textColor": "#f5ecd8",
+      "textAlpha": 1,
+      "hidden": false,
+      "locked": false,
+      "interface": false,
+      "flags": {}
+    }
+  ],
   "tokens": [],
   "lights": [],
   "notes": [],
