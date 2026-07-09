@@ -6,6 +6,7 @@
 	"packageManager": "pnpm@10.33.0",
 	"scripts": {
 		"build": "node build/buildCompendia.mjs",
+		"sync:scene": "node build/syncSceneFromFoundry.mjs",
 		"merge:scenes": "node build/mergeSceneData.mjs",
 		"worktree:setup": "node build/worktreeSetup.mjs",
 		"worktree:cleanup": "node build/worktreeCleanup.mjs",
