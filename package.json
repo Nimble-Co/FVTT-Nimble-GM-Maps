@@ -1,6 +1,6 @@
 {
 	"name": "nimble-maps",
-	"version": "0.0.1",
+	"version": "0.0.9",
 	"description": "Pre-configured battle map scenes for the Nimble GM Guide adventures",
 	"type": "module",
 	"packageManager": "pnpm@10.33.0",
