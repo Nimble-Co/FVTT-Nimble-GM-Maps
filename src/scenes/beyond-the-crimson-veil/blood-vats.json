@@ -1,31 +1,21 @@
 {
-	"_id": "BCV002BloodVats",
+	"_id": "BCV002BloodVats0",
 	"name": "Beyond the Crimson Veil - Blood Vats",
 	"folder": "Beyond the Crimson Veil",
 	"navigation": true,
 	"navOrder": 1,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/beyond-the-crimson-veil/blood-vats.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 3000,
 	"height": 3000,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 1500,
 		"y": 1500,
 		"scale": 0.7
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Beyond the Crimson Veil - Blood Vats",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/beyond-the-crimson-veil/blood-vats.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 750,
 			"y": 500,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "erUehQ7FnaOWlWjs",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1250,
 			"y": 480,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "6TRhEcCmLaWtqvmQ",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1750,
 			"y": 520,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "0nRSmwjOP550KroP",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2250,
 			"y": 500,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "gq6fbdTwIQxCOJm5",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 800,
 			"y": 1040,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "dgci68VkQdv9V6SK",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1280,
 			"y": 1000,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "VQqEOJXlFraa6f2B",
@@ -745,24 +733,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1780,
 			"y": 1040,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "z1gPZxzqVQLwnrgz",
@@ -856,24 +841,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2200,
 			"y": 1000,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,7 +937,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.YjKhjwiYoNrrhXfo",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "fBTwstljPGXgt3dD",
@@ -967,24 +949,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 920,
 			"y": 800,
 			"elevation": 0,
@@ -1037,7 +1013,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1069,7 +1045,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "uaaPYopzTCsGI8Hf",
@@ -1078,24 +1057,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2080,
 			"y": 820,
 			"elevation": 0,
@@ -1148,7 +1121,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1180,7 +1153,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "gNMITrN1n3ErKF3X",
@@ -1189,24 +1165,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1100,
 			"y": 300,
 			"elevation": 0,
@@ -1259,7 +1229,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1291,7 +1261,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "wZxmHI7KeQvaKqkC",
@@ -1300,24 +1273,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/silhouette-robe-evil-glow.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1900,
 			"y": 320,
 			"elevation": 0,
@@ -1370,7 +1337,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1402,7 +1369,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.WJikH84pVBBYkwh0",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "f6iUNG5zTg3wSelA",
@@ -1411,24 +1381,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 600,
 			"y": 1240,
 			"elevation": 0,
@@ -1481,7 +1445,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1513,7 +1477,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "qkmGSeoGjj26cyKM",
@@ -1522,24 +1489,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2400,
 			"y": 1200,
 			"elevation": 0,
@@ -1592,7 +1553,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1624,7 +1585,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "mf2zQ35zVfIRdb4G",
@@ -1633,24 +1597,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1400,
 			"y": 200,
 			"elevation": 0,
@@ -1703,7 +1661,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1735,7 +1693,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "sv91RRbXwYpoiTgq",
@@ -1744,24 +1705,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/unholy/hand-claw-fire-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1600,
 			"y": 1240,
 			"elevation": 0,
@@ -1814,7 +1769,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1846,7 +1801,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.8cTXSC0sZZFE5Vbg",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "bbD2tS2asXs5e66m",
@@ -1854,25 +1812,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 3,
 			"height": 3,
 			"texture": {
 				"src": "systems/nimble/assets/legendaryMonsterImages/core/azriel.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1450,
 			"y": 1700,
 			"elevation": 0,
@@ -1925,7 +1877,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1957,7 +1909,10 @@
 					"actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.ZtvN9z6ZEolYZu1R",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 3,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [
@@ -2163,8 +2118,8 @@
 		}
 	],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -2264,5 +2219,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035448,
+		"modifiedTime": 1789098035448,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

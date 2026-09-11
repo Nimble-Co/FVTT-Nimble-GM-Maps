@@ -1,31 +1,21 @@
 {
-	"_id": "GTB002Dungeon01",
+	"_id": "GTB002Dungeon010",
 	"name": "Greenthumb's Base - Dungeon",
 	"folder": "Greenthumb's Base",
 	"navigation": true,
 	"navOrder": 1,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/greenthumbs-base/dungeon.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 6800,
 	"height": 4600,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 3400,
 		"y": 2300,
 		"scale": 0.5
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Greenthumb's Base - Dungeon",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/greenthumbs-base/dungeon.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/nature/root-vine-entangle-foot-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2100,
 			"y": 500,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.zUR4X7UV37zHrDF2",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "KL6FTOgQtDhU5qau",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1900,
 			"y": 400,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "hDdTd3JuNtgMZ10j",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2350,
 			"y": 400,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "hbA2FjNbJjr5PvqV",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2000,
 			"y": 700,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "4WNACHg9eWR1Jz8j",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2400,
 			"y": 650,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "ZySBt3cNZLEI8HAP",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/magical/spirit-undead-ghost-purple.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4150,
 			"y": 1400,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.1sz3bC7wjQsmM0jX",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "fxu7izmlUTJPlvm4",
@@ -744,25 +732,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 3,
 			"height": 3,
 			"texture": {
 				"src": "icons/creatures/abilities/mouth-teeth-long-red.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5500,
 			"y": 1800,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.2WAfywOh2jWhIlVy",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 3,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "kVg5mdc1LWm6tq7i",
@@ -856,24 +841,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5300,
 			"y": 1600,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,7 +937,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "1eNbJ4myHFHs1u6P",
@@ -967,24 +949,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 6200,
 			"y": 1700,
 			"elevation": 0,
@@ -1037,7 +1013,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1069,7 +1045,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Gci5ndp6i7uagw6z",
@@ -1078,24 +1057,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5300,
 			"y": 2500,
 			"elevation": 0,
@@ -1148,7 +1121,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1180,7 +1153,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "yDcyZnNnuSrgWqZC",
@@ -1189,24 +1165,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 6100,
 			"y": 2600,
 			"elevation": 0,
@@ -1259,7 +1229,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1291,7 +1261,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Oxdo2q2Kamerd55V",
@@ -1299,25 +1272,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2100,
 			"y": 2450,
 			"elevation": 0,
@@ -1370,7 +1337,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1402,7 +1369,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.61FWYH8AiVq2gD9R",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "EsXbzJfVPkhg8qmS",
@@ -1411,24 +1381,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 2,
 			"height": 2,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1300,
 			"y": 2500,
 			"elevation": 0,
@@ -1481,7 +1445,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1513,7 +1477,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 2,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "7vsHgjM1XWkbgXJr",
@@ -1522,24 +1489,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 2,
 			"height": 2,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1800,
 			"y": 2700,
 			"elevation": 0,
@@ -1592,7 +1553,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1624,7 +1585,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 2,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "8NHNs45L5CLIbtRs",
@@ -1632,25 +1596,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "systems/nimble/assets/legendaryMonsterImages/Greenthumb.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2300,
 			"y": 3400,
 			"elevation": 0,
@@ -1703,7 +1661,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1735,12 +1693,15 @@
 					"actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.HIXIhUIG7S9vyF1B",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [
 		{
-			"_id": "light001",
+			"_id": "light00100000000",
 			"x": 2163,
 			"y": 4047,
 			"rotation": 0,
@@ -1765,7 +1726,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light002",
+			"_id": "light00200000000",
 			"x": 2218,
 			"y": 3334,
 			"rotation": 0,
@@ -1790,7 +1751,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light003",
+			"_id": "light00300000000",
 			"x": 544,
 			"y": 3714,
 			"rotation": 0,
@@ -1815,7 +1776,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light007",
+			"_id": "light00700000000",
 			"x": 2925,
 			"y": 2397,
 			"rotation": 0,
@@ -1840,7 +1801,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light008",
+			"_id": "light00800000000",
 			"x": 3396,
 			"y": 681,
 			"rotation": 0,
@@ -1865,7 +1826,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light009",
+			"_id": "light00900000000",
 			"x": 5999,
 			"y": 1272,
 			"rotation": 0,
@@ -1890,7 +1851,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light010",
+			"_id": "light01000000000",
 			"x": 463,
 			"y": 2478,
 			"rotation": 0,
@@ -1915,7 +1876,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light012",
+			"_id": "light01200000000",
 			"x": 1178,
 			"y": 1733,
 			"rotation": 0,
@@ -1940,7 +1901,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light013",
+			"_id": "light01300000000",
 			"x": 4099,
 			"y": 1115,
 			"rotation": 0,
@@ -1965,7 +1926,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light014",
+			"_id": "light01400000000",
 			"x": 5801,
 			"y": 2925,
 			"rotation": 0,
@@ -1990,7 +1951,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "light015",
+			"_id": "light01500000000",
 			"x": 1511,
 			"y": 2065,
 			"rotation": 0,
@@ -2316,8 +2277,8 @@
 		}
 	],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -9089,5 +9050,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035525,
+		"modifiedTime": 1789098035525,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

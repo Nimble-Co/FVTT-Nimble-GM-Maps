@@ -1,31 +1,21 @@
 {
-	"_id": "THL003SpdrRoost",
+	"_id": "THL003SpdrRoost0",
 	"name": "The Hag's Legacy - Spiderhollow Roost",
 	"folder": "The Hag's Legacy",
 	"navigation": true,
 	"navOrder": 2,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/the-hags-legacy/spiderhollow-roost.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 5200,
 	"height": 2800,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 2600,
 		"y": 1400,
 		"scale": 0.6
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "The Hag's Legacy - Spiderhollow Roost",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/the-hags-legacy/spiderhollow-roost.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2600,
 			"y": 1000,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "9s7ZzTGervE5mPWO",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3200,
 			"y": 600,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "g5shc1mTPk7FHUmM",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2400,
 			"y": 1600,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "MgSD0GBaPb7a15jS",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3000,
 			"y": 1800,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "bPg1HPqzI8GoZxqK",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3450,
 			"y": 1350,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "yDrcsQfHJot7X7BE",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2620,
 			"y": 1250,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "VUmomp3IqUJSiuiZ",
@@ -745,24 +733,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2200,
 			"y": 1200,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "KDk0HQdVNfafoLpi",
@@ -856,24 +841,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
 				"src": "icons/creatures/abilities/stinger-poison-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3400,
 			"y": 2000,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,13 +937,16 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.4eLmzsN0UYJJBGkm",
 					"adventure": "The Hag's Legacy"
 				}
-			}
+			},
+			"depth": 0.25,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -2552,5 +2534,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035621,
+		"modifiedTime": 1789098035621,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

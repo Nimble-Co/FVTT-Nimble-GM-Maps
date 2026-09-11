@@ -16,13 +16,19 @@
  *
  * By default only WALLS are synced (that's the usual thing you're hand-editing).
  * Add flags to sync more collections:
- *   --lights --tokens --drawings --notes --sounds --tiles --templates --environment
+ *   --lights --tokens --drawings --notes --sounds --tiles --regions --levels
+ *   --environment
  *   --all         sync every collection above
  *   --dry-run     report what would change without writing
  *
  * Matching: the exported scene is matched to a source file by `_id` first, then
- * by normalized name. The source file's own `_id`, `name`, `folder`, background,
- * grid, etc. are always preserved — only the selected collections are replaced.
+ * by normalized name. The source file's own `_id`, `name`, `folder`, grid, etc.
+ * are always preserved — only the selected collections are replaced.
+ *
+ * Note on v14: the scene background and foreground live on the Level document
+ * (`levels`), not on the scene, so changing the map image means syncing
+ * `--levels`. Placeables reference the level they sit on by id, and those
+ * references are rewritten to the source scene's own level id on the way in.
  */
 
 import { readFileSync, writeFileSync, readdirSync, statSync } from "fs";
@@ -38,7 +44,10 @@ const COLLECTIONS = [
 	"notes",
 	"sounds",
 	"tiles",
-	"templates",
+	// v14: MeasuredTemplates were folded into Regions, and Levels carry the
+	// background/foreground images.
+	"regions",
+	"levels",
 ];
 
 // ---- parse args ----------------------------------------------------------
@@ -105,9 +114,9 @@ const sceneFiles = findSceneFiles(SRC_SCENES_PATH).map((f) => ({
 
 // When a scene is imported/dragged from a compendium into a world, Foundry gives
 // the world copy a NEW random _id, but records the original compendium id here.
-// The trailing segment is the source scene's _id (e.g. ...scenes.Scene.ATR002ValleyGnd).
+// The trailing segment is the source scene's _id (e.g. ...scenes.Scene.ATR002ValleyGnd0).
 function originId(scene) {
-	const uuid = scene?.flags?.core?.sourceId ?? scene?._stats?.compendiumSource;
+	const uuid = scene?._stats?.compendiumSource ?? scene?.flags?.core?.sourceId;
 	if (typeof uuid === "string" && uuid.startsWith("Compendium.")) {
 		return uuid.split(".").pop();
 	}
@@ -150,6 +159,16 @@ console.log(`Matched export → ${targetScene.name}  (${targetPath})`);
 console.log(`  via ${matchedBy}`);
 
 // ---- merge selected collections -----------------------------------------
+// Placeables carry the id of the level they sit on. A world copy of the scene can
+// have been given a different level id, so point every incoming reference back at
+// the level this source scene actually ships.
+const sourceLevelId = targetScene.levels?.[0]?._id;
+
+function retargetLevel(doc) {
+	if (sourceLevelId && typeof doc?.level === "string") doc.level = sourceLevelId;
+	return doc;
+}
+
 const changes = [];
 for (const key of selected) {
 	const incoming = exported[key];
@@ -158,7 +177,10 @@ for (const key of selected) {
 		continue;
 	}
 	const before = Array.isArray(targetScene[key]) ? targetScene[key].length : 0;
-	targetScene[key] = incoming;
+	targetScene[key] =
+		key === "levels"
+			? incoming.map((level, i) => ({ ...level, _id: i === 0 && sourceLevelId ? sourceLevelId : level._id }))
+			: incoming.map(retargetLevel);
 	changes.push(`${key} ${before}→${incoming.length}`);
 }
 
@@ -182,4 +204,5 @@ if (dryRun) {
 // Preserve the repo convention: tab indentation + trailing newline.
 writeFileSync(targetPath, JSON.stringify(targetScene, null, "\t") + "\n");
 console.log(`✅ Wrote ${targetPath}`);
-console.log("Next: rebuild the pack →  node build/buildCompendia.mjs");
+console.log("Next: validate →  npm run validate");
+console.log("      rebuild  →  npm run build");

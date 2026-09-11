@@ -1,31 +1,21 @@
 {
-	"_id": "HHC002TreantSnt",
+	"_id": "HHC002TreantSnt0",
 	"name": "Hidden Honey Cavern - Treant Sentinels",
 	"folder": "Hidden Honey Cavern",
 	"navigation": true,
 	"navOrder": 1,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/hidden-honey-cavern/treant-sentinels.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 2400,
 	"height": 2400,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 1200,
 		"y": 1200,
 		"scale": 0.8
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Hidden Honey Cavern - Treant Sentinels",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/hidden-honey-cavern/treant-sentinels.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 800,
 			"y": 600,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "MBJ1OyjYFnA5qfbD",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1300,
 			"y": 500,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "qdofOBJdm5okb6ur",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1700,
 			"y": 700,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Kwwky7UsFISIjzC7",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 600,
 			"y": 1000,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "m4SunCn4ubuwiN0b",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1900,
 			"y": 1100,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "SxHS82SdEYURh7VB",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 500,
 			"y": 1500,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "QAxpEZxNE2MASrdz",
@@ -745,24 +733,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1900,
 			"y": 1600,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "X3LkBsBqQ477VxzY",
@@ -856,24 +841,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 800,
 			"y": 1800,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,7 +937,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "9RbvzBAQMK8bN8uG",
@@ -967,24 +949,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1300,
 			"y": 1900,
 			"elevation": 0,
@@ -1037,7 +1013,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1069,7 +1045,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "blkBUXT25mlGkDdt",
@@ -1078,24 +1057,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1600,
 			"y": 2000,
 			"elevation": 0,
@@ -1148,7 +1121,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1180,7 +1153,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "P3ItYzu7rEtIWccZ",
@@ -1189,24 +1165,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 700,
 			"y": 2100,
 			"elevation": 0,
@@ -1259,7 +1229,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1291,7 +1261,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "0P5m475TYjhf5D66",
@@ -1300,24 +1273,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/magic/nature/tree-elm-roots-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1100,
 			"y": 900,
 			"elevation": 0,
@@ -1370,7 +1337,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1402,13 +1369,16 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.helYUT1m9nYqh4mC",
 					"adventure": "Hidden Honey Cavern"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -3332,5 +3302,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035562,
+		"modifiedTime": 1789098035562,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

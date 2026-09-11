@@ -7,14 +7,34 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, '..');
 
+const moduleJson = JSON.parse(fs.readFileSync(path.join(rootDir, 'module.json'), 'utf8'));
+
+/**
+ * The Scene document hierarchy, mirroring Foundry's own sublevel layout: every
+ * embedded collection lives in a `<parent sublevel>.<collection>` sublevel keyed
+ * `<parent id>.<document id>`, and the parent keeps only the ids. Nesting matters
+ * — Region behaviors land in `scenes.regions.behaviors`. A collection missing
+ * from this map is written inline, which Foundry cannot read back.
+ */
+const SCENE_HIERARCHY = {
+	drawings: {},
+	levels: {},
+	lights: {},
+	notes: {},
+	regions: { behaviors: {} },
+	sounds: {},
+	tiles: {},
+	tokens: {},
+	walls: {},
+};
+
 /**
  * LevelDB wrapper for building FoundryVTT compendium packs
  */
 class LevelDatabase extends ClassicLevel {
 	#dbKey;
-	#embeddedKeys;
-	#documentDb;
-	#embeddedDbs;
+	#hierarchy;
+	#sublevels = new Map();
 
 	constructor(location, options) {
 		const dbOptions = options.dbOptions ?? { keyEncoding: 'utf8', valueEncoding: 'json' };
@@ -22,67 +42,71 @@ class LevelDatabase extends ClassicLevel {
 
 		this.dbOptions = dbOptions;
 		this.#dbKey = options.dbKey ?? 'scenes';
-		this.#embeddedKeys = options.embeddedKeys ?? [];
+		this.#hierarchy = options.hierarchy ?? {};
+	}
 
-		this.#documentDb = this.sublevel(this.#dbKey, dbOptions);
-
-		if (this.#embeddedKeys.length) {
-			this.#embeddedDbs = this.#embeddedKeys.map((key) => ({
-				key: key.replaceAll('.', '-'),
-				db: this.sublevel(`${this.#dbKey}.${key}`, dbOptions),
-			}));
-		} else {
-			this.#embeddedDbs = [];
+	/**
+	 * Sublevels are created on demand and reused, so a collection is only opened
+	 * when something is actually written to it.
+	 */
+	#sublevel(name) {
+		if (!this.#sublevels.has(name)) {
+			this.#sublevels.set(name, this.sublevel(name, this.dbOptions));
 		}
+		return this.#sublevels.get(name);
 	}
 
 	async createPack(docs, options = {}) {
 		const folders = Array.isArray(options.folders) ? options.folders : [];
+		const batches = new Map();
 
-		const docBatch = this.#documentDb.batch();
-		const embeddedBatches = this.#embeddedDbs.reduce((acc, { key, db }) => {
-			acc[key] = db.batch();
-			return acc;
-		}, {});
-		const folderDb = folders.length > 0 ? this.sublevel('folders', this.dbOptions) : null;
-		const folderBatch = folderDb ? folderDb.batch() : null;
+		/**
+		 * Queue a put into the sublevel's batch, opening it the first time it is used.
+		 */
+		const put = (sublevelName, key, value) => {
+			if (!batches.has(sublevelName)) {
+				batches.set(sublevelName, this.#sublevel(sublevelName).batch());
+			}
+			batches.get(sublevelName).put(key, value);
+		};
+
+		/**
+		 * Write one document, recursing into its embedded collections and replacing
+		 * each with the array of ids Foundry expects to find in the parent record.
+		 */
+		const writeDocument = (doc, sublevelName, key, hierarchy) => {
+			for (const [collection, childHierarchy] of Object.entries(hierarchy)) {
+				const embedded = doc[collection];
+				if (!Array.isArray(embedded)) continue;
+				const childSublevel = `${sublevelName}.${collection}`;
+				doc[collection] = embedded.map((child) => {
+					if (!child?._id) {
+						console.warn(`  ! ${collection} entry in ${key} has no _id and was skipped`);
+						return null;
+					}
+					writeDocument(child, childSublevel, `${key}.${child._id}`, childHierarchy);
+					return child._id;
+				}).filter((id) => id !== null);
+			}
+			put(sublevelName, key, doc);
+		};
 
 		for (const source of docs) {
-			// Handle embedded documents (walls, lights, tokens, tiles, etc.)
-			if (this.#embeddedKeys.length) {
-				this.#embeddedKeys.forEach((key) => {
-					const embeddedDocs = source[key];
-					this.#addDataToBatch(embeddedDocs, embeddedBatches[key], source._id);
-				});
-			}
-			docBatch.put(source._id ?? '', source);
+			writeDocument(source, this.#dbKey, source._id ?? '', this.#hierarchy);
 		}
 
-		if (folderBatch) {
-			for (const folder of folders) {
-				folderBatch.put(folder._id ?? '', folder);
-			}
+		for (const folder of folders) {
+			put('folders', folder._id ?? '', folder);
 		}
 
-		await docBatch.write();
-		for await (const batch of Object.values(embeddedBatches)) {
-			if (batch.length) await batch.write();
+		for (const [name, batch] of batches) {
+			if (batch.length) {
+				console.log(`  ${name}: ${batch.length} records`);
+				await batch.write();
+			}
 		}
-		if (folderBatch?.length) await folderBatch.write();
 
 		await this.close();
-	}
-
-	#addDataToBatch(embeddedDocs, batch, sourceId) {
-		if (Array.isArray(embeddedDocs)) {
-			for (let i = 0; i < embeddedDocs.length; i += 1) {
-				const doc = embeddedDocs[i];
-				if (batch && doc._id) {
-					batch.put(`${sourceId}.${doc._id}`, doc);
-					embeddedDocs[i] = doc._id ?? '';
-				}
-			}
-		}
 	}
 }
 
@@ -163,8 +187,18 @@ async function buildScenesPack() {
 
 	const db = new LevelDatabase(packPath, {
 		dbKey: 'scenes',
-		// Scene embedded documents
-		embeddedKeys: ['walls', 'lights', 'tokens', 'tiles', 'drawings', 'notes', 'sounds']
+		hierarchy: SCENE_HIERARCHY,
+	});
+
+	// Folders carry the same _stats stamp as the scenes so Foundry treats the
+	// whole pack as current and leaves it alone at world load.
+	const folderStats = () => ({
+		coreVersion: moduleJson.compatibility.minimum,
+		systemId: moduleJson.relationships.systems[0].id,
+		systemVersion: moduleJson.relationships.systems[0].compatibility.minimum,
+		createdTime: null,
+		modifiedTime: null,
+		lastModifiedBy: null,
 	});
 
 	// Create adventure folders for organization
@@ -181,7 +215,8 @@ async function buildScenesPack() {
 				type: 'Scene',
 				sort: 0,
 				color: null,
-				flags: {}
+				flags: {},
+				_stats: folderStats(),
 			});
 			// Update scene to use folder ID
 			scene.folder = folderId;

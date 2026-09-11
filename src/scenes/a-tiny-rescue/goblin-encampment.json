@@ -5,27 +5,17 @@
 	"navigation": true,
 	"navOrder": 0,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/a-tiny-rescue/goblin-encampment.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 3000,
 	"height": 3000,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 1500,
 		"y": 1500,
 		"scale": 0.7
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Goblin Encampment",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/a-tiny-rescue/goblin-encampment.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -78,25 +84,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2000,
 			"y": 1100,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "pp4KW55OCSt93rtt",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1500,
 			"y": 950,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "WbTMspACglHYXPCi",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1700,
 			"y": 1100,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "JGSK3EVHG58cMdr8",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1200,
 			"y": 1350,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "0QvQWFk0QORP2jQL",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1850,
 			"y": 1450,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [
@@ -667,12 +658,12 @@
 		}
 	],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
-			"_id": "encwall00000000",
+			"_id": "encwall000000000",
 			"c": [
 				0,
 				0,
@@ -688,7 +679,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00010000",
+			"_id": "encwall000100000",
 			"c": [
 				3000,
 				0,
@@ -704,7 +695,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00020000",
+			"_id": "encwall000200000",
 			"c": [
 				3000,
 				3000,
@@ -720,7 +711,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00030000",
+			"_id": "encwall000300000",
 			"c": [
 				0,
 				3000,
@@ -736,7 +727,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00040000",
+			"_id": "encwall000400000",
 			"c": [
 				915,
 				995,
@@ -752,7 +743,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00070000",
+			"_id": "encwall000700000",
 			"c": [
 				755,
 				1535,
@@ -768,7 +759,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00080000",
+			"_id": "encwall000800000",
 			"c": [
 				655,
 				1095,
@@ -784,7 +775,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00090000",
+			"_id": "encwall000900000",
 			"c": [
 				1775,
 				570,
@@ -800,7 +791,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00100000",
+			"_id": "encwall001000000",
 			"c": [
 				2050,
 				850,
@@ -816,7 +807,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00120000",
+			"_id": "encwall001200000",
 			"c": [
 				1545,
 				820,
@@ -832,7 +823,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00130000",
+			"_id": "encwall001300000",
 			"c": [
 				1840,
 				1295,
@@ -848,7 +839,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00140000",
+			"_id": "encwall001400000",
 			"c": [
 				2135,
 				1490,
@@ -864,7 +855,7 @@
 			"flags": {}
 		},
 		{
-			"_id": "encwall00150000",
+			"_id": "encwall001500000",
 			"c": [
 				1910,
 				1830,
@@ -880,5 +871,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035371,
+		"modifiedTime": 1789098035371,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

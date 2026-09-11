@@ -4,8 +4,8 @@ Pre-configured battle map scenes for the Nimble GM Guide adventures with walls, 
 
 ## Requirements
 
-- Foundry VTT v13
-- [Nimble System](https://github.com/Quest-Luminary/Nimble-FVTT) v0.6.0+
+- Foundry VTT v14.364+
+- [Nimble System](https://github.com/Quest-Luminary/Nimble-FVTT) v0.9.0+
 
 ## Installation
 
@@ -51,6 +51,24 @@ pnpm run dev:link
 
 ```bash
 pnpm run build
+```
+
+### Validate Scene Data
+
+Checks `src/scenes` and the built pack against the data model of the Foundry
+build installed on this machine, so a schema change in a new Foundry release
+shows up here rather than in someone's world. It then checks scene geometry:
+that each canvas matches the pixel dimensions of its background art, that the
+art exists, and that nothing sits off the canvas.
+
+```bash
+pnpm run validate
+```
+
+Set `FOUNDRY_APP` if Foundry is not in the default location:
+
+```bash
+FOUNDRY_APP=/path/to/foundryvtt pnpm run validate
 ```
 
 ## Credits
