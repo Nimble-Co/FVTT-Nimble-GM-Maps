@@ -15,6 +15,9 @@ Nimble v0.9.0 or newer; it will not run on v13.
   with `_stats.coreVersion`. Foundry no longer re-runs its legacy migrations on
   every world load, and no longer rewrites the module's pack.
 - Requires Nimble v0.9.0+, the first release with Foundry v14 support.
+- Dropped the `compatibility.maximum` ceiling. With it set, the day Foundry 15
+  ships the module is disabled outright rather than flagged; without it a v15
+  user gets an "unverified generation" warning and the module keeps working.
 
 ### Fixed
 - Roof and tent overlay tiles kept the elevation they were authored with. A
