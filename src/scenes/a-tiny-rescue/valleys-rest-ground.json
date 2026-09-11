@@ -1,31 +1,21 @@
 {
-	"_id": "ATR002ValleyGnd",
+	"_id": "ATR002ValleyGnd0",
 	"name": "Valley's Rest - Ground Floor",
 	"folder": "A Tiny Rescue",
 	"navigation": true,
 	"navOrder": 1,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-ground.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 4400,
 	"height": 5800,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 2200,
 		"y": 2900,
 		"scale": 0.5
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Valley's Rest - Ground Floor",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-ground.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1500,
 			"y": 4900,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "VSC3ojc5ExpRvzGF",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1800,
 			"y": 5000,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Oehj1egnMVPzH4C6",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2100,
 			"y": 4850,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Xy0bZxvamX7rekaM",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2400,
 			"y": 5000,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "3NnKQavckJGlpbAB",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1600,
 			"y": 5200,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Cgt1q2YaHVaYQ9JF",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2600,
 			"y": 5150,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "HXDj7D6ajxr8vmwY",
@@ -745,24 +733,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1900,
 			"y": 4700,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "a4SPUR81ePuoeRRn",
@@ -856,24 +841,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2300,
 			"y": 4750,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,7 +937,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.KCZqQUfTuczLNEA3",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "3GhAJedGKE37R1IA",
@@ -967,24 +949,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-green.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2700,
 			"y": 5400,
 			"elevation": 0,
@@ -1037,7 +1013,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1069,7 +1045,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.SM6NlZaQdKqFN2AD",
 					"adventure": "A Tiny Rescue"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [
@@ -1687,25 +1666,28 @@
 		}
 	],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [
 		{
-			"_id": "roofoverlay1",
+			"_id": "roofoverlay10000",
 			"texture": {
 				"src": "modules/nimble-maps/assets/maps/a-tiny-rescue/valleys-rest-roof-overlay.webp",
 				"scaleX": 1,
-				"scaleY": 1
+				"scaleY": 1,
+				"anchorX": 0,
+				"anchorY": 0
 			},
 			"x": 0,
 			"y": 0,
 			"width": 4400,
 			"height": 5800,
 			"elevation": 10,
-			"overhead": true,
 			"occlusion": {
-				"mode": 1,
-				"alpha": 0
+				"alpha": 0,
+				"modes": [
+					1
+				]
 			},
 			"hidden": false,
 			"locked": true,
@@ -4094,5 +4076,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035396,
+		"modifiedTime": 1789098035396,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

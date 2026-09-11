@@ -1,31 +1,21 @@
 {
-	"_id": "RRN002StormDrks",
+	"_id": "RRN002StormDrks0",
 	"name": "Raid on the Royal Nest - Storm Drakes",
 	"folder": "Raid on the Royal Nest",
 	"navigation": true,
 	"navOrder": 1,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/raid-on-the-royal-nest/storm-drakes.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 2400,
 	"height": 2400,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 1200,
 		"y": 1200,
 		"scale": 0.8
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Raid on the Royal Nest - Storm Drakes",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/raid-on-the-royal-nest/storm-drakes.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/reptiles/dragon-horned-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 600,
 			"y": 600,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN",
 					"adventure": "Raid on the Royal Nest"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "BYL9yu7qzEIM2iU2",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/reptiles/dragon-horned-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1600,
 			"y": 500,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN",
 					"adventure": "Raid on the Royal Nest"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "SPuryGmNgun9CGIT",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/reptiles/dragon-horned-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 500,
 			"y": 1600,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN",
 					"adventure": "Raid on the Royal Nest"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "TtinHTaxEU4znABB",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/reptiles/dragon-horned-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1700,
 			"y": 1600,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,13 +505,16 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.w9gh6oGZ8508YMAN",
 					"adventure": "Raid on the Royal Nest"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -1100,5 +1094,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035600,
+		"modifiedTime": 1789098035600,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

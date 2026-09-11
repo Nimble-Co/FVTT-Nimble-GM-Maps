@@ -1,162 +1,136 @@
 {
-  "_id": "NUEDEFAULTSCENE0",
-  "name": "Farhope - City",
-  "folder": "World",
-  "navigation": true,
-  "navOrder": 0,
-  "navName": "",
-  "background": {
-    "src": "modules/nimble-maps/assets/maps/world/farhope-street.webp",
-    "offsetX": 0,
-    "offsetY": 0,
-    "scaleX": 1,
-    "scaleY": 1,
-    "rotation": 0
-  },
-  "foreground": null,
-  "width": 1841,
-  "height": 680,
-  "padding": 0,
-  "initial": {
-    "x": null,
-    "y": null,
-    "scale": null
-  },
-  "backgroundColor": "#25070d",
-  "grid": {
-    "type": 0,
-    "size": 100,
-    "color": "#000000",
-    "alpha": 0.2,
-    "distance": 1,
-    "units": "",
-    "style": "solidLines",
-    "thickness": 1
-  },
-  "tokenVision": false,
-  "fogExploration": false,
-  "environment": {
-    "globalLight": {
-      "enabled": true,
-      "darkness": {
-        "max": 1,
-        "min": 0
-      },
-      "alpha": 0.5,
-      "bright": false,
-      "color": null,
-      "coloration": 1,
-      "luminosity": 0,
-      "saturation": 0,
-      "contrast": 0,
-      "shadows": 0
-    },
-    "darknessLevel": 0,
-    "darknessLock": false,
-    "cycle": true,
-    "base": {
-      "hue": 0,
-      "intensity": 0,
-      "luminosity": 0,
-      "saturation": 0,
-      "shadows": 0
-    },
-    "dark": {
-      "hue": 0.7138888888888889,
-      "intensity": 0,
-      "luminosity": -0.25,
-      "saturation": 0,
-      "shadows": 0
-    }
-  },
-  "drawings": [
-    {
-      "_id": "oBwquU54Myr95Q3g",
-      "author": null,
-      "shape": {
-        "type": "r",
-        "width": 820,
-        "height": 190,
-        "radius": null,
-        "points": []
-      },
-      "x": 50,
-      "y": 30,
-      "elevation": 0,
-      "sort": 0,
-      "rotation": 0,
-      "bezierFactor": 0,
-      "fillType": 0,
-      "fillColor": "#000000",
-      "fillAlpha": 0.0,
-      "strokeWidth": 0,
-      "strokeColor": "#000000",
-      "strokeAlpha": 0.0,
-      "texture": null,
-      "text": "Farhope",
-      "fontFamily": "Signika",
-      "fontSize": 150,
-      "textColor": "#f5ecd8",
-      "textAlpha": 1,
-      "hidden": false,
-      "locked": false,
-      "interface": false,
-      "flags": {}
-    }
-  ],
-  "tokens": [],
-  "lights": [],
-  "notes": [],
-  "sounds": [],
-  "templates": [],
-  "tiles": [
-    {
-      "texture": {
-        "src": "nue/defaultscene/fvtt-logo.webp",
-        "scaleX": 1,
-        "scaleY": 1,
-        "offsetX": 0,
-        "offsetY": 0,
-        "rotation": 0,
-        "tint": "#ffffff",
-        "anchorX": 0.5,
-        "anchorY": 0.5,
-        "fit": "fill",
-        "alphaThreshold": 0.75
-      },
-      "x": 1520,
-      "y": 480,
-      "width": 800,
-      "height": 800,
-      "_id": "mMxIUI1fXJmrR1zK",
-      "rotation": 0,
-      "alpha": 1,
-      "hidden": false,
-      "locked": false,
-      "occlusion": {
-        "mode": 1,
-        "alpha": 0
-      },
-      "video": {
-        "loop": true,
-        "autoplay": true,
-        "volume": 0
-      },
-      "flags": {},
-      "sort": 100,
-      "restrictions": {
-        "light": false,
-        "weather": false
-      },
-      "elevation": 0
-    }
-  ],
-  "walls": [],
-  "flags": {
-    "scene-packer": {
-      "hash": "9c23511cf4d8a31da8d1fb37edd47b985c9d73e5",
-      "moulinette-adventure-name": "Golden Thread (Nimble)",
-      "moulinette-adventure-version": "1.0.0"
-    }
-  }
+	"_id": "NUEDEFAULTSCENE0",
+	"name": "Farhope - City",
+	"folder": "World",
+	"navigation": true,
+	"navOrder": 0,
+	"navName": "",
+	"width": 1841,
+	"height": 680,
+	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
+	"initial": {
+		"x": null,
+		"y": null,
+		"scale": null
+	},
+	"initialLevel": "defaultLevel0000",
+	"grid": {
+		"type": 0,
+		"size": 100,
+		"color": "#000000",
+		"alpha": 0.2,
+		"distance": 1,
+		"units": "",
+		"style": "solidLines",
+		"thickness": 1
+	},
+	"tokenVision": false,
+	"fog": {
+		"mode": 0
+	},
+	"environment": {
+		"globalLight": {
+			"enabled": true,
+			"darkness": {
+				"max": 1,
+				"min": 0
+			},
+			"alpha": 0.5,
+			"bright": false,
+			"color": null,
+			"coloration": 1,
+			"luminosity": 0,
+			"saturation": 0,
+			"contrast": 0,
+			"shadows": 0
+		},
+		"darknessLevel": 0,
+		"darknessLock": false,
+		"cycle": true,
+		"base": {
+			"hue": 0,
+			"intensity": 0,
+			"luminosity": 0,
+			"saturation": 0,
+			"shadows": 0
+		},
+		"dark": {
+			"hue": 0.7138888888888889,
+			"intensity": 0,
+			"luminosity": -0.25,
+			"saturation": 0,
+			"shadows": 0
+		}
+	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Farhope - City",
+			"background": {
+				"color": "#25070d",
+				"src": "modules/nimble-maps/assets/maps/world/farhope-street.webp"
+			}
+		}
+	],
+	"drawings": [
+		{
+			"_id": "oBwquU54Myr95Q3g",
+			"author": "0000000000000000",
+			"shape": {
+				"type": "r",
+				"width": 820,
+				"height": 190,
+				"radius": null,
+				"points": []
+			},
+			"x": 50,
+			"y": 30,
+			"elevation": 0,
+			"sort": 0,
+			"rotation": 0,
+			"bezierFactor": 0,
+			"fillType": 0,
+			"fillColor": "#000000",
+			"fillAlpha": 0,
+			"strokeWidth": 0,
+			"strokeColor": "#000000",
+			"strokeAlpha": 0,
+			"texture": null,
+			"text": "Farhope",
+			"fontFamily": "Signika",
+			"fontSize": 150,
+			"textColor": "#f5ecd8",
+			"textAlpha": 1,
+			"hidden": false,
+			"locked": false,
+			"interface": false,
+			"flags": {}
+		}
+	],
+	"tokens": [],
+	"lights": [],
+	"notes": [],
+	"regions": [],
+	"sounds": [],
+	"tiles": [],
+	"walls": [],
+	"flags": {
+		"scene-packer": {
+			"hash": "9c23511cf4d8a31da8d1fb37edd47b985c9d73e5",
+			"moulinette-adventure-name": "Golden Thread (Nimble)",
+			"moulinette-adventure-version": "1.0.0"
+		}
+	},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035661,
+		"modifiedTime": 1789098035661,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

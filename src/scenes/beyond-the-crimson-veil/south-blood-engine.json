@@ -1,31 +1,21 @@
 {
-	"_id": "BCV005SBloodEng",
+	"_id": "BCV005SBloodEng0",
 	"name": "Beyond the Crimson Veil - South Blood Engine",
 	"folder": "Beyond the Crimson Veil",
 	"navigation": true,
 	"navOrder": 4,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/beyond-the-crimson-veil/south-blood-engine.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 3000,
 	"height": 3000,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 1500,
 		"y": 1500,
 		"scale": 0.7
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Beyond the Crimson Veil - South Blood Engine",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/beyond-the-crimson-veil/south-blood-engine.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1100,
 			"y": 1300,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "YjqrzdjdKKKFSlN5",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1300,
 			"y": 1200,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "ZG0Vb68u5nALVT5T",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1608,
 			"y": 1261,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "YdPKe3mnGDajesRO",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1800,
 			"y": 1260,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "PtMqne63yOn0K5Eu",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1160,
 			"y": 1680,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "ZsK0wfb49tGOSsJq",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1400,
 			"y": 1760,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "LUfNQMv2KIcZixIq",
@@ -745,24 +733,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1660,
 			"y": 1740,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "dctCnKeHeCyzs1dp",
@@ -856,24 +841,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1880,
 			"y": 1620,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,7 +937,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.rV8kgeKs7wRL55j6",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "6vzpNyM0mYL2hHBT",
@@ -967,24 +949,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 900,
 			"y": 1100,
 			"elevation": 0,
@@ -1037,7 +1013,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1069,7 +1045,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "xssZBYEiynDOGm9P",
@@ -1078,24 +1057,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1243,
 			"y": 1236,
 			"elevation": 0,
@@ -1148,7 +1121,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1180,7 +1153,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Yv23sNPuONytNSUW",
@@ -1189,24 +1165,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1855,
 			"y": 1057,
 			"elevation": 0,
@@ -1259,7 +1229,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1291,7 +1261,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "UA4nOOHo2Czr6mK8",
@@ -1300,24 +1273,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1980,
 			"y": 1060,
 			"elevation": 0,
@@ -1370,7 +1337,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1402,7 +1369,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "eEOlNj8cx43lpfbA",
@@ -1411,24 +1381,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 940,
 			"y": 1780,
 			"elevation": 0,
@@ -1481,7 +1445,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1513,7 +1477,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "QJqPamqEmium3vBH",
@@ -1522,24 +1489,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1280,
 			"y": 1980,
 			"elevation": 0,
@@ -1592,7 +1553,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1624,7 +1585,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "wh2DGM1Ip39fYgjv",
@@ -1633,24 +1597,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1680,
 			"y": 2000,
 			"elevation": 0,
@@ -1703,7 +1661,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1735,7 +1693,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "TiqBxc1xZyFUKF11",
@@ -1744,24 +1705,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/unholy/demons-horned-glowing-pink.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2000,
 			"y": 1840,
 			"elevation": 0,
@@ -1814,7 +1769,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1846,12 +1801,15 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.QiXaRObRw5xxE1VT",
 					"adventure": "Beyond the Crimson Veil"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [
 		{
-			"_id": "light001",
+			"_id": "light00100000000",
 			"x": 1170,
 			"y": 710,
 			"rotation": 0,
@@ -1877,8 +1835,8 @@
 		}
 	],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -2386,5 +2344,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035483,
+		"modifiedTime": 1789098035483,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

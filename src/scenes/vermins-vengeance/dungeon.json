@@ -1,31 +1,21 @@
 {
-	"_id": "VV001Dungeon001",
+	"_id": "VV001Dungeon0010",
 	"name": "Vermin's Vengeance - Sewer",
 	"folder": "Vermin's Vengeance",
 	"navigation": true,
 	"navOrder": 0,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/vermins-vengeance/dungeon.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 5200,
 	"height": 4200,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 2600,
 		"y": 2100,
 		"scale": 0.5
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 1,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Vermin's Vengeance - Sewer",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/vermins-vengeance/dungeon.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 700,
 			"y": 1300,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "BBh1HN0bqpBh28n8",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1500,
 			"y": 1200,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "qAmI3yPsOsFbyHpw",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 750,
 			"y": 1850,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "jGYH1lGHGoN6K2qo",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1550,
 			"y": 1850,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "usdwd4981uMwYvZ6",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/death/hand-dirt-undead-zombie.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2300,
 			"y": 2570,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.uM5wkCvyEpfQ7DPU",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "3GTQGNvOy4rWU8mv",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/death/hand-dirt-undead-zombie.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1985,
 			"y": 3185,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.uM5wkCvyEpfQ7DPU",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "wUrCi9xn4b61VDb6",
@@ -745,24 +733,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/death/hand-dirt-undead-zombie.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2195,
 			"y": 3200,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.uM5wkCvyEpfQ7DPU",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "rlIzdNrZXIDdK4Ac",
@@ -855,25 +840,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/magic/death/hand-withered-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2300,
 			"y": 600,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,7 +937,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.zAppnllBktv0BXEN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "PcW8T2lKxHHOHKBk",
@@ -966,25 +948,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/environment/people/commoner.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3900,
 			"y": 500,
 			"elevation": 0,
@@ -1037,7 +1013,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1069,7 +1045,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.XQOBiTP8L3Yac9Up",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "oB5BGKyYTmouL9ue",
@@ -1078,24 +1057,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3600,
 			"y": 400,
 			"elevation": 0,
@@ -1148,7 +1121,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1180,7 +1153,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "fQQAkSlA8jvn4jrj",
@@ -1189,24 +1165,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4200,
 			"y": 800,
 			"elevation": 0,
@@ -1259,7 +1229,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1291,7 +1261,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "Z9ldUVQu4HqcgLDq",
@@ -1300,24 +1273,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3500,
 			"y": 900,
 			"elevation": 0,
@@ -1370,7 +1337,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1402,7 +1369,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "hTGs10KmITvaM0Cq",
@@ -1411,24 +1381,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/mammals/rodent-rat-diseaed-gray.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4500,
 			"y": 550,
 			"elevation": 0,
@@ -1481,7 +1445,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1513,7 +1477,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.xx6ELqMvhFA8qVfN",
 					"adventure": "Vermin's Vengeance"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [
@@ -1843,8 +1810,8 @@
 		}
 	],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -4632,5 +4599,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035648,
+		"modifiedTime": 1789098035648,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

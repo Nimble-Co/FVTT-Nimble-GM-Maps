@@ -1,31 +1,21 @@
 {
-	"_id": "GTB001Entrance1",
+	"_id": "GTB001Entrance10",
 	"name": "Greenthumb's Base - Entrance",
 	"folder": "Greenthumb's Base",
 	"navigation": true,
 	"navOrder": 0,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/greenthumbs-base/entrance.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 4000,
 	"height": 2600,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 2000,
 		"y": 1300,
 		"scale": 0.6
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Greenthumb's Base - Entrance",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/greenthumbs-base/entrance.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 2,
 			"height": 2,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1900,
 			"y": 900,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 2,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "AXLqGoXFaMKuOMCN",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 2,
 			"height": 2,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2000,
 			"y": 1400,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,13 +289,16 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
 					"adventure": "Greenthumb's Base"
 				}
-			}
+			},
+			"depth": 2,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [],
 	"notes": [],
+	"regions": [],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -878,5 +878,15 @@
 			"flags": {}
 		}
 	],
-	"flags": {}
+	"flags": {},
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035539,
+		"modifiedTime": 1789098035539,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }

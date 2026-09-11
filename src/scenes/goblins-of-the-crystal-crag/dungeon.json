@@ -1,31 +1,21 @@
 {
-	"_id": "GCC001Dungeon01",
+	"_id": "GCC001Dungeon010",
 	"name": "Crystal Crag Quarry",
 	"folder": "Goblins of the Crystal Crag",
 	"navigation": true,
 	"navOrder": 0,
 	"navName": "",
-	"background": {
-		"src": "modules/nimble-maps/assets/maps/goblins-of-the-crystal-crag/dungeon.webp",
-		"offsetX": 0,
-		"offsetY": 0,
-		"scaleX": 1,
-		"scaleY": 1,
-		"rotation": 0
-	},
-	"foreground": null,
-	"fogOverlay": null,
-	"fogExploredColor": "#000000",
-	"fogUnexploredColor": "#000000",
 	"width": 8000,
 	"height": 4800,
 	"padding": 0,
+	"shiftX": 0,
+	"shiftY": 0,
 	"initial": {
 		"x": 4000,
 		"y": 2400,
 		"scale": 0.4
 	},
-	"backgroundColor": "#000000",
+	"initialLevel": "defaultLevel0000",
 	"grid": {
 		"type": 1,
 		"size": 200,
@@ -35,7 +25,13 @@
 		"alpha": 0.2
 	},
 	"tokenVision": true,
-	"fogExploration": true,
+	"fog": {
+		"mode": 1,
+		"colors": {
+			"explored": "#000000",
+			"unexplored": "#000000"
+		}
+	},
 	"environment": {
 		"darknessLevel": 0,
 		"darknessLock": false,
@@ -70,6 +66,16 @@
 			"shadows": 0
 		}
 	},
+	"levels": [
+		{
+			"_id": "defaultLevel0000",
+			"name": "Crystal Crag Quarry",
+			"background": {
+				"color": "#000000",
+				"src": "modules/nimble-maps/assets/maps/goblins-of-the-crystal-crag/dungeon.webp"
+			}
+		}
+	],
 	"drawings": [],
 	"tokens": [
 		{
@@ -79,24 +85,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 1400,
 			"y": 450,
 			"elevation": 0,
@@ -149,7 +149,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -181,7 +181,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "DMEIpGAcK3ChqnYk",
@@ -190,24 +193,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 2,
 			"height": 2,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3500,
 			"y": 550,
 			"elevation": 0,
@@ -260,7 +257,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -292,7 +289,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 2,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "PKCdDSpBZEO0sKni",
@@ -301,24 +301,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 2,
 			"height": 2,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3900,
 			"y": 650,
 			"elevation": 0,
@@ -371,7 +365,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -403,7 +397,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 2,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "3HISLMqCEMMCGNDD",
@@ -412,24 +409,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2700,
 			"y": 1900,
 			"elevation": 0,
@@ -482,7 +473,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -514,7 +505,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "3D3vG6cgNbFKkKIG",
@@ -523,24 +517,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3200,
 			"y": 2100,
 			"elevation": 0,
@@ -593,7 +581,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -625,7 +613,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "BRCm3O9QVVv7hYfo",
@@ -634,24 +625,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2600,
 			"y": 2600,
 			"elevation": 0,
@@ -704,7 +689,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -736,7 +721,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "RIRTaIMUFnzKIc2y",
@@ -745,24 +733,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3100,
 			"y": 2800,
 			"elevation": 0,
@@ -815,7 +797,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -847,7 +829,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "5PDDm51vV66r063i",
@@ -856,24 +841,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4200,
 			"y": 1800,
 			"elevation": 0,
@@ -926,7 +905,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -958,7 +937,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "eDO6bwuaqHVsXwmX",
@@ -967,24 +949,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4800,
 			"y": 2200,
 			"elevation": 0,
@@ -1037,7 +1013,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1069,7 +1045,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "nIYpbDHPvI7c4Pso",
@@ -1078,24 +1057,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4100,
 			"y": 2400,
 			"elevation": 0,
@@ -1148,7 +1121,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1180,7 +1153,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "3IHami64DPg8P9uf",
@@ -1189,24 +1165,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5100,
 			"y": 2600,
 			"elevation": 0,
@@ -1259,7 +1229,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1291,7 +1261,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "nd9RTysTt7br5KNq",
@@ -1300,24 +1273,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 2,
 			"height": 2,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Rootbreaker.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5500,
 			"y": 2350,
 			"elevation": 0,
@@ -1370,7 +1337,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1402,7 +1369,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.UvgXMSWKrPWqtJgv",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 2,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "mJlUrUCGvXP2PG8U",
@@ -1411,24 +1381,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5600,
 			"y": 3450,
 			"elevation": 0,
@@ -1481,7 +1445,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1513,7 +1477,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "6gXmi0CL5zKQCd8N",
@@ -1522,24 +1489,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5800,
 			"y": 3700,
 			"elevation": 0,
@@ -1592,7 +1553,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1624,7 +1585,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "rZIXQLBmqzU1V7gc",
@@ -1633,24 +1597,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5200,
 			"y": 4000,
 			"elevation": 0,
@@ -1703,7 +1661,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1735,7 +1693,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "9KpDs3XQLEQwuA83",
@@ -1744,24 +1705,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5400,
 			"y": 4200,
 			"elevation": 0,
@@ -1814,7 +1769,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1846,7 +1801,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "sJR5acmSpMMeTErw",
@@ -1855,24 +1813,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4700,
 			"y": 3500,
 			"elevation": 0,
@@ -1925,7 +1877,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -1957,7 +1909,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "8ICLeqFFeAARn20X",
@@ -1966,24 +1921,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4900,
 			"y": 3800,
 			"elevation": 0,
@@ -2036,7 +1985,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -2068,7 +2017,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "8Mapm2g1SQ0MjgHs",
@@ -2077,24 +2029,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 4200,
 			"y": 3900,
 			"elevation": 0,
@@ -2147,7 +2093,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -2179,7 +2125,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "cRHUCNYtIfQGwute",
@@ -2188,24 +2137,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 5000,
 			"y": 3250,
 			"elevation": 0,
@@ -2258,7 +2201,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -2290,7 +2233,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "SMEZqZuISDpvDrhI",
@@ -2298,25 +2244,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 0.5,
 			"height": 0.5,
 			"texture": {
 				"src": "systems/nimble/assets/monsterImages/Goblin.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 7160,
 			"y": 3560,
 			"elevation": 0,
@@ -2369,7 +2309,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -2401,7 +2341,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.65v4ZutYxq6hlTog",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 0.5,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "knyj3Eq8guWpI0Qd",
@@ -2409,25 +2352,19 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": true,
-			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
+			"delta": null,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/magical/humanoid-giant-forest-blue.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 7300,
 			"y": 1800,
 			"elevation": 0,
@@ -2480,7 +2417,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -2512,7 +2449,10 @@
 					"actorUuid": "Compendium.nimble.nimble-legendary-monsters.Actor.4CLKneQXGJuCNoP7",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "7I6kTwz8irjmlc4q",
@@ -2521,24 +2461,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 2150,
 			"y": 3400,
 			"elevation": 0,
@@ -2591,7 +2525,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -2623,7 +2557,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		},
 		{
 			"_id": "qvWDkZ7SLFBsFJhi",
@@ -2632,24 +2569,18 @@
 			"actorId": null,
 			"actorLink": false,
 			"delta": {},
-			"appendNumber": false,
-			"prependAdjective": false,
 			"width": 1,
 			"height": 1,
 			"texture": {
 				"src": "icons/creatures/invertebrates/spider-mandibles-brown.webp",
 				"anchorX": 0.5,
 				"anchorY": 0.5,
-				"offsetX": 0,
-				"offsetY": 0,
 				"fit": "contain",
 				"scaleX": 1,
 				"scaleY": 1,
-				"rotation": 0,
 				"tint": "#ffffff",
 				"alphaThreshold": 0.75
 			},
-			"hexagonalShape": 0,
 			"x": 3000,
 			"y": 4000,
 			"elevation": 0,
@@ -2702,7 +2633,7 @@
 				"saturation": 0,
 				"contrast": 0
 			},
-			"detectionModes": [],
+			"detectionModes": {},
 			"occludable": {
 				"radius": 0
 			},
@@ -2734,7 +2665,10 @@
 					"actorUuid": "Compendium.nimble.nimble-monsters.Actor.ML3WomiwkHKUfTnO",
 					"adventure": "Goblins of the Crystal Crag"
 				}
-			}
+			},
+			"depth": 1,
+			"level": "defaultLevel0000",
+			"shape": 4
 		}
 	],
 	"lights": [
@@ -3208,8 +3142,54 @@
 		}
 	],
 	"notes": [],
+	"regions": [
+		{
+			"_id": "JWjSAvmnEsVLzhwj",
+			"name": "Mine Interior (always dark)",
+			"color": "#3b2a1a",
+			"shapes": [
+				{
+					"type": "rectangle",
+					"x": 2850,
+					"y": 0,
+					"width": 5150,
+					"height": 1150,
+					"rotation": 0,
+					"hole": false
+				},
+				{
+					"type": "rectangle",
+					"x": 2250,
+					"y": 1150,
+					"width": 5750,
+					"height": 3650,
+					"rotation": 0,
+					"hole": false
+				}
+			],
+			"elevation": {
+				"bottom": null,
+				"top": null
+			},
+			"behaviors": [
+				{
+					"_id": "uDacj304UPhTAv0T",
+					"name": "Darkness Override",
+					"type": "adjustDarknessLevel",
+					"system": {
+						"mode": 0,
+						"modifier": 1
+					},
+					"disabled": false,
+					"flags": {}
+				}
+			],
+			"visibility": 0,
+			"locked": false,
+			"flags": {}
+		}
+	],
 	"sounds": [],
-	"templates": [],
 	"tiles": [],
 	"walls": [
 		{
@@ -9118,51 +9098,14 @@
 		}
 	],
 	"flags": {},
-	"regions": [
-		{
-			"_id": "JWjSAvmnEsVLzhwj",
-			"name": "Mine Interior (always dark)",
-			"color": "#3b2a1a",
-			"shapes": [
-				{
-					"type": "rectangle",
-					"x": 2850,
-					"y": 0,
-					"width": 5150,
-					"height": 1150,
-					"rotation": 0,
-					"hole": false
-				},
-				{
-					"type": "rectangle",
-					"x": 2250,
-					"y": 1150,
-					"width": 5750,
-					"height": 3650,
-					"rotation": 0,
-					"hole": false
-				}
-			],
-			"elevation": {
-				"bottom": null,
-				"top": null
-			},
-			"behaviors": [
-				{
-					"_id": "uDacj304UPhTAv0T",
-					"name": "Darkness Override",
-					"type": "adjustDarknessLevel",
-					"system": {
-						"mode": 0,
-						"modifier": 1
-					},
-					"disabled": false,
-					"flags": {}
-				}
-			],
-			"visibility": 0,
-			"locked": false,
-			"flags": {}
-		}
-	]
+	"_stats": {
+		"coreVersion": "14.364",
+		"systemId": "nimble",
+		"systemVersion": "0.9.0",
+		"createdTime": 1789098035493,
+		"modifiedTime": 1789098035493,
+		"lastModifiedBy": null,
+		"compendiumSource": null,
+		"duplicateSource": null
+	}
 }
