@@ -1,7 +1,7 @@
 {
   "id": "nimble-maps",
   "title": "Nimble GM Guide Maps",
-  "description": "Pre-configured battle map scenes for the Nimble GM Guide adventures with walls, lighting, and monster tokens.",
+  "description": "Pre-configured battle map scenes for the adventures in the Nimble GM Guide version 2.0.3, with walls, lighting, and monster tokens.",
   "version": "0.1.0",
   "authors": [
     {

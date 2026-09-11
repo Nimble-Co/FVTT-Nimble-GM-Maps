@@ -12,8 +12,8 @@ Nimble v0.9.0 or newer; it will not run on v13.
   foreground, and fog overlay moved onto the new Level document, the flat fog
   fields collapsed into `fog.mode` / `fog.colors`, tokens gained `depth` and a
   level reference, and tile occlusion became a set of modes. Scenes are stamped
-  with `_stats.coreVersion` so Foundry no longer re-runs its legacy migrations —
-  and no longer rewrites the module's pack — on every world load.
+  with `_stats.coreVersion`. Foundry no longer re-runs its legacy migrations on
+  every world load, and no longer rewrites the module's pack.
 - Requires Nimble v0.9.0+, the first release with Foundry v14 support.
 
 ### Fixed
@@ -47,9 +47,9 @@ Nimble v0.9.0 or newer; it will not run on v13.
   model of the Foundry build installed on the machine, then checks scene
   geometry.
 - `npm run check:geometry` verifies each scene's canvas matches the pixel
-  dimensions of its background art — a mismatch silently rescales the map and
-  offsets every traced wall — and flags missing art, tiles or regions that run
-  off the canvas, and placeables outside the canvas.
+  dimensions of its background art. A mismatch there silently rescales the map
+  and offsets every traced wall. It also flags missing art, tiles or regions
+  that run off the canvas, and placeables outside the canvas.
 
 ## [0.0.9] - 2026-07-18
 

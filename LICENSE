@@ -29,7 +29,8 @@ SOFTWARE.
 
 ## Map Art and Adventure Content
 
-The battle map images (everything under `assets/`) are © Nimble Co. and are
-distributed as part of the official Nimble GM Guide. They are licensed for use
-within Foundry VTT via this module. They may not be redistributed, resold, or
-used outside of this module without permission from Nimble Co.
+The artwork under `assets/`, both the battle maps and the illustrated world and
+location art, is © Nimble Co. and distributed as part of the official Nimble GM
+Guide version 2.0.3. It is licensed for use within Foundry VTT via this module.
+It may not be redistributed, resold, or used outside of this module without
+permission from Nimble Co.
