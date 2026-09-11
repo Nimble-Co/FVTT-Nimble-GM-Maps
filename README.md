@@ -75,7 +75,8 @@ FOUNDRY_APP=/path/to/foundryvtt pnpm run validate
 
 - **Battle maps:** Created by Matt "Double King" Shiffler for the adventures in the Nimble GM Guide version 2.0.3.
 - **World map:** The Valley of Hope and surrounding areas, by Kyle Cox, Saga Mackenzie and Evan Diaz.
-- **Location art:** Farhope City, Farhope Castle and Iceforge Mountains. Artist credit pending.
+- **Iceforge Mountains:** Noah Bradley.
+- **Location art:** Farhope City and Farhope Castle. Artist credit pending.
 - **Nimble:** © 2025 Nimble Co. [nimblerpg.com](https://nimblerpg.com)
 
 ## License
