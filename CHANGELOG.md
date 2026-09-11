@@ -30,6 +30,14 @@ Nimble v0.9.0 or newer; it will not run on v13.
 - Removed fields v14 has no place for: prototype-only `appendNumber` /
   `prependAdjective` on placed tokens, and texture offset/rotation on tokens,
   tiles, and drawings (all were zero).
+- Token `delta` is written as null rather than an empty object. Foundry reads
+  that field as an id pointing into the `scenes.tokens.delta` sublevel, so an
+  empty object made it log a warning for each of 269 tokens on every world
+  launch before resolving to null anyway.
+- Region behaviors now carry `_stats`. RegionBehavior is the only embedded
+  document whose schema includes that field, and without it Foundry backfilled
+  it on load, treated the record as migrated, and rewrote Crystal Crag Quarry
+  into the module's pack on every world launch.
 - Removed a stray Foundry VTT logo tile from Farhope - City, left behind from
   authoring that scene on top of Foundry's default scene. It was visible and
   hanging off the bottom-right of the map.

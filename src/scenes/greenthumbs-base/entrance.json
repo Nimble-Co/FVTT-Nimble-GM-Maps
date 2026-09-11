@@ -84,7 +84,7 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 2,
 			"height": 2,
 			"texture": {
@@ -192,7 +192,7 @@
 			"displayName": 50,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 2,
 			"height": 2,
 			"texture": {
