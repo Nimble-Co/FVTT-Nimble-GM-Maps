@@ -278,17 +278,7 @@
 			"sort": 8,
 			"shape": 4,
 			"_id": "vccKX0EIOZMi6qj0",
-			"delta": {
-				"_id": "jjs0egBeZKQMhDrQ",
-				"system": {},
-				"items": [],
-				"effects": [],
-				"flags": {},
-				"name": null,
-				"type": null,
-				"img": null,
-				"ownership": null
-			},
+			"delta": null,
 			"x": 1750,
 			"y": 950,
 			"elevation": 0,

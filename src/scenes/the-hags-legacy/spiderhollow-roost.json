@@ -84,7 +84,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
@@ -192,7 +192,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
@@ -300,7 +300,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
@@ -408,7 +408,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
@@ -516,7 +516,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
@@ -624,7 +624,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
@@ -732,7 +732,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {
@@ -840,7 +840,7 @@
 			"displayName": 40,
 			"actorId": null,
 			"actorLink": false,
-			"delta": {},
+			"delta": null,
 			"width": 0.25,
 			"height": 0.25,
 			"texture": {

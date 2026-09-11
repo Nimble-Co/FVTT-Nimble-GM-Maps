@@ -82,13 +82,7 @@
 	"sounds": [],
 	"tiles": [],
 	"walls": [],
-	"flags": {
-		"scene-packer": {
-			"hash": "e0a165b61692a711e6d6ad706d5c92e06ba428d2",
-			"moulinette-adventure-name": "Golden Thread (Nimble)",
-			"moulinette-adventure-version": "1.0.0"
-		}
-	},
+	"flags": {},
 	"_stats": {
 		"coreVersion": "14.364",
 		"systemId": "nimble",

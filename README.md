@@ -73,12 +73,14 @@ FOUNDRY_APP=/path/to/foundryvtt pnpm run validate
 
 ## Credits
 
-- **Maps:** Created by Matt "Double King" Shiffler for the adventures in the Nimble GM Guide.
-- **Nimble:** © 2025 Nimble Co. — [nimblerpg.com](https://nimblerpg.com)
+- **Battle maps:** Created by Matt "Double King" Shiffler for the adventures in the Nimble GM Guide version 2.0.3.
+- **Farhope scenes:** Earl Lan.
+- **World and region art:** Noah Bradley, Kyle Cox, Evan Diaz and Saga Mackenzie.
+- **Nimble:** © 2025 Nimble Co. [nimblerpg.com](https://nimblerpg.com)
 
 ## License
 
 This module bundles two kinds of content under different terms. See [LICENSE](LICENSE) for the full text.
 
-- **Code** — everything under `scripts/`, `build/`, and the scene data under `src/` is released under the **MIT License**, © 2026 Nimble Co. / Trevor Carlston.
-- **Map art and adventure content** — the battle map images under `assets/` are **© Nimble Co.**, distributed as part of the official Nimble GM Guide and included here with permission. They are free to use within Foundry VTT via this module, but may not be redistributed, resold, or used outside of this module without permission from Nimble Co.
+- **Code:** everything under `scripts/`, `build/`, and the scene data under `src/` is released under the **MIT License**, © 2026 Nimble Co. / Trevor Carlston.
+- **Map art and adventure content:** the artwork under `assets/`, both the battle maps and the illustrated world and location art, is **© Nimble Co.**, distributed as part of the official Nimble GM Guide and included here with permission. It is free to use within Foundry VTT via this module, but may not be redistributed, resold, or used outside of this module without permission from Nimble Co.

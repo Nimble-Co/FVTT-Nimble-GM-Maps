@@ -12,9 +12,12 @@ Nimble v0.9.0 or newer; it will not run on v13.
   foreground, and fog overlay moved onto the new Level document, the flat fog
   fields collapsed into `fog.mode` / `fog.colors`, tokens gained `depth` and a
   level reference, and tile occlusion became a set of modes. Scenes are stamped
-  with `_stats.coreVersion` so Foundry no longer re-runs its legacy migrations —
-  and no longer rewrites the module's pack — on every world load.
+  with `_stats.coreVersion`. Foundry no longer re-runs its legacy migrations on
+  every world load, and no longer rewrites the module's pack.
 - Requires Nimble v0.9.0+, the first release with Foundry v14 support.
+- Dropped the `compatibility.maximum` ceiling. With it set, the day Foundry 15
+  ships the module is disabled outright rather than flagged; without it a v15
+  user gets an "unverified generation" warning and the module keeps working.
 
 ### Fixed
 - Roof and tent overlay tiles kept the elevation they were authored with. A
@@ -30,6 +33,18 @@ Nimble v0.9.0 or newer; it will not run on v13.
 - Removed fields v14 has no place for: prototype-only `appendNumber` /
   `prependAdjective` on placed tokens, and texture offset/rotation on tokens,
   tiles, and drawings (all were zero).
+- Token `delta` is written as null rather than an empty object. Foundry reads
+  that field as an id pointing into the `scenes.tokens.delta` sublevel, so an
+  empty object made it log a warning for each of 269 tokens on every world
+  launch before resolving to null anyway.
+- Region behaviors now carry `_stats`. RegionBehavior is the only embedded
+  document whose schema includes that field, and without it Foundry backfilled
+  it on load, treated the record as migrated, and rewrote Crystal Crag Quarry
+  into the module's pack on every world launch.
+- Removed leftover `scene-packer` flags from the four world scenes. They were
+  metadata from the original Golden Thread export, naming an adventure and a
+  content hash that mean nothing in this module, and Scene Packer may act on
+  that hash if a user has it installed.
 - Removed a stray Foundry VTT logo tile from Farhope - City, left behind from
   authoring that scene on top of Foundry's default scene. It was visible and
   hanging off the bottom-right of the map.
@@ -47,9 +62,9 @@ Nimble v0.9.0 or newer; it will not run on v13.
   model of the Foundry build installed on the machine, then checks scene
   geometry.
 - `npm run check:geometry` verifies each scene's canvas matches the pixel
-  dimensions of its background art — a mismatch silently rescales the map and
-  offsets every traced wall — and flags missing art, tiles or regions that run
-  off the canvas, and placeables outside the canvas.
+  dimensions of its background art. A mismatch there silently rescales the map
+  and offsets every traced wall. It also flags missing art, tiles or regions
+  that run off the canvas, and placeables outside the canvas.
 
 ## [0.0.9] - 2026-07-18
 

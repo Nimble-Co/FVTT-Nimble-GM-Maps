@@ -119,15 +119,48 @@ function migrateToken(token) {
 	if (token.shape == null) token.shape = TOKEN_SHAPES.RECTANGLE_1;
 	delete token.hexagonalShape;
 
-	// An empty delta object is not a valid ActorDelta reference. Linked tokens
-	// carry no delta at all; Foundry nulls it on create either way.
-	if (token.actorLink && !token.delta?._id) token.delta = null;
+	// A delta holding no overrides is not a valid ActorDelta reference. Foundry
+	// reads `delta` as an id pointing into the scenes.tokens.delta sublevel, so an
+	// empty object there makes it log a warning per token and resolve to null
+	// anyway. This applies regardless of actorLink: an unlinked token with no
+	// actorId gets its delta nulled on create too.
+	if (!hasDeltaContent(token.delta)) token.delta = null;
 
 	normalizeTexture(token.texture);
 
 	// PrototypeToken fields that were never part of a placed TokenDocument.
 	delete token.appendNumber;
 	delete token.prependAdjective;
+}
+
+/**
+ * Does an ActorDelta actually override anything? An empty shell is not worth
+ * writing, and Foundry cannot resolve one.
+ * @param {object|null|undefined} delta
+ * @returns {boolean}
+ */
+function hasDeltaContent(delta) {
+	if (!delta || typeof delta !== "object") return false;
+	for (const key of ["system", "items", "effects", "flags"]) {
+		const value = delta[key];
+		if (Array.isArray(value) ? value.length : value && Object.keys(value).length) {
+			return true;
+		}
+	}
+	return ["name", "type", "img", "ownership"].some((key) => delta[key] != null);
+}
+
+/**
+ * RegionBehavior is the only embedded document whose schema carries `_stats`.
+ * Without it Foundry backfills the field on load, marks the record migrated and
+ * rewrites the whole scene into the module's pack on every world launch.
+ * @param {object} region
+ * @param {object} stats
+ */
+function migrateRegion(region, stats) {
+	for (const behavior of region.behaviors ?? []) {
+		behavior._stats = { ...stats, ...behavior._stats };
+	}
 }
 
 /**
@@ -201,10 +234,33 @@ function migrateTile(tile) {
  * applies to scenes that were already reshaped by an earlier run.
  * @param {object} scene
  */
-function normalizeEmbedded(scene) {
+function normalizeEmbedded(scene, stats) {
 	for (const token of scene.tokens ?? []) migrateToken(token);
 	for (const tile of scene.tiles ?? []) migrateTile(tile);
 	for (const drawing of scene.drawings ?? []) migrateDrawing(drawing);
+	for (const region of scene.regions ?? []) migrateRegion(region, stats);
+}
+
+/**
+ * The `_stats` stamp for a scene and its region behaviors. Reuses whatever the
+ * scene already carries so re-running writes no new timestamps.
+ * @param {object} scene
+ * @returns {object}
+ */
+function documentStats(scene) {
+	const now = Date.now();
+	const system = moduleJson.relationships.systems[0];
+	return {
+		coreVersion: CORE_VERSION,
+		systemId: system.id,
+		systemVersion: system.compatibility.minimum,
+		createdTime: now,
+		modifiedTime: now,
+		lastModifiedBy: null,
+		compendiumSource: null,
+		duplicateSource: null,
+		...scene._stats,
+	};
 }
 
 /**
@@ -212,12 +268,11 @@ function normalizeEmbedded(scene) {
  * @param {object} scene
  * @returns {object}
  */
-function reshapeScene(scene) {
+function reshapeScene(scene, stats) {
 	const level = buildLevel(scene);
 	const fog = buildFog(scene);
 	const background = scene.background ?? {};
 
-	const now = Date.now();
 	const migrated = {
 		_id: scene._id,
 		name: scene.name,
@@ -247,16 +302,7 @@ function reshapeScene(scene) {
 		tiles: scene.tiles ?? [],
 		walls: scene.walls ?? [],
 		flags: scene.flags ?? {},
-		_stats: {
-			coreVersion: CORE_VERSION,
-			systemId: moduleJson.relationships.systems[0].id,
-			systemVersion: moduleJson.relationships.systems[0].compatibility.minimum,
-			createdTime: now,
-			modifiedTime: now,
-			lastModifiedBy: null,
-			compendiumSource: null,
-			duplicateSource: null,
-		},
+		_stats: stats,
 	};
 
 	// Carry through anything the scene set that isn't part of the reshape.
@@ -285,8 +331,9 @@ for (const file of sceneFiles(scenesDir)) {
 	const scene = JSON.parse(before);
 	const wasV14 = Array.isArray(scene.levels);
 
-	normalizeEmbedded(scene);
-	const migrated = wasV14 ? scene : reshapeScene(scene);
+	const stats = documentStats(scene);
+	normalizeEmbedded(scene, stats);
+	const migrated = wasV14 ? scene : reshapeScene(scene, stats);
 	if (!wasV14) reshaped += 1;
 
 	const after = `${JSON.stringify(migrated, null, "\t")}\n`;
