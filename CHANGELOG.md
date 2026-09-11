@@ -38,6 +38,10 @@ Nimble v0.9.0 or newer; it will not run on v13.
   document whose schema includes that field, and without it Foundry backfilled
   it on load, treated the record as migrated, and rewrote Crystal Crag Quarry
   into the module's pack on every world launch.
+- Removed leftover `scene-packer` flags from the four world scenes. They were
+  metadata from the original Golden Thread export, naming an adventure and a
+  content hash that mean nothing in this module, and Scene Packer may act on
+  that hash if a user has it installed.
 - Removed a stray Foundry VTT logo tile from Farhope - City, left behind from
   authoring that scene on top of Foundry's default scene. It was visible and
   hanging off the bottom-right of the map.
